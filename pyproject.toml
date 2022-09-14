@@ -1,0 +1,22 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.poetry]
+authors = ["Yeshwanth Guru <yeshwanth445@gmail.com>"]
+description = "Yeshwanth Guru's thesis project"
+name = "yeshwanth_guru_thesis"
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4"
+quantum-robot = {git = "https://github.com/davidelanz/quantum-robot.git", branch = "master"}
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["jupyter"], version = "^22.8.0"}
+jupyter = ">=1.0.0"
+mypy = ">=0.971"
+pylint = ">=2.15.2"
+pytest = ">=7.1.3"
+pytest-cov = ">=3.0.0"
