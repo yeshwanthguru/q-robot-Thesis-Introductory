@@ -22,7 +22,7 @@ print(f"Hello model!\n{model}")
 
 #Start a loop: every sample period
 for t in range(model.tau): 
-     while (True):
+     while True:
         model = AngularModel(n, tau)#This input is then encoded in the AngularModel
         model.clear()
         for t in range(0, model.tau): 
