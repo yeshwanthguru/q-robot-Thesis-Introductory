@@ -1,39 +1,48 @@
-import qrobot
+"""
+PSEUDOCODE:
+- Initialize a AngularModel with single qubit
+- Start a loop: every sample period:
+  - A switch ("ON/OFF" signal) is read by the python script as input
+  - This input is then encoded in the AngularModel
+  - If we are at the end of the temporal window:
+    - Measure the module (single shot, we do not need statistics)
+    - Output the result with print or in a log file
+    - Reinitialize the model to encode a new temporal window
+"""
 import json
-import numpy as np
+import time
+import random
+
 from qrobot.models import AngularModel
 
-n=1  #switch data with an AngularModel with n=1
-tau=15#temporal window
+Ts = 0.5  # sample every 500ms
 
-sequence = list()
+# Initialize a AngularModel with single qubit:
+n = 1  # single qubit
+tau = 10  # 10 events for each temporal window (5 seconds in total)
+model = AngularModel(n, tau)
 
-# Balanced events (between 0 and 1)
-for i in range(0, int(tau / 2)):
-    sequence.append(np.random.randint(0, 1000) / 1000)
-
-# Unbalanced events (balanced between .5 and 1)
-for i in range(int(tau / 2), tau):
-    sequence.append(np.random.randint(500, 1000) / 1000)
-
-model = qrobot.models.AngularModel(n , tau) #Angular model is initialized
-
-print(f"Hello model!\n{model}")
-
-#Start a loop: every sample period
-for t in range(model.tau): 
-     while True:
-        model = AngularModel(n, tau)#This input is then encoded in the AngularModel
+# Start a loop
+t_index = 1
+while True:
+    # Every sample period:
+    time.sleep(Ts)
+    # A switch ("ON/OFF" signal) is read by the python script as input
+    switch_signal = random.randint(0, 1)
+    print("switch_signal =", switch_signal)
+    # This input is then encoded in the AngularModel
+    model.encode(switch_signal, dim=0)
+    # If we are not at the end of the temporal window:
+    if t_index < tau:
+        t_index += 1
+    # If we are at the end of the temporal window:
+    else:
+        # Print the final circuit
+        print(model.circ)
+        # Measure the module
+        result = model.measure()
+        # Output the result with print or in a log file
+        print("result =", result)
+        # Reinitialize the model to encode a new temporal window
+        t_index = 0
         model.clear()
-        for t in range(0, model.tau): 
-            model.encode(sequence[t], dim=0)
-            model.print_circuit()
-            model.clear()#If we are at the end of the temporal window:
-            shots = 1  #Measure the module (Single shot)
-            counts = model.measure(shots)
-            print("Aggregated binary outcomes of the circuit:")
-            print(json.dumps(counts, sort_keys=True, indent=4))
-            #Reinitializing the model to encode a new temporal window
-
-            model.clear()
-
