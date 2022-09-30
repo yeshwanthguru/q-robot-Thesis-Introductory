@@ -13,22 +13,28 @@ import json
 import time
 import random
 
+from tkinter import *
 from qrobot.models import AngularModel
 
 Ts = 0.5  # sample every 500ms
-
 # Initialize a AngularModel with single qubit:
 n = 1  # single qubit
-tau = 10  # 10 events for each temporal window (5 seconds in total)
+tau = 1  # 10 events for each temporal window (5 seconds in total)
 model = AngularModel(n, tau)
 
 # Start a loop
 t_index = 1
-while True:
+def func():
+    global t_index
     # Every sample period:
     time.sleep(Ts)
     # A switch ("ON/OFF" signal) is read by the python script as input
-    switch_signal = random.randint(0, 1)
+    if toggle_button.config('text')[-1] == 'ON':
+        toggle_button.config(text='OFF')
+        switch_signal=0
+    else:
+        toggle_button.config(text='ON')
+        switch_signal = 1
     print("switch_signal =", switch_signal)
     # This input is then encoded in the AngularModel
     model.encode(switch_signal, dim=0)
@@ -46,3 +52,13 @@ while True:
         # Reinitialize the model to encode a new temporal window
         t_index = 0
         model.clear()
+
+ws = Tk()
+ws.title("Q-robot Introductory Interface")
+ws.geometry("200x100")
+
+
+toggle_button = Button(text="OFF", width=10, command=func)
+toggle_button.pack(pady=10)
+
+ws.mainloop()
