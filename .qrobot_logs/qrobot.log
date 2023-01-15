@@ -1,5 +1,0 @@
-2023-01-14 21:03:03,886 — l0_unit_0-3f1ab3 — DEBUG — __init__:44 — Initializing SensorialUnit l0_unit_0-3f1ab3
-2023-01-14 21:03:03,910 — l0_unit_0-3f1ab3 — DEBUG — __init__:48 — Properties: SensorialUnit "l0_unit_0-3f1ab3"
-     name:	l0_unit_0
-     id:	l0_unit_0-3f1ab3
-     Ts:	0.1
