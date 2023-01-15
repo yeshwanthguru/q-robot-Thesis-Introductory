@@ -1,1 +1,3 @@
 .venv
+.catkin_workspace
+src/scripts/__pycache__/turtlesim.cpython-38.pyc
