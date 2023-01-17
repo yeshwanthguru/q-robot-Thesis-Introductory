@@ -35,7 +35,7 @@ rate = Rate(10) # 10 Hz
 # Subscribe to two topics named "topic1" and "topic2"
 rospy.Subscriber("/turtle1/cmd_vel", Int32, callback1)
 rospy.Subscriber("/turtle1/pose", Int32, callback2)
-pub = rospy.Publisher('start_simulation', Int32, queue_size=10)
+pub = rospy.Publisher('odom', Int32, queue_size=10)
 
 while True:
     # A switch ("ON/OFF" signal) is read by the python script as input

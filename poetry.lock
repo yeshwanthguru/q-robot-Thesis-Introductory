@@ -400,7 +400,7 @@ python-versions = "*"
 
 [[package]]
 name = "docplex"
-version = "2.24.232"
+version = "2.25.236"
 description = "The IBM Decision Optimization CPLEX Modeling for Python"
 category = "main"
 optional = false
@@ -607,7 +607,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "ipykernel"
-version = "6.20.1"
+version = "6.20.2"
 description = "IPython Kernel for Jupyter"
 category = "dev"
 optional = false
@@ -1150,7 +1150,7 @@ test = ["ipykernel", "ipython", "ipywidgets", "nbconvert (>=7.0.0)", "pytest (>=
 
 [[package]]
 name = "nbconvert"
-version = "7.2.7"
+version = "7.2.8"
 description = "Converting Jupyter Notebooks"
 category = "dev"
 optional = false
@@ -1176,7 +1176,7 @@ traitlets = ">=5.0"
 
 [package.extras]
 all = ["nbconvert[docs,qtpdf,serve,test,webpdf]"]
-docs = ["ipykernel", "ipython", "myst-parser", "nbsphinx (>=0.2.12)", "pydata-sphinx-theme", "sphinx (==5.0.2)"]
+docs = ["ipykernel", "ipython", "myst-parser", "nbsphinx (>=0.2.12)", "pydata-sphinx-theme", "sphinx (==5.0.2)", "sphinxcontrib-spelling"]
 qtpdf = ["nbconvert[qtpng]"]
 qtpng = ["pyqtwebengine (>=5.15)"]
 serve = ["tornado (>=6.1)"]
@@ -2057,7 +2057,7 @@ win32 = ["pywin32"]
 
 [[package]]
 name = "setuptools"
-version = "65.7.0"
+version = "66.0.0"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
 category = "main"
 optional = false
@@ -2282,7 +2282,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
 [[package]]
 name = "wcwidth"
-version = "0.2.5"
+version = "0.2.6"
 description = "Measures the displayed width of unicode strings in a terminal"
 category = "dev"
 optional = false
@@ -2349,7 +2349,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 
 [[package]]
 name = "yfinance"
-version = "0.2.3"
+version = "0.2.4"
 description = "Download market data from Yahoo! Finance API"
 category = "main"
 optional = false
@@ -2834,7 +2834,7 @@ dlx = [
     {file = "dlx-1.0.4.tar.gz", hash = "sha256:ef75bc9d590216ebde7d4811f9ae6b2d6c6dc2a54772d94ae13384dc517a5aae"},
 ]
 docplex = [
-    {file = "docplex-2.24.232.tar.gz", hash = "sha256:328e0887fda5b48a273f7ec10f20a2d1f6366e43edda28f51740355acd6c1758"},
+    {file = "docplex-2.25.236.tar.gz", hash = "sha256:256914b4c0113a4e1c78f32ea20c7d76dc8efe286fe890270e75cfad50fe510f"},
 ]
 entrypoints = [
     {file = "entrypoints-0.4-py3-none-any.whl", hash = "sha256:f174b5ff827504fd3cd97cc3f8649f3693f51538c7e4bdf3ef002c8429d42f9f"},
@@ -2924,8 +2924,8 @@ iniconfig = [
     {file = "iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3"},
 ]
 ipykernel = [
-    {file = "ipykernel-6.20.1-py3-none-any.whl", hash = "sha256:a314e6782a4f9e277783382976b3a93608a3787cd70a235b558b47f875134be1"},
-    {file = "ipykernel-6.20.1.tar.gz", hash = "sha256:f6016ecbf581d0ea6e29ba16cee6cc1a9bbde3835900c46c6571a791692f4139"},
+    {file = "ipykernel-6.20.2-py3-none-any.whl", hash = "sha256:5d0675d5f48bf6a95fd517d7b70bcb3b2c5631b2069949b5c2d6e1d7477fb5a0"},
+    {file = "ipykernel-6.20.2.tar.gz", hash = "sha256:1893c5b847033cd7a58f6843b04a9349ffb1031bc6588401cadc9adb58da428e"},
 ]
 ipython = [
     {file = "ipython-8.8.0-py3-none-any.whl", hash = "sha256:da01e6df1501e6e7c32b5084212ddadd4ee2471602e2cf3e0190f4de6b0ea481"},
@@ -3349,8 +3349,8 @@ nbclient = [
     {file = "nbclient-0.7.2.tar.gz", hash = "sha256:884a3f4a8c4fc24bb9302f263e0af47d97f0d01fe11ba714171b320c8ac09547"},
 ]
 nbconvert = [
-    {file = "nbconvert-7.2.7-py3-none-any.whl", hash = "sha256:e057f1f87a6ac50629b724d9a46b40e2ba394d6f20ee7f33f4acef1928a15af3"},
-    {file = "nbconvert-7.2.7.tar.gz", hash = "sha256:8b727b0503bf4e0ff3907c8bea030d3fc4015fbee8669ac6ac2a5a6668b49d5e"},
+    {file = "nbconvert-7.2.8-py3-none-any.whl", hash = "sha256:ac57f2812175441a883f50c8ff113133ca65fe7ae5a9f1e3da3bfd1a70dce2ee"},
+    {file = "nbconvert-7.2.8.tar.gz", hash = "sha256:ccedacde57a972836bfb46466485be29ed1364ed7c2f379f62bad47d340ece99"},
 ]
 nbformat = [
     {file = "nbformat-5.7.3-py3-none-any.whl", hash = "sha256:22a98a6516ca216002b0a34591af5bcb8072ca6c63910baffc901cfa07fefbf0"},
@@ -4017,8 +4017,8 @@ send2trash = [
     {file = "Send2Trash-1.8.0.tar.gz", hash = "sha256:d2c24762fd3759860a0aff155e45871447ea58d2be6bdd39b5c8f966a0c99c2d"},
 ]
 setuptools = [
-    {file = "setuptools-65.7.0-py3-none-any.whl", hash = "sha256:8ab4f1dbf2b4a65f7eec5ad0c620e84c34111a68d3349833494b9088212214dd"},
-    {file = "setuptools-65.7.0.tar.gz", hash = "sha256:4d3c92fac8f1118bb77a22181355e29c239cabfe2b9effdaa665c66b711136d7"},
+    {file = "setuptools-66.0.0-py3-none-any.whl", hash = "sha256:a78d01d1e2c175c474884671dde039962c9d74c7223db7369771fcf6e29ceeab"},
+    {file = "setuptools-66.0.0.tar.gz", hash = "sha256:bd6eb2d6722568de6d14b87c44a96fac54b2a45ff5e940e639979a3d1792adb6"},
 ]
 setuptools-scm = [
     {file = "setuptools_scm-7.1.0-py3-none-any.whl", hash = "sha256:73988b6d848709e2af142aa48c986ea29592bbcfca5375678064708205253d8e"},
@@ -4189,8 +4189,7 @@ urllib3 = [
     {file = "urllib3-1.26.14.tar.gz", hash = "sha256:076907bf8fd355cde77728471316625a4d2f7e713c125f51953bb5b3eecf4f72"},
 ]
 wcwidth = [
-    {file = "wcwidth-0.2.5-py2.py3-none-any.whl", hash = "sha256:beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784"},
-    {file = "wcwidth-0.2.5.tar.gz", hash = "sha256:c4d647b99872929fdb7bdcaa4fbe7f01413ed3d98077df798530e5b04f116c83"},
+    {file = "wcwidth-0.2.6.tar.gz", hash = "sha256:a5220780a404dbe3353789870978e472cfe477761f06ee55077256e509b156d0"},
 ]
 webcolors = [
     {file = "webcolors-1.12-py3-none-any.whl", hash = "sha256:d98743d81d498a2d3eaf165196e65481f0d2ea85281463d856b1e51b09f62dce"},
@@ -4279,8 +4278,8 @@ wrapt = [
     {file = "wrapt-1.14.1.tar.gz", hash = "sha256:380a85cf89e0e69b7cfbe2ea9f765f004ff419f34194018a6827ac0e3edfed4d"},
 ]
 yfinance = [
-    {file = "yfinance-0.2.3-py2.py3-none-any.whl", hash = "sha256:db5c2c2b7a0c9afe7d62d31e917022cf4370b485b6c1729d6035fdbbfbe92e73"},
-    {file = "yfinance-0.2.3.tar.gz", hash = "sha256:9ee57b9d92e4611d820393467a0ab4e764b35a33192054ea6c2d8a49dc494592"},
+    {file = "yfinance-0.2.4-py2.py3-none-any.whl", hash = "sha256:8f7be9d0858668dcba8a8e45778da2c852e61c574ca979419e252401e7164167"},
+    {file = "yfinance-0.2.4.tar.gz", hash = "sha256:7bb0cbcf874116c4febf1a2d930b0d0fe5ac2af91673beb2425cef8d7f20916a"},
 ]
 zipp = [
     {file = "zipp-3.11.0-py3-none-any.whl", hash = "sha256:83a28fcb75844b5c0cdaf5aa4003c2d728c77e05f5aeabe8e95e56727005fbaa"},
