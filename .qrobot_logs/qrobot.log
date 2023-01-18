@@ -1,60 +1,13 @@
-2023-01-17 15:49:22,257 — variable1-b465c4 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit variable1-b465c4
-2023-01-17 15:49:22,281 — variable1-b465c4 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "variable1-b465c4"
-     name:	variable1
-     id:	variable1-b465c4
-     Ts:	0.1
-2023-01-17 15:49:22,283 — variable2-e680f5 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit variable2-e680f5
-2023-01-17 15:49:22,293 — variable2-e680f5 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "variable2-e680f5"
-     name:	variable2
-     id:	variable2-e680f5
-     Ts:	0.1
-2023-01-17 15:56:04,911 — variable1-e4c3d2 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit variable1-e4c3d2
-2023-01-17 15:56:04,929 — variable1-e4c3d2 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "variable1-e4c3d2"
-     name:	variable1
-     id:	variable1-e4c3d2
-     Ts:	0.1
-2023-01-17 15:56:04,931 — variable2-ef55d9 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit variable2-ef55d9
-2023-01-17 15:56:04,945 — variable2-ef55d9 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "variable2-ef55d9"
-     name:	variable2
-     id:	variable2-ef55d9
-     Ts:	0.1
-2023-01-17 15:58:38,894 — variable1-366cd7 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit variable1-366cd7
-2023-01-17 15:58:38,908 — variable1-366cd7 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "variable1-366cd7"
-     name:	variable1
-     id:	variable1-366cd7
-     Ts:	0.1
-2023-01-17 15:58:38,910 — variable2-5f51da — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit variable2-5f51da
-2023-01-17 15:58:38,920 — variable2-5f51da — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "variable2-5f51da"
-     name:	variable2
-     id:	variable2-5f51da
-     Ts:	0.1
-2023-01-17 16:18:52,786 — variable1-bb2581 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit variable1-bb2581
-2023-01-17 16:18:52,800 — variable1-bb2581 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "variable1-bb2581"
-     name:	variable1
-     id:	variable1-bb2581
-     Ts:	0.1
-2023-01-17 16:18:52,802 — variable2-608ee7 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit variable2-608ee7
-2023-01-17 16:18:52,811 — variable2-608ee7 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "variable2-608ee7"
-     name:	variable2
-     id:	variable2-608ee7
-     Ts:	0.1
-2023-01-17 16:19:53,071 — variable1-b25690 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit variable1-b25690
-2023-01-17 16:19:53,084 — variable1-b25690 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "variable1-b25690"
-     name:	variable1
-     id:	variable1-b25690
-     Ts:	0.1
-2023-01-17 16:19:53,086 — variable2-837fa6 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit variable2-837fa6
-2023-01-17 16:19:53,096 — variable2-837fa6 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "variable2-837fa6"
-     name:	variable2
-     id:	variable2-837fa6
-     Ts:	0.1
-2023-01-17 16:25:40,172 — variable1-955fd8 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit variable1-955fd8
-2023-01-17 16:25:40,186 — variable1-955fd8 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "variable1-955fd8"
-     name:	variable1
-     id:	variable1-955fd8
-     Ts:	0.1
-2023-01-17 16:25:40,187 — variable2-436238 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit variable2-436238
-2023-01-17 16:25:40,200 — variable2-436238 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "variable2-436238"
-     name:	variable2
-     id:	variable2-436238
-     Ts:	0.1
+2023-01-18 00:00:52,016 — sensorial_unit-215e92 — DEBUG — __init__:44 — Initializing SensorialUnit sensorial_unit-215e92
+2023-01-18 00:00:52,029 — sensorial_unit-215e92 — DEBUG — __init__:48 — Properties: SensorialUnit "sensorial_unit-215e92"
+     name:	sensorial_unit
+     id:	sensorial_unit-215e92
+     Ts:	1.0
+2023-01-18 00:00:52,031 — qunit-c7d404 — DEBUG — __init__:44 — Initializing QUnit qunit-c7d404
+2023-01-18 00:00:52,044 — qunit-c7d404 — DEBUG — __init__:82 — Properties: QUnit "qunit-c7d404"
+     name:	qunit
+     id:	qunit-c7d404
+     model:	[model: AngularModel, n: 1, tau: 1]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0]
+     Ts:	1.0
