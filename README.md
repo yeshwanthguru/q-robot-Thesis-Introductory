@@ -1,4 +1,4 @@
-# Yeshwanth Guru's thesis project
+# Yeshwanth Guru's thesis project(Example scenario)
 
 
 https://user-images.githubusercontent.com/72270080/213934590-c9f7e64c-1719-40b4-810f-e99846cdbdb6.mp4
@@ -43,7 +43,7 @@ turtle sim node should be initiated after the rosmaster initiated.Later launch t
                     
 To initiate the node with quantum decision model in this perception model ,the node should be in the environment where all the qrobot dependencies were installed 
 
-                     python3.8 quantum_publisher.py
+                     python3.8 quantum_publisher_main.py
                      
 For the output I have attached the video for reference.
 ## scenario: 
