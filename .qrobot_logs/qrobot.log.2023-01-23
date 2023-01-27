@@ -1,0 +1,954 @@
+2023-01-23 00:09:31,212 — SensorialUnit1-658386 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-658386
+2023-01-23 00:09:31,239 — SensorialUnit1-658386 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-658386"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-658386
+     Ts:	0.5
+2023-01-23 00:09:31,241 — QUnit1-f19c9a — DEBUG — QUnit.__init__:44 — Initializing QUnit QUnit1-f19c9a
+2023-01-23 00:09:31,271 — QUnit1-f19c9a — DEBUG — QUnit.__init__:82 — Properties: QUnit "QUnit1-f19c9a"
+     name:	QUnit1
+     id:	QUnit1-f19c9a
+     model:	[model: AngularModel, n: 3, tau: 3]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	0.5
+2023-01-23 00:09:32,296 — SensorialUnit1-6bb65c — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-6bb65c
+2023-01-23 00:09:32,349 — SensorialUnit1-6bb65c — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-6bb65c"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-6bb65c
+     Ts:	0.5
+2023-01-23 00:09:41,360 — SensorialUnit1-16198f — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-16198f
+2023-01-23 00:09:41,411 — SensorialUnit1-16198f — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-16198f"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-16198f
+     Ts:	0.5
+2023-01-23 00:09:50,285 — SensorialUnit1-484057 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-484057
+2023-01-23 00:09:50,341 — SensorialUnit1-484057 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-484057"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-484057
+     Ts:	0.5
+2023-01-23 00:09:58,185 — SensorialUnit1-a3583a — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a3583a
+2023-01-23 00:09:58,233 — SensorialUnit1-a3583a — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a3583a"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a3583a
+     Ts:	0.5
+2023-01-23 00:12:02,681 — SensorialUnit1-a914a4 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a914a4
+2023-01-23 00:12:02,713 — SensorialUnit1-a914a4 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a914a4"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a914a4
+     Ts:	0.5
+2023-01-23 00:12:02,715 — QUnit1-3269e9 — DEBUG — QUnit.__init__:44 — Initializing QUnit QUnit1-3269e9
+2023-01-23 00:12:02,732 — QUnit1-3269e9 — DEBUG — QUnit.__init__:82 — Properties: QUnit "QUnit1-3269e9"
+     name:	QUnit1
+     id:	QUnit1-3269e9
+     model:	[model: AngularModel, n: 3, tau: 3]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	0.5
+2023-01-23 00:12:03,752 — SensorialUnit1-805854 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-805854
+2023-01-23 00:12:03,789 — SensorialUnit1-805854 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-805854"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-805854
+     Ts:	0.5
+2023-01-23 00:12:12,141 — SensorialUnit1-25fde6 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-25fde6
+2023-01-23 00:12:12,163 — SensorialUnit1-25fde6 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-25fde6"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-25fde6
+     Ts:	0.5
+2023-01-23 00:13:02,711 — SensorialUnit1-981ef0 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-981ef0
+2023-01-23 00:13:02,736 — SensorialUnit1-981ef0 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-981ef0"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-981ef0
+     Ts:	0.5
+2023-01-23 00:13:02,738 — QUnit1-e8c4d6 — DEBUG — QUnit.__init__:44 — Initializing QUnit QUnit1-e8c4d6
+2023-01-23 00:13:02,754 — QUnit1-e8c4d6 — DEBUG — QUnit.__init__:82 — Properties: QUnit "QUnit1-e8c4d6"
+     name:	QUnit1
+     id:	QUnit1-e8c4d6
+     model:	[model: AngularModel, n: 3, tau: 3]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	0.5
+2023-01-23 00:13:02,772 — SensorialUnit1-9a6709 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-9a6709
+2023-01-23 00:13:02,785 — SensorialUnit1-9a6709 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-9a6709"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-9a6709
+     Ts:	0.5
+2023-01-23 00:13:06,440 — SensorialUnit1-a58743 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a58743
+2023-01-23 00:13:06,461 — SensorialUnit1-a58743 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a58743"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a58743
+     Ts:	0.5
+2023-01-23 00:13:09,063 — SensorialUnit1-c344c1 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-c344c1
+2023-01-23 00:13:09,081 — SensorialUnit1-c344c1 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-c344c1"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-c344c1
+     Ts:	0.5
+2023-01-23 00:13:11,719 — SensorialUnit1-8aeca8 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-8aeca8
+2023-01-23 00:13:11,738 — SensorialUnit1-8aeca8 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-8aeca8"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-8aeca8
+     Ts:	0.5
+2023-01-23 00:13:14,218 — SensorialUnit1-8bd9aa — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-8bd9aa
+2023-01-23 00:13:14,236 — SensorialUnit1-8bd9aa — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-8bd9aa"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-8bd9aa
+     Ts:	0.5
+2023-01-23 00:13:16,710 — SensorialUnit1-79cd17 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-79cd17
+2023-01-23 00:13:16,732 — SensorialUnit1-79cd17 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-79cd17"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-79cd17
+     Ts:	0.5
+2023-01-23 00:13:19,417 — SensorialUnit1-6a1f17 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-6a1f17
+2023-01-23 00:13:19,508 — SensorialUnit1-6a1f17 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-6a1f17"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-6a1f17
+     Ts:	0.5
+2023-01-23 00:13:22,804 — SensorialUnit1-9597fe — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-9597fe
+2023-01-23 00:13:22,824 — SensorialUnit1-9597fe — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-9597fe"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-9597fe
+     Ts:	0.5
+2023-01-23 00:13:25,317 — SensorialUnit1-4c18f3 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-4c18f3
+2023-01-23 00:13:25,344 — SensorialUnit1-4c18f3 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-4c18f3"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-4c18f3
+     Ts:	0.5
+2023-01-23 00:13:28,215 — SensorialUnit1-0926b1 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-0926b1
+2023-01-23 00:13:28,245 — SensorialUnit1-0926b1 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-0926b1"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-0926b1
+     Ts:	0.5
+2023-01-23 00:13:31,886 — SensorialUnit1-265b84 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-265b84
+2023-01-23 00:13:31,921 — SensorialUnit1-265b84 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-265b84"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-265b84
+     Ts:	0.5
+2023-01-23 01:09:47,623 — SensorialUnit1-c0e29a — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-c0e29a
+2023-01-23 01:09:47,666 — SensorialUnit1-c0e29a — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-c0e29a"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-c0e29a
+     Ts:	0.5
+2023-01-23 01:09:47,670 — QUnit1-88b4db — DEBUG — QUnit.__init__:44 — Initializing QUnit QUnit1-88b4db
+2023-01-23 01:09:47,704 — QUnit1-88b4db — DEBUG — QUnit.__init__:82 — Properties: QUnit "QUnit1-88b4db"
+     name:	QUnit1
+     id:	QUnit1-88b4db
+     model:	[model: AngularModel, n: 3, tau: 3]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	0.5
+2023-01-23 01:09:47,739 — SensorialUnit1-175dc4 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-175dc4
+2023-01-23 01:09:47,769 — SensorialUnit1-175dc4 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-175dc4"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-175dc4
+     Ts:	0.5
+2023-01-23 01:09:51,204 — SensorialUnit1-6f2704 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-6f2704
+2023-01-23 01:09:51,225 — SensorialUnit1-6f2704 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-6f2704"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-6f2704
+     Ts:	0.5
+2023-01-23 01:09:53,696 — SensorialUnit1-f7b959 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-f7b959
+2023-01-23 01:09:53,725 — SensorialUnit1-f7b959 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-f7b959"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-f7b959
+     Ts:	0.5
+2023-01-23 01:09:56,287 — SensorialUnit1-0decd9 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-0decd9
+2023-01-23 01:09:56,385 — SensorialUnit1-0decd9 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-0decd9"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-0decd9
+     Ts:	0.5
+2023-01-23 01:09:59,139 — SensorialUnit1-1f0892 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-1f0892
+2023-01-23 01:09:59,165 — SensorialUnit1-1f0892 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-1f0892"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-1f0892
+     Ts:	0.5
+2023-01-23 01:10:02,159 — SensorialUnit1-8ea55f — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-8ea55f
+2023-01-23 01:10:02,190 — SensorialUnit1-8ea55f — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-8ea55f"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-8ea55f
+     Ts:	0.5
+2023-01-23 01:10:04,988 — SensorialUnit1-5d5e5d — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-5d5e5d
+2023-01-23 01:10:05,015 — SensorialUnit1-5d5e5d — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-5d5e5d"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-5d5e5d
+     Ts:	0.5
+2023-01-23 01:10:08,161 — SensorialUnit1-1af3e1 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-1af3e1
+2023-01-23 01:10:08,185 — SensorialUnit1-1af3e1 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-1af3e1"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-1af3e1
+     Ts:	0.5
+2023-01-23 01:10:11,239 — SensorialUnit1-2d3156 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-2d3156
+2023-01-23 01:10:11,279 — SensorialUnit1-2d3156 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-2d3156"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-2d3156
+     Ts:	0.5
+2023-01-23 01:10:14,211 — SensorialUnit1-dfbba5 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-dfbba5
+2023-01-23 01:10:14,241 — SensorialUnit1-dfbba5 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-dfbba5"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-dfbba5
+     Ts:	0.5
+2023-01-23 01:10:18,077 — SensorialUnit1-946668 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-946668
+2023-01-23 01:10:18,123 — SensorialUnit1-946668 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-946668"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-946668
+     Ts:	0.5
+2023-01-23 01:10:24,228 — SensorialUnit1-3291e6 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-3291e6
+2023-01-23 01:10:24,277 — SensorialUnit1-3291e6 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-3291e6"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-3291e6
+     Ts:	0.5
+2023-01-23 01:10:30,347 — SensorialUnit1-a70c6d — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a70c6d
+2023-01-23 01:10:30,400 — SensorialUnit1-a70c6d — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a70c6d"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a70c6d
+     Ts:	0.5
+2023-01-23 01:10:36,471 — SensorialUnit1-7788f6 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-7788f6
+2023-01-23 01:10:36,534 — SensorialUnit1-7788f6 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-7788f6"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-7788f6
+     Ts:	0.5
+2023-01-23 01:10:42,630 — SensorialUnit1-137f12 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-137f12
+2023-01-23 01:10:42,686 — SensorialUnit1-137f12 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-137f12"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-137f12
+     Ts:	0.5
+2023-01-23 01:10:47,928 — SensorialUnit1-3afd6a — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-3afd6a
+2023-01-23 01:10:47,990 — SensorialUnit1-3afd6a — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-3afd6a"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-3afd6a
+     Ts:	0.5
+2023-01-23 01:10:51,327 — SensorialUnit1-b62729 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-b62729
+2023-01-23 01:10:51,377 — SensorialUnit1-b62729 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-b62729"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-b62729
+     Ts:	0.5
+2023-01-23 01:10:53,901 — SensorialUnit1-2fd352 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-2fd352
+2023-01-23 01:10:53,933 — SensorialUnit1-2fd352 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-2fd352"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-2fd352
+     Ts:	0.5
+2023-01-23 01:10:56,820 — SensorialUnit1-dc3b11 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-dc3b11
+2023-01-23 01:10:56,870 — SensorialUnit1-dc3b11 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-dc3b11"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-dc3b11
+     Ts:	0.5
+2023-01-23 01:10:59,395 — SensorialUnit1-a69836 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a69836
+2023-01-23 01:10:59,422 — SensorialUnit1-a69836 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a69836"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a69836
+     Ts:	0.5
+2023-01-23 08:46:28,890 — SensorialUnit1-a15d95 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a15d95
+2023-01-23 08:46:28,926 — SensorialUnit1-a15d95 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a15d95"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a15d95
+     Ts:	0.5
+2023-01-23 08:46:28,928 — QUnit1-3a7c81 — DEBUG — QUnit.__init__:44 — Initializing QUnit QUnit1-3a7c81
+2023-01-23 08:46:28,941 — QUnit1-3a7c81 — DEBUG — QUnit.__init__:82 — Properties: QUnit "QUnit1-3a7c81"
+     name:	QUnit1
+     id:	QUnit1-3a7c81
+     model:	[model: AngularModel, n: 3, tau: 3]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	0.5
+2023-01-23 08:46:29,969 — SensorialUnit1-56cf13 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-56cf13
+2023-01-23 08:46:29,991 — SensorialUnit1-56cf13 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-56cf13"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-56cf13
+     Ts:	0.5
+2023-01-23 08:46:36,275 — SensorialUnit1-c39630 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-c39630
+2023-01-23 08:46:36,311 — SensorialUnit1-c39630 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-c39630"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-c39630
+     Ts:	0.5
+2023-01-23 08:46:42,374 — SensorialUnit1-f4208c — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-f4208c
+2023-01-23 08:46:42,409 — SensorialUnit1-f4208c — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-f4208c"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-f4208c
+     Ts:	0.5
+2023-01-23 08:46:48,487 — SensorialUnit1-58f50c — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-58f50c
+2023-01-23 08:46:48,537 — SensorialUnit1-58f50c — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-58f50c"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-58f50c
+     Ts:	0.5
+2023-01-23 08:46:54,605 — SensorialUnit1-37ded5 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-37ded5
+2023-01-23 08:46:54,634 — SensorialUnit1-37ded5 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-37ded5"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-37ded5
+     Ts:	0.5
+2023-01-23 08:46:59,709 — SensorialUnit1-2b473a — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-2b473a
+2023-01-23 08:46:59,746 — SensorialUnit1-2b473a — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-2b473a"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-2b473a
+     Ts:	0.5
+2023-01-23 08:47:02,503 — SensorialUnit1-2065cb — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-2065cb
+2023-01-23 08:47:02,519 — SensorialUnit1-2065cb — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-2065cb"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-2065cb
+     Ts:	0.5
+2023-01-23 08:47:04,665 — SensorialUnit1-17b778 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-17b778
+2023-01-23 08:47:04,682 — SensorialUnit1-17b778 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-17b778"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-17b778
+     Ts:	0.5
+2023-01-23 08:47:06,792 — SensorialUnit1-f8db52 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-f8db52
+2023-01-23 08:47:06,813 — SensorialUnit1-f8db52 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-f8db52"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-f8db52
+     Ts:	0.5
+2023-01-23 08:47:08,935 — SensorialUnit1-729858 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-729858
+2023-01-23 08:47:08,954 — SensorialUnit1-729858 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-729858"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-729858
+     Ts:	0.5
+2023-01-23 08:47:11,114 — SensorialUnit1-8b4ac4 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-8b4ac4
+2023-01-23 08:47:11,132 — SensorialUnit1-8b4ac4 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-8b4ac4"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-8b4ac4
+     Ts:	0.5
+2023-01-23 08:47:13,288 — SensorialUnit1-8c8e6e — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-8c8e6e
+2023-01-23 08:47:13,308 — SensorialUnit1-8c8e6e — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-8c8e6e"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-8c8e6e
+     Ts:	0.5
+2023-01-23 08:47:16,088 — SensorialUnit1-e6101a — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-e6101a
+2023-01-23 08:47:16,108 — SensorialUnit1-e6101a — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-e6101a"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-e6101a
+     Ts:	0.5
+2023-01-23 08:47:18,267 — SensorialUnit1-679c4a — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-679c4a
+2023-01-23 08:47:18,288 — SensorialUnit1-679c4a — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-679c4a"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-679c4a
+     Ts:	0.5
+2023-01-23 08:47:20,443 — SensorialUnit1-eef3e3 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-eef3e3
+2023-01-23 08:47:20,464 — SensorialUnit1-eef3e3 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-eef3e3"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-eef3e3
+     Ts:	0.5
+2023-01-23 08:47:22,792 — SensorialUnit1-b9c3b5 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-b9c3b5
+2023-01-23 08:47:22,817 — SensorialUnit1-b9c3b5 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-b9c3b5"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-b9c3b5
+     Ts:	0.5
+2023-01-23 08:47:25,003 — SensorialUnit1-90487c — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-90487c
+2023-01-23 08:47:25,027 — SensorialUnit1-90487c — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-90487c"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-90487c
+     Ts:	0.5
+2023-01-23 08:52:16,857 — SensorialUnit1-fad67b — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-fad67b
+2023-01-23 08:52:16,889 — SensorialUnit1-fad67b — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-fad67b"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-fad67b
+     Ts:	0.5
+2023-01-23 08:52:16,891 — QUnit1-edddfb — DEBUG — QUnit.__init__:44 — Initializing QUnit QUnit1-edddfb
+2023-01-23 08:52:16,908 — QUnit1-edddfb — DEBUG — QUnit.__init__:82 — Properties: QUnit "QUnit1-edddfb"
+     name:	QUnit1
+     id:	QUnit1-edddfb
+     model:	[model: AngularModel, n: 3, tau: 3]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	0.5
+2023-01-23 08:52:16,935 — SensorialUnit1-30009d — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-30009d
+2023-01-23 08:52:16,946 — SensorialUnit1-30009d — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-30009d"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-30009d
+     Ts:	0.5
+2023-01-23 08:52:19,828 — SensorialUnit1-c821c7 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-c821c7
+2023-01-23 08:52:19,842 — SensorialUnit1-c821c7 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-c821c7"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-c821c7
+     Ts:	0.5
+2023-01-23 08:52:21,894 — SensorialUnit1-efda69 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-efda69
+2023-01-23 08:52:21,909 — SensorialUnit1-efda69 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-efda69"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-efda69
+     Ts:	0.5
+2023-01-23 08:52:23,971 — SensorialUnit1-f55702 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-f55702
+2023-01-23 08:52:23,987 — SensorialUnit1-f55702 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-f55702"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-f55702
+     Ts:	0.5
+2023-01-23 08:52:26,184 — SensorialUnit1-f4f483 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-f4f483
+2023-01-23 08:52:26,206 — SensorialUnit1-f4f483 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-f4f483"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-f4f483
+     Ts:	0.5
+2023-01-23 08:52:28,387 — SensorialUnit1-a9c993 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a9c993
+2023-01-23 08:52:28,406 — SensorialUnit1-a9c993 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a9c993"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a9c993
+     Ts:	0.5
+2023-01-23 08:52:30,600 — SensorialUnit1-a66169 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a66169
+2023-01-23 08:52:30,620 — SensorialUnit1-a66169 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a66169"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a66169
+     Ts:	0.5
+2023-01-23 08:52:33,323 — SensorialUnit1-2a24b1 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-2a24b1
+2023-01-23 08:52:33,341 — SensorialUnit1-2a24b1 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-2a24b1"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-2a24b1
+     Ts:	0.5
+2023-01-23 08:52:35,675 — SensorialUnit1-26a4ad — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-26a4ad
+2023-01-23 08:52:35,694 — SensorialUnit1-26a4ad — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-26a4ad"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-26a4ad
+     Ts:	0.5
+2023-01-23 08:52:37,877 — SensorialUnit1-b86f8b — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-b86f8b
+2023-01-23 08:52:37,896 — SensorialUnit1-b86f8b — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-b86f8b"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-b86f8b
+     Ts:	0.5
+2023-01-23 08:52:40,355 — SensorialUnit1-0aff01 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-0aff01
+2023-01-23 08:52:40,374 — SensorialUnit1-0aff01 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-0aff01"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-0aff01
+     Ts:	0.5
+2023-01-23 08:52:42,660 — SensorialUnit1-09e572 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-09e572
+2023-01-23 08:52:42,696 — SensorialUnit1-09e572 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-09e572"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-09e572
+     Ts:	0.5
+2023-01-23 08:52:45,108 — SensorialUnit1-899195 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-899195
+2023-01-23 08:52:45,130 — SensorialUnit1-899195 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-899195"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-899195
+     Ts:	0.5
+2023-01-23 08:52:48,932 — SensorialUnit1-586bb7 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-586bb7
+2023-01-23 08:52:48,985 — SensorialUnit1-586bb7 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-586bb7"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-586bb7
+     Ts:	0.5
+2023-01-23 08:52:55,217 — SensorialUnit1-660afe — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-660afe
+2023-01-23 08:52:55,264 — SensorialUnit1-660afe — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-660afe"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-660afe
+     Ts:	0.5
+2023-01-23 08:53:01,327 — SensorialUnit1-63517f — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-63517f
+2023-01-23 08:53:01,373 — SensorialUnit1-63517f — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-63517f"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-63517f
+     Ts:	0.5
+2023-01-23 08:53:07,436 — SensorialUnit1-2016c9 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-2016c9
+2023-01-23 08:53:07,452 — SensorialUnit1-2016c9 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-2016c9"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-2016c9
+     Ts:	0.5
+2023-01-23 08:58:10,107 — SensorialUnit1-6824dc — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-6824dc
+2023-01-23 08:58:10,144 — SensorialUnit1-6824dc — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-6824dc"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-6824dc
+     Ts:	0.5
+2023-01-23 08:58:10,147 — QUnit1-84b7ba — DEBUG — QUnit.__init__:44 — Initializing QUnit QUnit1-84b7ba
+2023-01-23 08:58:10,175 — QUnit1-84b7ba — DEBUG — QUnit.__init__:82 — Properties: QUnit "QUnit1-84b7ba"
+     name:	QUnit1
+     id:	QUnit1-84b7ba
+     model:	[model: AngularModel, n: 3, tau: 3]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	0.5
+2023-01-23 08:58:10,206 — SensorialUnit1-edb7af — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-edb7af
+2023-01-23 08:58:10,223 — SensorialUnit1-edb7af — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-edb7af"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-edb7af
+     Ts:	0.5
+2023-01-23 08:58:13,196 — SensorialUnit1-5590e2 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-5590e2
+2023-01-23 08:58:13,209 — SensorialUnit1-5590e2 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-5590e2"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-5590e2
+     Ts:	0.5
+2023-01-23 08:58:15,307 — SensorialUnit1-e20723 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-e20723
+2023-01-23 08:58:15,323 — SensorialUnit1-e20723 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-e20723"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-e20723
+     Ts:	0.5
+2023-01-23 08:58:17,491 — SensorialUnit1-55d793 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-55d793
+2023-01-23 08:58:17,507 — SensorialUnit1-55d793 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-55d793"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-55d793
+     Ts:	0.5
+2023-01-23 08:58:19,712 — SensorialUnit1-bb7190 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-bb7190
+2023-01-23 08:58:19,728 — SensorialUnit1-bb7190 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-bb7190"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-bb7190
+     Ts:	0.5
+2023-01-23 08:58:22,061 — SensorialUnit1-aabcec — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-aabcec
+2023-01-23 08:58:22,078 — SensorialUnit1-aabcec — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-aabcec"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-aabcec
+     Ts:	0.5
+2023-01-23 08:58:24,178 — SensorialUnit1-483829 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-483829
+2023-01-23 08:58:24,202 — SensorialUnit1-483829 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-483829"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-483829
+     Ts:	0.5
+2023-01-23 08:58:26,939 — SensorialUnit1-2e1e92 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-2e1e92
+2023-01-23 08:58:26,958 — SensorialUnit1-2e1e92 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-2e1e92"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-2e1e92
+     Ts:	0.5
+2023-01-23 08:58:29,071 — SensorialUnit1-a0e5b0 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a0e5b0
+2023-01-23 08:58:29,090 — SensorialUnit1-a0e5b0 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a0e5b0"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a0e5b0
+     Ts:	0.5
+2023-01-23 08:58:31,259 — SensorialUnit1-e4b76e — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-e4b76e
+2023-01-23 08:58:31,286 — SensorialUnit1-e4b76e — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-e4b76e"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-e4b76e
+     Ts:	0.5
+2023-01-23 08:58:34,442 — SensorialUnit1-91e77e — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-91e77e
+2023-01-23 08:58:34,489 — SensorialUnit1-91e77e — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-91e77e"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-91e77e
+     Ts:	0.5
+2023-01-23 08:58:40,550 — SensorialUnit1-a164c9 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a164c9
+2023-01-23 08:58:40,589 — SensorialUnit1-a164c9 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a164c9"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a164c9
+     Ts:	0.5
+2023-01-23 08:58:46,656 — SensorialUnit1-1b4854 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-1b4854
+2023-01-23 08:58:46,690 — SensorialUnit1-1b4854 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-1b4854"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-1b4854
+     Ts:	0.5
+2023-01-23 08:58:52,742 — SensorialUnit1-42fa51 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-42fa51
+2023-01-23 08:58:52,791 — SensorialUnit1-42fa51 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-42fa51"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-42fa51
+     Ts:	0.5
+2023-01-23 08:58:58,842 — SensorialUnit1-4cc0db — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-4cc0db
+2023-01-23 08:58:58,866 — SensorialUnit1-4cc0db — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-4cc0db"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-4cc0db
+     Ts:	0.5
+2023-01-23 08:59:04,963 — SensorialUnit1-4d1e5d — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-4d1e5d
+2023-01-23 08:59:04,991 — SensorialUnit1-4d1e5d — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-4d1e5d"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-4d1e5d
+     Ts:	0.5
+2023-01-23 08:59:10,049 — SensorialUnit1-53677c — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-53677c
+2023-01-23 08:59:10,078 — SensorialUnit1-53677c — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-53677c"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-53677c
+     Ts:	0.5
+2023-01-23 08:59:12,967 — SensorialUnit1-379be2 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-379be2
+2023-01-23 08:59:12,990 — SensorialUnit1-379be2 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-379be2"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-379be2
+     Ts:	0.5
+2023-01-23 08:59:15,151 — SensorialUnit1-0908a7 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-0908a7
+2023-01-23 08:59:15,173 — SensorialUnit1-0908a7 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-0908a7"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-0908a7
+     Ts:	0.5
+2023-01-23 08:59:17,426 — SensorialUnit1-bf3ea3 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-bf3ea3
+2023-01-23 08:59:17,443 — SensorialUnit1-bf3ea3 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-bf3ea3"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-bf3ea3
+     Ts:	0.5
+2023-01-23 08:59:19,646 — SensorialUnit1-93264f — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-93264f
+2023-01-23 08:59:19,663 — SensorialUnit1-93264f — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-93264f"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-93264f
+     Ts:	0.5
+2023-01-23 08:59:21,821 — SensorialUnit1-d99be1 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-d99be1
+2023-01-23 08:59:21,841 — SensorialUnit1-d99be1 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-d99be1"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-d99be1
+     Ts:	0.5
+2023-01-23 08:59:24,240 — SensorialUnit1-810e77 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-810e77
+2023-01-23 08:59:24,257 — SensorialUnit1-810e77 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-810e77"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-810e77
+     Ts:	0.5
+2023-01-23 08:59:27,362 — SensorialUnit1-f70070 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-f70070
+2023-01-23 08:59:27,378 — SensorialUnit1-f70070 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-f70070"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-f70070
+     Ts:	0.5
+2023-01-23 08:59:29,583 — SensorialUnit1-f88381 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-f88381
+2023-01-23 08:59:29,601 — SensorialUnit1-f88381 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-f88381"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-f88381
+     Ts:	0.5
+2023-01-23 08:59:31,774 — SensorialUnit1-819265 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-819265
+2023-01-23 08:59:31,791 — SensorialUnit1-819265 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-819265"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-819265
+     Ts:	0.5
+2023-01-23 08:59:34,031 — SensorialUnit1-9e18f3 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-9e18f3
+2023-01-23 08:59:34,054 — SensorialUnit1-9e18f3 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-9e18f3"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-9e18f3
+     Ts:	0.5
+2023-01-23 08:59:36,208 — SensorialUnit1-6e6240 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-6e6240
+2023-01-23 08:59:36,227 — SensorialUnit1-6e6240 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-6e6240"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-6e6240
+     Ts:	0.5
+2023-01-23 08:59:38,403 — SensorialUnit1-b54a13 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-b54a13
+2023-01-23 08:59:38,424 — SensorialUnit1-b54a13 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-b54a13"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-b54a13
+     Ts:	0.5
+2023-01-23 08:59:41,245 — SensorialUnit1-766491 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-766491
+2023-01-23 08:59:41,266 — SensorialUnit1-766491 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-766491"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-766491
+     Ts:	0.5
+2023-01-23 09:02:31,850 — SensorialUnit1-d8e08c — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-d8e08c
+2023-01-23 09:02:31,874 — SensorialUnit1-d8e08c — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-d8e08c"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-d8e08c
+     Ts:	0.5
+2023-01-23 09:02:31,875 — QUnit1-d1aaac — DEBUG — QUnit.__init__:44 — Initializing QUnit QUnit1-d1aaac
+2023-01-23 09:02:31,892 — QUnit1-d1aaac — DEBUG — QUnit.__init__:82 — Properties: QUnit "QUnit1-d1aaac"
+     name:	QUnit1
+     id:	QUnit1-d1aaac
+     model:	[model: AngularModel, n: 1, tau: 1]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0]
+     Ts:	0.5
+2023-01-23 09:02:31,911 — SensorialUnit1-38b689 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-38b689
+2023-01-23 09:02:31,924 — SensorialUnit1-38b689 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-38b689"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-38b689
+     Ts:	0.5
+2023-01-23 09:02:32,190 — SensorialUnit1-4cdc96 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-4cdc96
+2023-01-23 09:02:32,214 — SensorialUnit1-4cdc96 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-4cdc96"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-4cdc96
+     Ts:	0.5
+2023-01-23 09:02:32,261 — SensorialUnit1-5a25e5 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-5a25e5
+2023-01-23 09:02:32,277 — SensorialUnit1-5a25e5 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-5a25e5"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-5a25e5
+     Ts:	0.5
+2023-01-23 09:02:32,329 — SensorialUnit1-c882b3 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-c882b3
+2023-01-23 09:02:32,344 — SensorialUnit1-c882b3 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-c882b3"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-c882b3
+     Ts:	0.5
+2023-01-23 09:02:32,407 — SensorialUnit1-4c91d9 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-4c91d9
+2023-01-23 09:02:32,422 — SensorialUnit1-4c91d9 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-4c91d9"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-4c91d9
+     Ts:	0.5
+2023-01-23 09:02:32,473 — SensorialUnit1-d1234e — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-d1234e
+2023-01-23 09:02:32,488 — SensorialUnit1-d1234e — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-d1234e"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-d1234e
+     Ts:	0.5
+2023-01-23 09:02:32,551 — SensorialUnit1-3d10e9 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-3d10e9
+2023-01-23 09:02:32,567 — SensorialUnit1-3d10e9 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-3d10e9"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-3d10e9
+     Ts:	0.5
+2023-01-23 09:02:32,620 — SensorialUnit1-dfaa95 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-dfaa95
+2023-01-23 09:02:32,638 — SensorialUnit1-dfaa95 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-dfaa95"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-dfaa95
+     Ts:	0.5
+2023-01-23 09:02:32,713 — SensorialUnit1-a32369 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a32369
+2023-01-23 09:02:32,728 — SensorialUnit1-a32369 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a32369"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a32369
+     Ts:	0.5
+2023-01-23 09:02:32,781 — SensorialUnit1-8293bc — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-8293bc
+2023-01-23 09:02:32,799 — SensorialUnit1-8293bc — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-8293bc"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-8293bc
+     Ts:	0.5
+2023-01-23 09:02:32,880 — SensorialUnit1-613436 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-613436
+2023-01-23 09:02:32,913 — SensorialUnit1-613436 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-613436"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-613436
+     Ts:	0.5
+2023-01-23 09:02:32,965 — SensorialUnit1-8d9383 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-8d9383
+2023-01-23 09:02:32,996 — SensorialUnit1-8d9383 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-8d9383"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-8d9383
+     Ts:	0.5
+2023-01-23 09:02:33,064 — SensorialUnit1-46d71f — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-46d71f
+2023-01-23 09:02:33,082 — SensorialUnit1-46d71f — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-46d71f"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-46d71f
+     Ts:	0.5
+2023-01-23 09:02:33,127 — SensorialUnit1-e6a781 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-e6a781
+2023-01-23 09:02:33,148 — SensorialUnit1-e6a781 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-e6a781"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-e6a781
+     Ts:	0.5
+2023-01-23 09:02:33,225 — SensorialUnit1-05d6b6 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-05d6b6
+2023-01-23 09:02:33,248 — SensorialUnit1-05d6b6 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-05d6b6"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-05d6b6
+     Ts:	0.5
+2023-01-23 09:02:33,302 — SensorialUnit1-8e3ba3 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-8e3ba3
+2023-01-23 09:02:33,323 — SensorialUnit1-8e3ba3 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-8e3ba3"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-8e3ba3
+     Ts:	0.5
+2023-01-23 09:02:33,405 — SensorialUnit1-99a1a5 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-99a1a5
+2023-01-23 09:02:33,449 — SensorialUnit1-99a1a5 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-99a1a5"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-99a1a5
+     Ts:	0.5
+2023-01-23 09:02:33,508 — SensorialUnit1-65e5c2 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-65e5c2
+2023-01-23 09:02:33,529 — SensorialUnit1-65e5c2 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-65e5c2"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-65e5c2
+     Ts:	0.5
+2023-01-23 09:02:33,609 — SensorialUnit1-dbe017 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-dbe017
+2023-01-23 09:02:33,626 — SensorialUnit1-dbe017 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-dbe017"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-dbe017
+     Ts:	0.5
+2023-01-23 09:02:33,686 — SensorialUnit1-399bd2 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-399bd2
+2023-01-23 09:02:33,706 — SensorialUnit1-399bd2 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-399bd2"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-399bd2
+     Ts:	0.5
+2023-01-23 09:02:33,788 — SensorialUnit1-0e794a — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-0e794a
+2023-01-23 09:02:33,825 — SensorialUnit1-0e794a — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-0e794a"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-0e794a
+     Ts:	0.5
+2023-01-23 09:02:33,877 — SensorialUnit1-273a54 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-273a54
+2023-01-23 09:02:33,896 — SensorialUnit1-273a54 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-273a54"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-273a54
+     Ts:	0.5
+2023-01-23 09:02:33,978 — SensorialUnit1-cf6d40 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-cf6d40
+2023-01-23 09:02:34,004 — SensorialUnit1-cf6d40 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-cf6d40"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-cf6d40
+     Ts:	0.5
+2023-01-23 09:02:34,168 — SensorialUnit1-914bfe — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-914bfe
+2023-01-23 09:02:34,183 — SensorialUnit1-914bfe — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-914bfe"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-914bfe
+     Ts:	0.5
+2023-01-23 09:02:34,249 — SensorialUnit1-ce0f87 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-ce0f87
+2023-01-23 09:02:34,263 — SensorialUnit1-ce0f87 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-ce0f87"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-ce0f87
+     Ts:	0.5
+2023-01-23 09:02:34,309 — SensorialUnit1-807753 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-807753
+2023-01-23 09:02:34,324 — SensorialUnit1-807753 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-807753"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-807753
+     Ts:	0.5
+2023-01-23 09:02:34,406 — SensorialUnit1-bc2619 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-bc2619
+2023-01-23 09:02:34,426 — SensorialUnit1-bc2619 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-bc2619"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-bc2619
+     Ts:	0.5
+2023-01-23 09:02:34,486 — SensorialUnit1-7afa40 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-7afa40
+2023-01-23 09:02:34,504 — SensorialUnit1-7afa40 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-7afa40"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-7afa40
+     Ts:	0.5
+2023-01-23 09:02:34,573 — SensorialUnit1-57423b — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-57423b
+2023-01-23 09:02:34,589 — SensorialUnit1-57423b — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-57423b"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-57423b
+     Ts:	0.5
+2023-01-23 09:02:34,654 — SensorialUnit1-73545b — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-73545b
+2023-01-23 09:02:34,703 — SensorialUnit1-73545b — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-73545b"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-73545b
+     Ts:	0.5
+2023-01-23 09:02:34,806 — SensorialUnit1-17bb30 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-17bb30
+2023-01-23 09:02:34,823 — SensorialUnit1-17bb30 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-17bb30"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-17bb30
+     Ts:	0.5
+2023-01-23 09:02:34,873 — SensorialUnit1-2d0341 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-2d0341
+2023-01-23 09:02:34,891 — SensorialUnit1-2d0341 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-2d0341"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-2d0341
+     Ts:	0.5
+2023-01-23 09:02:34,981 — SensorialUnit1-830a8c — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-830a8c
+2023-01-23 09:02:35,026 — SensorialUnit1-830a8c — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-830a8c"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-830a8c
+     Ts:	0.5
+2023-01-23 09:02:35,085 — SensorialUnit1-19f20a — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-19f20a
+2023-01-23 09:02:35,105 — SensorialUnit1-19f20a — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-19f20a"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-19f20a
+     Ts:	0.5
+2023-01-23 09:02:35,162 — SensorialUnit1-0d6e05 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-0d6e05
+2023-01-23 09:02:35,181 — SensorialUnit1-0d6e05 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-0d6e05"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-0d6e05
+     Ts:	0.5
+2023-01-23 09:02:35,240 — SensorialUnit1-66f2c9 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-66f2c9
+2023-01-23 09:02:35,261 — SensorialUnit1-66f2c9 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-66f2c9"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-66f2c9
+     Ts:	0.5
+2023-01-23 09:02:35,431 — SensorialUnit1-87b3c6 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-87b3c6
+2023-01-23 09:02:35,450 — SensorialUnit1-87b3c6 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-87b3c6"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-87b3c6
+     Ts:	0.5
+2023-01-23 09:02:35,510 — SensorialUnit1-44091e — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-44091e
+2023-01-23 09:02:35,527 — SensorialUnit1-44091e — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-44091e"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-44091e
+     Ts:	0.5
+2023-01-23 09:02:35,609 — SensorialUnit1-a8cc92 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a8cc92
+2023-01-23 09:02:35,625 — SensorialUnit1-a8cc92 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a8cc92"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a8cc92
+     Ts:	0.5
+2023-01-23 09:02:35,687 — SensorialUnit1-6d3005 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-6d3005
+2023-01-23 09:02:35,704 — SensorialUnit1-6d3005 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-6d3005"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-6d3005
+     Ts:	0.5
+2023-01-23 09:02:35,765 — SensorialUnit1-b7d993 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-b7d993
+2023-01-23 09:02:35,783 — SensorialUnit1-b7d993 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-b7d993"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-b7d993
+     Ts:	0.5
+2023-01-23 09:02:35,837 — SensorialUnit1-e6a3f2 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-e6a3f2
+2023-01-23 09:02:35,857 — SensorialUnit1-e6a3f2 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-e6a3f2"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-e6a3f2
+     Ts:	0.5
+2023-01-23 09:02:35,924 — SensorialUnit1-c1037b — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-c1037b
+2023-01-23 09:02:35,943 — SensorialUnit1-c1037b — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-c1037b"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-c1037b
+     Ts:	0.5
+2023-01-23 09:02:35,992 — SensorialUnit1-89c302 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-89c302
+2023-01-23 09:02:36,012 — SensorialUnit1-89c302 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-89c302"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-89c302
+     Ts:	0.5
+2023-01-23 09:02:36,172 — SensorialUnit1-84e018 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-84e018
+2023-01-23 09:02:36,189 — SensorialUnit1-84e018 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-84e018"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-84e018
+     Ts:	0.5
+2023-01-23 09:02:36,254 — SensorialUnit1-7d67ce — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-7d67ce
+2023-01-23 09:02:36,270 — SensorialUnit1-7d67ce — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-7d67ce"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-7d67ce
+     Ts:	0.5
+2023-01-23 09:02:36,343 — SensorialUnit1-c5e2c6 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-c5e2c6
+2023-01-23 09:02:36,358 — SensorialUnit1-c5e2c6 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-c5e2c6"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-c5e2c6
+     Ts:	0.5
+2023-01-23 09:02:36,410 — SensorialUnit1-4f0a83 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-4f0a83
+2023-01-23 09:02:36,428 — SensorialUnit1-4f0a83 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-4f0a83"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-4f0a83
+     Ts:	0.5
+2023-01-23 09:02:36,502 — SensorialUnit1-c04f86 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-c04f86
+2023-01-23 09:02:36,520 — SensorialUnit1-c04f86 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-c04f86"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-c04f86
+     Ts:	0.5
+2023-01-23 09:02:36,583 — SensorialUnit1-34e090 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-34e090
+2023-01-23 09:02:36,603 — SensorialUnit1-34e090 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-34e090"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-34e090
+     Ts:	0.5
+2023-01-23 09:02:36,729 — SensorialUnit1-f83ffb — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-f83ffb
+2023-01-23 09:02:36,746 — SensorialUnit1-f83ffb — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-f83ffb"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-f83ffb
+     Ts:	0.5
+2023-01-23 09:02:36,809 — SensorialUnit1-5d3b1d — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-5d3b1d
+2023-01-23 09:02:36,829 — SensorialUnit1-5d3b1d — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-5d3b1d"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-5d3b1d
+     Ts:	0.5
+2023-01-23 09:02:36,906 — SensorialUnit1-dacda4 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-dacda4
+2023-01-23 09:02:36,923 — SensorialUnit1-dacda4 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-dacda4"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-dacda4
+     Ts:	0.5
+2023-01-23 09:02:36,987 — SensorialUnit1-c6258f — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-c6258f
+2023-01-23 09:02:37,009 — SensorialUnit1-c6258f — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-c6258f"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-c6258f
+     Ts:	0.5
+2023-01-23 09:02:37,079 — SensorialUnit1-b56f2e — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-b56f2e
+2023-01-23 09:02:37,103 — SensorialUnit1-b56f2e — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-b56f2e"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-b56f2e
+     Ts:	0.5
+2023-01-23 09:02:37,163 — SensorialUnit1-46f057 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-46f057
+2023-01-23 09:02:37,185 — SensorialUnit1-46f057 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-46f057"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-46f057
+     Ts:	0.5
+2023-01-23 09:02:37,318 — SensorialUnit1-bc66ba — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-bc66ba
+2023-01-23 09:02:37,339 — SensorialUnit1-bc66ba — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-bc66ba"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-bc66ba
+     Ts:	0.5
+2023-01-23 09:02:37,405 — SensorialUnit1-96eb80 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-96eb80
+2023-01-23 09:02:37,424 — SensorialUnit1-96eb80 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-96eb80"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-96eb80
+     Ts:	0.5
+2023-01-23 09:02:37,500 — SensorialUnit1-7faa8e — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-7faa8e
+2023-01-23 09:02:37,528 — SensorialUnit1-7faa8e — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-7faa8e"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-7faa8e
+     Ts:	0.5
+2023-01-23 09:02:37,591 — SensorialUnit1-23faaf — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-23faaf
+2023-01-23 09:02:37,612 — SensorialUnit1-23faaf — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-23faaf"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-23faaf
+     Ts:	0.5
+2023-01-23 09:02:37,691 — SensorialUnit1-3a5fd1 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-3a5fd1
+2023-01-23 09:02:37,711 — SensorialUnit1-3a5fd1 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-3a5fd1"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-3a5fd1
+     Ts:	0.5
+2023-01-23 09:02:37,772 — SensorialUnit1-a10471 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-a10471
+2023-01-23 09:02:37,806 — SensorialUnit1-a10471 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-a10471"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-a10471
+     Ts:	0.5
+2023-01-23 09:02:37,946 — SensorialUnit1-464e50 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-464e50
+2023-01-23 09:02:37,994 — SensorialUnit1-464e50 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-464e50"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-464e50
+     Ts:	0.5
+2023-01-23 09:02:38,085 — SensorialUnit1-64b159 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-64b159
+2023-01-23 09:02:38,104 — SensorialUnit1-64b159 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-64b159"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-64b159
+     Ts:	0.5
+2023-01-23 09:02:38,183 — SensorialUnit1-4ac4f7 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-4ac4f7
+2023-01-23 09:02:38,206 — SensorialUnit1-4ac4f7 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-4ac4f7"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-4ac4f7
+     Ts:	0.5
+2023-01-23 09:02:39,255 — SensorialUnit1-f103c8 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-f103c8
+2023-01-23 09:02:39,289 — SensorialUnit1-f103c8 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-f103c8"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-f103c8
+     Ts:	0.5
+2023-01-23 09:02:45,365 — SensorialUnit1-9ccb1d — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-9ccb1d
+2023-01-23 09:02:45,427 — SensorialUnit1-9ccb1d — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-9ccb1d"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-9ccb1d
+     Ts:	0.5
+2023-01-23 09:02:51,481 — SensorialUnit1-3074fa — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-3074fa
+2023-01-23 09:02:51,503 — SensorialUnit1-3074fa — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-3074fa"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-3074fa
+     Ts:	0.5
+2023-01-23 09:02:57,561 — SensorialUnit1-1cf8df — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit SensorialUnit1-1cf8df
+2023-01-23 09:02:57,612 — SensorialUnit1-1cf8df — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "SensorialUnit1-1cf8df"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-1cf8df
+     Ts:	0.5

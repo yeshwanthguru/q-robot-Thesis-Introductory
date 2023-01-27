@@ -27,7 +27,7 @@ model.print_circuit()
 
 print(f"Hello model!\n{model}")
 
-shots = 1000000
+shots = 1
 counts = model.measure(shots)
 
 
