@@ -1,6 +1,7 @@
 #!/usr/bin/env python3.8
 import rospy
 import time
+import logging
 import numpy as np
 from std_srvs.srv import Empty
 from qrobot.qunits import SensorialUnit, QUnit
@@ -18,7 +19,6 @@ tau = 1  # number of events for each temporal window
 model = AngularModel(n, tau)
 burst = OneBurst()
 Ts = 0.5  # sample every 500ms
-
 def callback_function(msg):
     print(msg.header)
     for i in range(len(msg.poses)):
@@ -33,10 +33,6 @@ def place_callback(msg):
 sensorial_unit1 = SensorialUnit("SensorialUnit1", Ts, default_input=(np.random.randint(500, 1000) / 1000))
 sensorial_unit2= SensorialUnit("SensorialUnit2", Ts, default_input=(np.random.randint(500, 1000) / 1000))
 sensorial_unit3 = SensorialUnit("SensorialUnit3", Ts, default_input=(np.random.randint(500, 1000) / 1000))
-#  QUnit class
-qunit1 = QUnit("QUnit1", model, burst, Ts, in_qunits={0:sensorial_unit1.id})
-qunit2= QUnit("QUnit2", model, burst, Ts, in_qunits={1:sensorial_unit2.id})
-qunit3= QUnit("QUnit3", model, burst, Ts, in_qunits={2: sensorial_unit3.id})
 
 
 def tiago_brain():
@@ -75,7 +71,7 @@ def tiago_brain():
                 model.encode(sensorial_unit.scalar_reading , dim=0)
                 print(model.circ)
             
-            if all(last_n_qubits) == 1:
+            if all(last_n_qubits) == 1 and all(val >= 0 and val <= 1 for val in last_n_qubits):
             # Call the /pick_gui service
                try:
                   rospy.wait_for_service('/pick_gui', timeout=1)
