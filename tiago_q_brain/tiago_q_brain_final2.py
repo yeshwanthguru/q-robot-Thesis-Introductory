@@ -2,7 +2,6 @@
 import rospy
 import json
 import time
-import matplotlib.pyplot as plt
 import numpy as np
 from std_srvs.srv import Empty
 from qrobot.qunits import SensorialUnit
@@ -20,9 +19,7 @@ model = AngularModel(n, tau)
 burst = OneBurst()
 Ts = 0.5  # sample every 500ms
 
-def trigger_robot(result):
-    # Code to trigger the robot based on the result of the measurement
-    pass
+
 
 def callback_function(msg):
     sensorial_unit1 = SensorialUnit("SensorialUnit1", Ts)
@@ -39,6 +36,7 @@ def pickup_callback(msg):
     print("Sensor reading in pickup_callback: ", sensorial_unit2.scalar_reading)
     model.encode(sensorial_unit2.scalar_reading , dim=0)
     model.print_circuit()
+
 def place_callback(msg):
     sensorial_unit3 = SensorialUnit("SensorialUnit3", Ts)
     uncertain_value = (np.random.randint(500, 1000) / 1000)
@@ -46,27 +44,6 @@ def place_callback(msg):
     print("Sensor reading in place_callback:  ", sensorial_unit3.scalar_reading)
     model.encode(sensorial_unit3.scalar_reading , dim=0)
     model.print_circuit()
-
-
-# Encoding all three sensory inputs
-callback_function(None)
-pickup_callback(None)
-place_callback(None)
-
-# Measure the combined state of all three sensorial units
-shots = 1
-counts = model.measure(shots)
-result = counts
-plt.hist(list(result.values()), bins=2)
-plt.xlabel('Measurement Result')
-plt.ylabel('result')
-plt.title('Histogram of Measurement Results')
-plt.show()
-print("Aggregated binary outcomes of the circuit:")
-print(json.dumps(result, sort_keys=True, indent=4))
-
-# Triggering the robot based on the measurement result
-trigger_robot(result)
 
 def tiago_brain():
     topic_active = False
@@ -78,6 +55,12 @@ def tiago_brain():
                 rospy.Subscriber('/pickup/goal', PickupActionGoal, pickup_callback)
                 rospy.Subscriber('/place/goal', PlaceActionGoal, place_callback)
                 topic_active = True
+                # Measure the combined state of all three sensorial units
+                shots = 1
+                counts = model.measure(shots)
+                result = counts
+                print("Aggregated binary outcomes of the circuit:")
+                print(json.dumps(result, sort_keys=True, indent=4))
 
             if result['0'] > 0.5:
                 try:
