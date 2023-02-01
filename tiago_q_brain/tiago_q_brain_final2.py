@@ -4,7 +4,7 @@ import json
 import time
 import numpy as np
 from std_srvs.srv import Empty
-from qrobot.qunits import SensorialUnit
+from qrobot.qunits import SensorialUnit,QUnit
 from qrobot.models import AngularModel
 from qrobot.bursts import  OneBurst
 from geometry_msgs.msg import PoseArray
@@ -19,31 +19,30 @@ model = AngularModel(n, tau)
 burst = OneBurst()
 Ts = 0.5  # sample every 500ms
 
+sensorial_unit1 = SensorialUnit("SensorialUnit1", Ts)
+sensorial_unit2 = SensorialUnit("SensorialUnit2", Ts)
+sensorial_unit3 = SensorialUnit("SensorialUnit3", Ts)
 
+qunit1 = QUnit("QUnit1", model, burst, Ts, in_qunits={0: sensorial_unit1.id})
+qunit2 = QUnit("QUnit2", model, burst, Ts, in_qunits={0: sensorial_unit2.id})
+qunit3 = QUnit("QUnit3", model, burst, Ts, in_qunits={0: sensorial_unit3.id})
 
 def callback_function(msg):
-    sensorial_unit1 = SensorialUnit("SensorialUnit1", Ts)
     uncertain_value = (np.random.randint(500, 1000) / 1000)
-    sensorial_unit1.scalar_reading  = uncertain_value
-    print("Sensor reading in callback_function: ", sensorial_unit1.scalar_reading)
-    model.encode(sensorial_unit1.scalar_reading , dim=0)
-    model.print_circuit()
-    
+    sensorial_unit1.scalar_reading = uncertain_value
+    model.encode(sensorial_unit1.scalar_reading, dim=0)
+
 def pickup_callback(msg):
-    sensorial_unit2= SensorialUnit("SensorialUnit2", Ts)
     uncertain_value = (np.random.randint(500, 1000) / 1000)
     sensorial_unit2.scalar_reading = uncertain_value
-    print("Sensor reading in pickup_callback: ", sensorial_unit2.scalar_reading)
-    model.encode(sensorial_unit2.scalar_reading , dim=0)
-    model.print_circuit()
+    model.encode(sensorial_unit2.scalar_reading, dim=0)
 
 def place_callback(msg):
-    sensorial_unit3 = SensorialUnit("SensorialUnit3", Ts)
     uncertain_value = (np.random.randint(500, 1000) / 1000)
     sensorial_unit3.scalar_reading = uncertain_value
-    print("Sensor reading in place_callback:  ", sensorial_unit3.scalar_reading)
-    model.encode(sensorial_unit3.scalar_reading , dim=0)
-    model.print_circuit()
+    model.encode(sensorial_unit3.scalar_reading, dim=0)
+
+
 
 def tiago_brain():
     topic_active = False
@@ -71,6 +70,7 @@ def tiago_brain():
                     pick_gui_service()
                 except rospy.ServiceException as e:
                     print("Service call failed: ", e)
+            
         except:
             print("waiting for decision to pick the object")
             sensorial_unit = SensorialUnit("SensorialUnit0", Ts)
@@ -81,7 +81,6 @@ def tiago_brain():
             print("Aggregated binary outcomes of the circuit:")
             print(json.dumps(counts, sort_keys=True, indent=4))
             model.encode(sensorial_unit.scalar_reading , dim=0)
-            print(model.circ)
             print("Timeout waiting for sensory inputs, exiting...")
             # Reinitialize the model to encode a new temporal window
             time.sleep(5)
@@ -89,3 +88,4 @@ def tiago_brain():
 
 if __name__ == '__main__':
     tiago_brain()
+
