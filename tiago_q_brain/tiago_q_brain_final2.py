@@ -19,24 +19,24 @@ model = AngularModel(n, tau)
 burst = OneBurst()
 Ts = 0.5  # sample every 500ms
 
+#initiate the sensorial unit class
 sensorial_unit1 = SensorialUnit("SensorialUnit1", Ts)
 sensorial_unit2 = SensorialUnit("SensorialUnit2", Ts)
 sensorial_unit3 = SensorialUnit("SensorialUnit3", Ts)
 
-qunit1 = QUnit("QUnit1", model, burst, Ts, in_qunits={0: sensorial_unit1.id})
-qunit2 = QUnit("QUnit2", model, burst, Ts, in_qunits={0: sensorial_unit2.id})
-qunit3 = QUnit("QUnit3", model, burst, Ts, in_qunits={0: sensorial_unit3.id})
-
+#Grasp pose feedback from the ros after Aurco marker detector
 def callback_function(msg):
     uncertain_value = (np.random.randint(500, 1000) / 1000)
     sensorial_unit1.scalar_reading = uncertain_value
     model.encode(sensorial_unit1.scalar_reading, dim=0)
 
+#Pick pose feedback after the grasp pose detected through the robot camera
 def pickup_callback(msg):
     uncertain_value = (np.random.randint(500, 1000) / 1000)
     sensorial_unit2.scalar_reading = uncertain_value
     model.encode(sensorial_unit2.scalar_reading, dim=0)
 
+#Place pose feedback after the above two operation completed.
 def place_callback(msg):
     uncertain_value = (np.random.randint(500, 1000) / 1000)
     sensorial_unit3.scalar_reading = uncertain_value
@@ -44,12 +44,13 @@ def place_callback(msg):
 
 
 
-def tiago_brain():
+#Main function to trigger the robot classical picking system with the Multi qubit quantum state decision making
+def tiago_classical_pickingsystem():
     topic_active = False
     while not rospy.is_shutdown():
         try:
             if not topic_active:
-                # Subscribe to the rostopics
+                # Subscribe to the rostopics for the sensory inputs
                 rospy.Subscriber("/grasp_poses", PoseArray, callback_function)
                 rospy.Subscriber('/pickup/goal', PickupActionGoal, pickup_callback)
                 rospy.Subscriber('/place/goal', PlaceActionGoal, place_callback)
@@ -58,34 +59,36 @@ def tiago_brain():
                 shots = 1
                 counts = model.measure(shots)
                 result = counts
-                print("Aggregated binary outcomes of the circuit:")
-                print(json.dumps(result, sort_keys=True, indent=4))
-
-            if result['0'] > 0.5:
+            #Quantum state decision to trigger the robot 
+            if result['0'] >= 0.5:
+                
                 try:
+                    #Triggers the picking classical system
                     rospy.wait_for_service('/pick_gui', timeout=5)
                     pick_gui_service = rospy.ServiceProxy('/pick_gui', Empty)
-                    print("Grasp poses detected, starting script...")
-                    print("Made decision to pick the object")
+                    rospy.loginfo("Grasp poses detected, starting script...")
+                    rospy.loginfo("Made decision to pick the object")
                     pick_gui_service()
                 except rospy.ServiceException as e:
-                    print("Service call failed: ", e)
-            
+                    rospy.loginfo("Service call failed: ", e)
+            elif result['0'] == 0:
+                    #default state inputwhen it doesnt meet the Trigger logic
+                    rospy.loginfo("waiting for decision to pick the object")
+                    sensorial_unit = SensorialUnit("SensorialUnit0", Ts)
+                    rospy.loginfo("switch_signal =", sensorial_unit.scalar_reading)
+                    # Measure the qubits
+                    shots = 1
+                    counts = model.measure(shots)
+                    model.encode(sensorial_unit.scalar_reading , dim=0)
+                    pass
+
         except:
-            print("waiting for decision to pick the object")
-            sensorial_unit = SensorialUnit("SensorialUnit0", Ts)
-            print("switch_signal =", sensorial_unit.scalar_reading)
-            # Measure the qubits
-            shots = 1
-            counts = model.measure(shots)
-            print("Aggregated binary outcomes of the circuit:")
-            print(json.dumps(counts, sort_keys=True, indent=4))
-            model.encode(sensorial_unit.scalar_reading , dim=0)
-            print("Timeout waiting for sensory inputs, exiting...")
+            #no sensory connection it results with the warning
+            rospy.logwarn("Timeout waiting for sensory inputs, exiting...")
             # Reinitialize the model to encode a new temporal window
             time.sleep(5)
             model.clear()
 
 if __name__ == '__main__':
-    tiago_brain()
+    tiago_classical_pickingsystem()
 
