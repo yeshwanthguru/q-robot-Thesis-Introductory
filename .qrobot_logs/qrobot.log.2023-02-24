@@ -1,0 +1,1743 @@
+2023-02-24 23:02:49,964 — SensorialUnit1-134402 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit1-134402
+2023-02-24 23:02:49,984 — SensorialUnit1-134402 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit1-134402"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-134402
+     Ts:	0.5
+2023-02-24 23:02:49,986 — SensorialUnit2-0c58da — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit2-0c58da
+2023-02-24 23:02:49,996 — SensorialUnit2-0c58da — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit2-0c58da"
+     name:	SensorialUnit2
+     id:	SensorialUnit2-0c58da
+     Ts:	0.5
+2023-02-24 23:02:49,998 — SensorialUnit3-60ab0d — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit3-60ab0d
+2023-02-24 23:02:50,008 — SensorialUnit3-60ab0d — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit3-60ab0d"
+     name:	SensorialUnit3
+     id:	SensorialUnit3-60ab0d
+     Ts:	0.5
+2023-02-24 23:02:50,010 — QUnit-927a11 — DEBUG — __init__:44 — Initializing QUnit QUnit-927a11
+2023-02-24 23:02:50,025 — QUnit-927a11 — DEBUG — __init__:82 — Properties: QUnit "QUnit-927a11"
+     name:	QUnit
+     id:	QUnit-927a11
+     model:	[model: AngularModel, n: 3, tau: 10]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	0.5
+2023-02-24 23:02:50,027 — QUnit-927a11 — DEBUG — query:115 — Changing query from [0.0, 0.0, 0.0] to [0.8, 0.2, 0.4]
+2023-02-24 23:02:50,028 — QUnit-927a11 — DEBUG — query:118 — _query=[0.8, 0.2, 0.4]
+2023-02-24 23:02:50,028 — QUnit-927a11 — INFO — start:72 — Starting QUnit
+2023-02-24 23:16:46,808 — l0_unit_0-3d2d2c — DEBUG — __init__:44 — Initializing SensorialUnit l0_unit_0-3d2d2c
+2023-02-24 23:16:46,825 — l0_unit_0-3d2d2c — DEBUG — __init__:48 — Properties: SensorialUnit "l0_unit_0-3d2d2c"
+     name:	l0_unit_0
+     id:	l0_unit_0-3d2d2c
+     Ts:	0.1
+2023-02-24 23:17:06,056 — l0_unit_0-e468e3 — DEBUG — __init__:44 — Initializing SensorialUnit l0_unit_0-e468e3
+2023-02-24 23:17:06,074 — l0_unit_0-e468e3 — DEBUG — __init__:48 — Properties: SensorialUnit "l0_unit_0-e468e3"
+     name:	l0_unit_0
+     id:	l0_unit_0-e468e3
+     Ts:	0.1
+2023-02-24 23:18:49,099 — SensorialUnit1-9c9fac — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit1-9c9fac
+2023-02-24 23:18:49,127 — SensorialUnit1-9c9fac — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit1-9c9fac"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-9c9fac
+     Ts:	0.5
+2023-02-24 23:18:49,129 — SensorialUnit2-666652 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit2-666652
+2023-02-24 23:18:49,141 — SensorialUnit2-666652 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit2-666652"
+     name:	SensorialUnit2
+     id:	SensorialUnit2-666652
+     Ts:	0.5
+2023-02-24 23:18:49,144 — SensorialUnit3-0b07cf — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit3-0b07cf
+2023-02-24 23:18:49,156 — SensorialUnit3-0b07cf — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit3-0b07cf"
+     name:	SensorialUnit3
+     id:	SensorialUnit3-0b07cf
+     Ts:	0.5
+2023-02-24 23:20:53,320 — SensorialUnit1-81742f — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit1-81742f
+2023-02-24 23:20:53,338 — SensorialUnit1-81742f — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit1-81742f"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-81742f
+     Ts:	0.5
+2023-02-24 23:20:53,340 — SensorialUnit2-ed8729 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit2-ed8729
+2023-02-24 23:20:53,353 — SensorialUnit2-ed8729 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit2-ed8729"
+     name:	SensorialUnit2
+     id:	SensorialUnit2-ed8729
+     Ts:	0.5
+2023-02-24 23:20:53,355 — SensorialUnit3-984eef — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit3-984eef
+2023-02-24 23:20:53,368 — SensorialUnit3-984eef — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit3-984eef"
+     name:	SensorialUnit3
+     id:	SensorialUnit3-984eef
+     Ts:	0.5
+2023-02-24 23:23:56,496 — SensorialUnit1-c15771 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit1-c15771
+2023-02-24 23:23:56,514 — SensorialUnit1-c15771 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit1-c15771"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-c15771
+     Ts:	0.5
+2023-02-24 23:23:56,516 — SensorialUnit2-7b0831 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit2-7b0831
+2023-02-24 23:23:56,528 — SensorialUnit2-7b0831 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit2-7b0831"
+     name:	SensorialUnit2
+     id:	SensorialUnit2-7b0831
+     Ts:	0.5
+2023-02-24 23:23:56,530 — SensorialUnit3-e54f0d — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit3-e54f0d
+2023-02-24 23:23:56,543 — SensorialUnit3-e54f0d — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit3-e54f0d"
+     name:	SensorialUnit3
+     id:	SensorialUnit3-e54f0d
+     Ts:	0.5
+2023-02-24 23:23:56,547 — QUnit-f2b15f — DEBUG — __init__:44 — Initializing QUnit QUnit-f2b15f
+2023-02-24 23:23:56,573 — QUnit-f2b15f — DEBUG — __init__:82 — Properties: QUnit "QUnit-f2b15f"
+     name:	QUnit
+     id:	QUnit-f2b15f
+     model:	[model: AngularModel, n: 1, tau: 1]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0]
+     Ts:	0.5
+2023-02-24 23:25:15,780 — SensorialUnit1-f8a8c5 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit1-f8a8c5
+2023-02-24 23:25:15,798 — SensorialUnit1-f8a8c5 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit1-f8a8c5"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-f8a8c5
+     Ts:	0.5
+2023-02-24 23:25:15,800 — SensorialUnit2-c8a40f — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit2-c8a40f
+2023-02-24 23:25:15,812 — SensorialUnit2-c8a40f — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit2-c8a40f"
+     name:	SensorialUnit2
+     id:	SensorialUnit2-c8a40f
+     Ts:	0.5
+2023-02-24 23:25:15,814 — SensorialUnit3-f4779b — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit3-f4779b
+2023-02-24 23:25:15,827 — SensorialUnit3-f4779b — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit3-f4779b"
+     name:	SensorialUnit3
+     id:	SensorialUnit3-f4779b
+     Ts:	0.5
+2023-02-24 23:25:15,831 — QUnit-88dd6b — DEBUG — __init__:44 — Initializing QUnit QUnit-88dd6b
+2023-02-24 23:25:15,869 — QUnit-88dd6b — DEBUG — __init__:82 — Properties: QUnit "QUnit-88dd6b"
+     name:	QUnit
+     id:	QUnit-88dd6b
+     model:	[model: AngularModel, n: 1, tau: 1]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0]
+     Ts:	0.5
+2023-02-24 23:26:59,517 — SensorialUnit1-c272f5 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit1-c272f5
+2023-02-24 23:26:59,536 — SensorialUnit1-c272f5 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit1-c272f5"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-c272f5
+     Ts:	0.5
+2023-02-24 23:26:59,538 — SensorialUnit2-106402 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit2-106402
+2023-02-24 23:26:59,551 — SensorialUnit2-106402 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit2-106402"
+     name:	SensorialUnit2
+     id:	SensorialUnit2-106402
+     Ts:	0.5
+2023-02-24 23:26:59,553 — SensorialUnit3-3b784f — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit3-3b784f
+2023-02-24 23:26:59,567 — SensorialUnit3-3b784f — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit3-3b784f"
+     name:	SensorialUnit3
+     id:	SensorialUnit3-3b784f
+     Ts:	0.5
+2023-02-24 23:26:59,571 — QUnit-a25b47 — DEBUG — __init__:44 — Initializing QUnit QUnit-a25b47
+2023-02-24 23:26:59,607 — QUnit-a25b47 — DEBUG — __init__:82 — Properties: QUnit "QUnit-a25b47"
+     name:	QUnit
+     id:	QUnit-a25b47
+     model:	[model: AngularModel, n: 1, tau: 1]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0]
+     Ts:	0.5
+2023-02-24 23:27:30,330 — SensorialUnit1-daaeb8 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit1-daaeb8
+2023-02-24 23:27:30,348 — SensorialUnit1-daaeb8 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit1-daaeb8"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-daaeb8
+     Ts:	0.5
+2023-02-24 23:27:30,350 — SensorialUnit2-d5ee51 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit2-d5ee51
+2023-02-24 23:27:30,362 — SensorialUnit2-d5ee51 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit2-d5ee51"
+     name:	SensorialUnit2
+     id:	SensorialUnit2-d5ee51
+     Ts:	0.5
+2023-02-24 23:27:30,364 — SensorialUnit3-35f047 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit3-35f047
+2023-02-24 23:27:30,378 — SensorialUnit3-35f047 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit3-35f047"
+     name:	SensorialUnit3
+     id:	SensorialUnit3-35f047
+     Ts:	0.5
+2023-02-24 23:27:30,381 — QUnit-d613a4 — DEBUG — __init__:44 — Initializing QUnit QUnit-d613a4
+2023-02-24 23:27:30,423 — QUnit-d613a4 — DEBUG — __init__:82 — Properties: QUnit "QUnit-d613a4"
+     name:	QUnit
+     id:	QUnit-d613a4
+     model:	[model: AngularModel, n: 1, tau: 1]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0]
+     Ts:	0.5
+2023-02-24 23:27:49,512 — SensorialUnit1-025840 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit1-025840
+2023-02-24 23:27:49,530 — SensorialUnit1-025840 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit1-025840"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-025840
+     Ts:	0.5
+2023-02-24 23:27:49,532 — SensorialUnit2-2e48c9 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit2-2e48c9
+2023-02-24 23:27:49,544 — SensorialUnit2-2e48c9 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit2-2e48c9"
+     name:	SensorialUnit2
+     id:	SensorialUnit2-2e48c9
+     Ts:	0.5
+2023-02-24 23:27:49,547 — SensorialUnit3-3a0f7e — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit3-3a0f7e
+2023-02-24 23:27:49,560 — SensorialUnit3-3a0f7e — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit3-3a0f7e"
+     name:	SensorialUnit3
+     id:	SensorialUnit3-3a0f7e
+     Ts:	0.5
+2023-02-24 23:27:49,564 — QUnit-019dcb — DEBUG — __init__:44 — Initializing QUnit QUnit-019dcb
+2023-02-24 23:27:49,593 — QUnit-019dcb — DEBUG — __init__:82 — Properties: QUnit "QUnit-019dcb"
+     name:	QUnit
+     id:	QUnit-019dcb
+     model:	[model: AngularModel, n: 1, tau: 1]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0]
+     Ts:	0.5
+2023-02-24 23:29:07,504 — SensorialUnit1-717a48 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit1-717a48
+2023-02-24 23:29:07,521 — SensorialUnit1-717a48 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit1-717a48"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-717a48
+     Ts:	0.5
+2023-02-24 23:29:07,524 — SensorialUnit2-513cf6 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit2-513cf6
+2023-02-24 23:29:07,536 — SensorialUnit2-513cf6 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit2-513cf6"
+     name:	SensorialUnit2
+     id:	SensorialUnit2-513cf6
+     Ts:	0.5
+2023-02-24 23:29:07,538 — SensorialUnit3-c6c6ca — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit3-c6c6ca
+2023-02-24 23:29:07,551 — SensorialUnit3-c6c6ca — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit3-c6c6ca"
+     name:	SensorialUnit3
+     id:	SensorialUnit3-c6c6ca
+     Ts:	0.5
+2023-02-24 23:29:07,555 — QUnit-c88aac — DEBUG — __init__:44 — Initializing QUnit QUnit-c88aac
+2023-02-24 23:29:07,600 — QUnit-c88aac — DEBUG — __init__:82 — Properties: QUnit "QUnit-c88aac"
+     name:	QUnit
+     id:	QUnit-c88aac
+     model:	[model: AngularModel, n: 1, tau: 1]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0]
+     Ts:	0.5
+2023-02-24 23:29:36,089 — SensorialUnit1-8ca26d — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit1-8ca26d
+2023-02-24 23:29:36,107 — SensorialUnit1-8ca26d — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit1-8ca26d"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-8ca26d
+     Ts:	0.5
+2023-02-24 23:29:36,110 — SensorialUnit2-54a3a9 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit2-54a3a9
+2023-02-24 23:29:36,122 — SensorialUnit2-54a3a9 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit2-54a3a9"
+     name:	SensorialUnit2
+     id:	SensorialUnit2-54a3a9
+     Ts:	0.5
+2023-02-24 23:29:36,125 — SensorialUnit3-1984d6 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit3-1984d6
+2023-02-24 23:29:36,138 — SensorialUnit3-1984d6 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit3-1984d6"
+     name:	SensorialUnit3
+     id:	SensorialUnit3-1984d6
+     Ts:	0.5
+2023-02-24 23:29:36,142 — QUnit-069641 — DEBUG — __init__:44 — Initializing QUnit QUnit-069641
+2023-02-24 23:29:36,176 — QUnit-069641 — DEBUG — __init__:82 — Properties: QUnit "QUnit-069641"
+     name:	QUnit
+     id:	QUnit-069641
+     model:	[model: AngularModel, n: 3, tau: 1]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	0.5
+2023-02-24 23:32:24,440 — SensorialUnit1-315824 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit1-315824
+2023-02-24 23:32:24,457 — SensorialUnit1-315824 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit1-315824"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-315824
+     Ts:	0.5
+2023-02-24 23:32:24,460 — SensorialUnit2-a7c167 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit2-a7c167
+2023-02-24 23:32:24,472 — SensorialUnit2-a7c167 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit2-a7c167"
+     name:	SensorialUnit2
+     id:	SensorialUnit2-a7c167
+     Ts:	0.5
+2023-02-24 23:32:24,474 — SensorialUnit3-f2d02a — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit3-f2d02a
+2023-02-24 23:32:24,487 — SensorialUnit3-f2d02a — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit3-f2d02a"
+     name:	SensorialUnit3
+     id:	SensorialUnit3-f2d02a
+     Ts:	0.5
+2023-02-24 23:32:24,491 — QUnit-cedd9b — DEBUG — __init__:44 — Initializing QUnit QUnit-cedd9b
+2023-02-24 23:32:24,526 — QUnit-cedd9b — DEBUG — __init__:82 — Properties: QUnit "QUnit-cedd9b"
+     name:	QUnit
+     id:	QUnit-cedd9b
+     model:	[model: AngularModel, n: 3, tau: 1]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	0.5
+2023-02-24 23:45:20,627 — l0_unit_0-0e1976 — DEBUG — __init__:44 — Initializing SensorialUnit l0_unit_0-0e1976
+2023-02-24 23:45:20,705 — l0_unit_0-0e1976 — DEBUG — __init__:48 — Properties: SensorialUnit "l0_unit_0-0e1976"
+     name:	l0_unit_0
+     id:	l0_unit_0-0e1976
+     Ts:	0.1
+2023-02-24 23:45:20,721 — l1_unit0-891621 — DEBUG — __init__:44 — Initializing QUnit l1_unit0-891621
+2023-02-24 23:45:20,803 — l1_unit0-891621 — DEBUG — __init__:82 — Properties: QUnit "l1_unit0-891621"
+     name:	l1_unit0
+     id:	l1_unit0-891621
+     model:	[model: AngularModel, n: 1, tau: 10]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0]
+     Ts:	0.3
+2023-02-24 23:45:20,815 — l1_unit1-7f9007 — DEBUG — __init__:44 — Initializing QUnit l1_unit1-7f9007
+2023-02-24 23:45:20,908 — l1_unit1-7f9007 — DEBUG — __init__:82 — Properties: QUnit "l1_unit1-7f9007"
+     name:	l1_unit1
+     id:	l1_unit1-7f9007
+     model:	[model: AngularModel, n: 1, tau: 25]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0]
+     Ts:	0.2
+2023-02-24 23:45:20,918 — l1_unit1-7f9007 — DEBUG — query:115 — Changing query from [0.0] to [0.8]
+2023-02-24 23:45:20,921 — l1_unit1-7f9007 — DEBUG — query:118 — _query=[0.8]
+2023-02-24 23:45:20,922 — l0_unit_0-0e1976 — INFO — start:72 — Starting SensorialUnit
+2023-02-24 23:45:21,106 — l0_unit_0-0e1976 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:45:21,108 — l0_unit_0-0e1976 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:08,713 — l0_unit_0-2a4e40 — DEBUG — __init__:44 — Initializing SensorialUnit l0_unit_0-2a4e40
+2023-02-24 23:46:08,726 — l0_unit_0-2a4e40 — DEBUG — __init__:48 — Properties: SensorialUnit "l0_unit_0-2a4e40"
+     name:	l0_unit_0
+     id:	l0_unit_0-2a4e40
+     Ts:	0.1
+2023-02-24 23:46:08,728 — l1_unit0-a6e400 — DEBUG — __init__:44 — Initializing QUnit l1_unit0-a6e400
+2023-02-24 23:46:08,745 — l1_unit0-a6e400 — DEBUG — __init__:82 — Properties: QUnit "l1_unit0-a6e400"
+     name:	l1_unit0
+     id:	l1_unit0-a6e400
+     model:	[model: AngularModel, n: 1, tau: 10]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0]
+     Ts:	0.3
+2023-02-24 23:46:08,747 — l1_unit1-890f77 — DEBUG — __init__:44 — Initializing QUnit l1_unit1-890f77
+2023-02-24 23:46:08,762 — l1_unit1-890f77 — DEBUG — __init__:82 — Properties: QUnit "l1_unit1-890f77"
+     name:	l1_unit1
+     id:	l1_unit1-890f77
+     model:	[model: AngularModel, n: 1, tau: 25]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0]
+     Ts:	0.2
+2023-02-24 23:46:08,763 — l1_unit1-890f77 — DEBUG — query:115 — Changing query from [0.0] to [0.8]
+2023-02-24 23:46:08,764 — l1_unit1-890f77 — DEBUG — query:118 — _query=[0.8]
+2023-02-24 23:46:08,764 — l0_unit_0-2a4e40 — INFO — start:72 — Starting SensorialUnit
+2023-02-24 23:46:08,774 — l1_unit0-a6e400 — INFO — start:72 — Starting QUnit
+2023-02-24 23:46:08,781 — l1_unit1-890f77 — INFO — start:72 — Starting QUnit
+2023-02-24 23:46:08,797 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:08,798 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:08,804 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:46:08,805 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 1/25
+2023-02-24 23:46:08,806 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:08,808 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:08,904 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:08,904 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:09,008 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:09,008 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:09,009 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 2/25
+2023-02-24 23:46:09,010 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:09,108 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:46:09,111 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:09,111 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:09,111 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:09,212 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 3/25
+2023-02-24 23:46:09,214 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:09,215 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:09,215 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:09,290 — l0_unit_0-2a4e40 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.184
+2023-02-24 23:46:09,292 — l0_unit_0-2a4e40 — DEBUG — scalar_reading:68 — _scalar_reading=0.184
+2023-02-24 23:46:09,318 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:09,318 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:09,413 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:46:09,414 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:09,417 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 4/25
+2023-02-24 23:46:09,418 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:09,422 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:09,422 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:09,524 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:09,524 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:09,619 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 5/25
+2023-02-24 23:46:09,620 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:09,625 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:09,626 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:09,715 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:46:09,716 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:09,727 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:09,727 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:09,821 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 6/25
+2023-02-24 23:46:09,823 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:09,829 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:09,829 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:09,933 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:09,933 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:10,017 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:46:10,018 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:10,024 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 7/25
+2023-02-24 23:46:10,026 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:10,037 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:10,037 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:10,139 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:10,139 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:10,227 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 8/25
+2023-02-24 23:46:10,229 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:10,241 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:10,241 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:10,320 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:46:10,321 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:10,343 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:10,343 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:10,430 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 9/25
+2023-02-24 23:46:10,432 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:10,445 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:10,445 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:10,547 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:10,547 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:10,623 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:46:10,624 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:10,633 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 10/25
+2023-02-24 23:46:10,635 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:10,648 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:10,649 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:10,750 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:10,751 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:10,836 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 11/25
+2023-02-24 23:46:10,838 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:10,852 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:10,852 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:10,926 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:46:10,927 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:10,954 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:10,955 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:11,039 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 12/25
+2023-02-24 23:46:11,041 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:11,057 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:11,057 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:11,159 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:11,159 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:11,228 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:46:11,229 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:11,243 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 13/25
+2023-02-24 23:46:11,244 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:11,261 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:11,261 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:11,362 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:11,362 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:11,445 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 14/25
+2023-02-24 23:46:11,446 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:11,464 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:11,464 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:11,530 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:46:11,531 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:11,532 — l1_unit0-a6e400 — DEBUG — _unit_task:200 — Querying for state [0.0]
+2023-02-24 23:46:11,568 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:11,568 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:11,647 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 15/25
+2023-02-24 23:46:11,649 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:11,671 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:11,671 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:11,773 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:11,773 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:11,852 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 16/25
+2023-02-24 23:46:11,857 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:11,875 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:11,876 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:11,978 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:11,978 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:12,008 — l1_unit0-a6e400 — DEBUG — _unit_task:204 — Output state = 0
+2023-02-24 23:46:12,008 — l1_unit0-a6e400 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:46:12,009 — l1_unit0-a6e400 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:46:12,012 — l1_unit0-a6e400 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:46:12,058 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 17/25
+2023-02-24 23:46:12,059 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:12,080 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:12,080 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:12,182 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:12,183 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:12,260 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 18/25
+2023-02-24 23:46:12,261 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:12,284 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:12,285 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:12,314 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:46:12,315 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:12,386 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:12,386 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:12,462 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 19/25
+2023-02-24 23:46:12,464 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:12,488 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:12,488 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:12,591 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:12,591 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:12,616 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:46:12,617 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:12,665 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 20/25
+2023-02-24 23:46:12,668 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:12,693 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:12,693 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:12,795 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:12,795 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:12,873 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 21/25
+2023-02-24 23:46:12,874 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:12,898 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:12,898 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:12,919 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:46:12,921 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:13,007 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:13,007 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:13,076 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 22/25
+2023-02-24 23:46:13,077 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:13,109 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:13,109 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:13,210 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:13,210 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:13,223 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:46:13,225 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:13,278 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 23/25
+2023-02-24 23:46:13,279 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.184]
+2023-02-24 23:46:13,312 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.184
+2023-02-24 23:46:13,312 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:13,323 — l0_unit_0-2a4e40 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.184 to 0.344
+2023-02-24 23:46:13,324 — l0_unit_0-2a4e40 — DEBUG — scalar_reading:68 — _scalar_reading=0.344
+2023-02-24 23:46:13,414 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:13,414 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:13,480 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 24/25
+2023-02-24 23:46:13,481 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:13,515 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:13,516 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:13,526 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:46:13,528 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:13,617 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:13,618 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:13,683 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 25/25
+2023-02-24 23:46:13,685 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:13,687 — l1_unit1-890f77 — DEBUG — _unit_task:200 — Querying for state [0.8]
+2023-02-24 23:46:13,719 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:13,719 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:13,821 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:13,821 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:13,831 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:46:13,832 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:13,923 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:13,923 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:14,025 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:14,025 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:14,085 — l1_unit1-890f77 — DEBUG — _unit_task:204 — Output state = 0
+2023-02-24 23:46:14,085 — l1_unit1-890f77 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:46:14,086 — l1_unit1-890f77 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:46:14,087 — l1_unit1-890f77 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:46:14,127 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:14,127 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:14,134 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:46:14,135 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:14,228 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:14,228 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:14,292 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 1/25
+2023-02-24 23:46:14,294 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:14,330 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:14,330 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:14,431 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:14,432 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:14,436 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:46:14,437 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:14,496 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 2/25
+2023-02-24 23:46:14,497 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:14,534 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:14,534 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:14,636 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:14,636 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:14,698 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 3/25
+2023-02-24 23:46:14,700 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:14,738 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:14,739 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:14,739 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:46:14,740 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:14,844 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:14,844 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:14,901 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 4/25
+2023-02-24 23:46:14,903 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:14,946 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:14,946 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:15,042 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:46:15,047 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:15,047 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:15,048 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:15,048 — l1_unit0-a6e400 — DEBUG — _unit_task:200 — Querying for state [0.0]
+2023-02-24 23:46:15,079 — l1_unit0-a6e400 — DEBUG — _unit_task:204 — Output state = 0
+2023-02-24 23:46:15,079 — l1_unit0-a6e400 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:46:15,079 — l1_unit0-a6e400 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:46:15,081 — l1_unit0-a6e400 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:46:15,104 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 5/25
+2023-02-24 23:46:15,105 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:15,149 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:15,149 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:15,251 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:15,251 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:15,306 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 6/25
+2023-02-24 23:46:15,308 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:15,353 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:15,353 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:15,382 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:46:15,384 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:15,455 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:15,455 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:15,510 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 7/25
+2023-02-24 23:46:15,511 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:15,557 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:15,557 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:15,660 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:15,661 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:15,685 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:46:15,687 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:15,713 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 8/25
+2023-02-24 23:46:15,714 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:15,765 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:15,766 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:15,868 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:15,868 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:15,915 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 9/25
+2023-02-24 23:46:15,916 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:15,969 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:15,969 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:15,988 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:46:15,989 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:16,071 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:16,071 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:16,118 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 10/25
+2023-02-24 23:46:16,121 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:16,177 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:16,177 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:16,278 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:16,279 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:16,291 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:46:16,292 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:16,322 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 11/25
+2023-02-24 23:46:16,324 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:16,380 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:16,380 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:16,482 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:16,482 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:16,525 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 12/25
+2023-02-24 23:46:16,526 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:16,588 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:16,588 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:16,593 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:46:16,595 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:16,690 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:16,691 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:16,727 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 13/25
+2023-02-24 23:46:16,728 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:16,792 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:16,792 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:16,893 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:16,893 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:16,898 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:46:16,899 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:16,929 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 14/25
+2023-02-24 23:46:16,931 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.344]
+2023-02-24 23:46:16,995 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.344
+2023-02-24 23:46:16,995 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:17,011 — l0_unit_0-2a4e40 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.344 to 0.0
+2023-02-24 23:46:17,012 — l0_unit_0-2a4e40 — DEBUG — scalar_reading:68 — _scalar_reading=0.0
+2023-02-24 23:46:17,096 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:17,096 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:17,132 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 15/25
+2023-02-24 23:46:17,133 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:17,198 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:17,198 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:17,201 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:46:17,202 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:17,300 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:17,300 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:17,335 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 16/25
+2023-02-24 23:46:17,336 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:17,401 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:17,402 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:17,504 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:46:17,507 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:17,507 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:17,507 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:17,537 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 17/25
+2023-02-24 23:46:17,539 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:17,609 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:17,610 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:17,711 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:17,712 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:17,740 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 18/25
+2023-02-24 23:46:17,741 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:17,809 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:46:17,810 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:17,813 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:17,813 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:17,916 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:17,916 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:17,943 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 19/25
+2023-02-24 23:46:17,944 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:18,018 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:18,018 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:18,112 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:46:18,113 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:18,114 — l1_unit0-a6e400 — DEBUG — _unit_task:200 — Querying for state [0.0]
+2023-02-24 23:46:18,124 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:18,124 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:18,145 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 20/25
+2023-02-24 23:46:18,146 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:18,151 — l1_unit0-a6e400 — DEBUG — _unit_task:204 — Output state = 0
+2023-02-24 23:46:18,152 — l1_unit0-a6e400 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:46:18,153 — l1_unit0-a6e400 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:46:18,155 — l1_unit0-a6e400 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:46:18,227 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:18,227 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:18,329 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:18,329 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:18,347 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 21/25
+2023-02-24 23:46:18,349 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:18,431 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:18,431 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:18,457 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:46:18,458 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:18,533 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:18,533 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:18,550 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 22/25
+2023-02-24 23:46:18,551 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:18,635 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:18,635 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:18,736 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:18,736 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:18,752 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 23/25
+2023-02-24 23:46:18,753 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:18,761 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:46:18,762 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:18,838 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:18,838 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:18,939 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:18,939 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:18,954 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 24/25
+2023-02-24 23:46:18,956 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:19,041 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:19,041 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:19,063 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:46:19,064 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:19,143 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:19,143 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:19,157 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 25/25
+2023-02-24 23:46:19,159 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:19,160 — l1_unit1-890f77 — DEBUG — _unit_task:200 — Querying for state [0.8]
+2023-02-24 23:46:19,196 — l1_unit1-890f77 — DEBUG — _unit_task:204 — Output state = 1
+2023-02-24 23:46:19,196 — l1_unit1-890f77 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:46:19,196 — l1_unit1-890f77 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:46:19,198 — l1_unit1-890f77 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:46:19,245 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:19,245 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:19,347 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:19,347 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:19,366 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:46:19,367 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:19,399 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 1/25
+2023-02-24 23:46:19,400 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:19,449 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:19,449 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:19,551 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:19,551 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:19,602 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 2/25
+2023-02-24 23:46:19,603 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:19,653 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:19,653 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:19,669 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:46:19,670 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:19,754 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:19,755 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:19,805 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 3/25
+2023-02-24 23:46:19,806 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:19,856 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:19,856 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:19,957 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:19,958 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:19,971 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:46:19,973 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:20,007 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 4/25
+2023-02-24 23:46:20,008 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:20,059 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:20,059 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:20,166 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:20,166 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:20,210 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 5/25
+2023-02-24 23:46:20,211 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:20,274 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:20,274 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:20,275 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:46:20,276 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:20,377 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:20,377 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:20,412 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 6/25
+2023-02-24 23:46:20,414 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:20,479 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:20,479 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:20,577 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:46:20,580 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:20,586 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:20,587 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:20,615 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 7/25
+2023-02-24 23:46:20,617 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:20,689 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:20,689 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:20,790 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:20,790 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:20,818 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 8/25
+2023-02-24 23:46:20,819 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:20,883 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:46:20,884 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.0]
+2023-02-24 23:46:20,891 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.0
+2023-02-24 23:46:20,891 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:20,967 — l0_unit_0-2a4e40 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.03
+2023-02-24 23:46:20,968 — l0_unit_0-2a4e40 — DEBUG — scalar_reading:68 — _scalar_reading=0.03
+2023-02-24 23:46:20,992 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:20,993 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:21,020 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 9/25
+2023-02-24 23:46:21,022 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:21,094 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:21,094 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:21,185 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:46:21,187 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:21,188 — l1_unit0-a6e400 — DEBUG — _unit_task:200 — Querying for state [0.0]
+2023-02-24 23:46:21,196 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:21,196 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:21,216 — l1_unit0-a6e400 — DEBUG — _unit_task:204 — Output state = 0
+2023-02-24 23:46:21,216 — l1_unit0-a6e400 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:46:21,217 — l1_unit0-a6e400 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:46:21,219 — l1_unit0-a6e400 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:46:21,223 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 10/25
+2023-02-24 23:46:21,224 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:21,298 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:21,298 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:21,400 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:21,400 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:21,425 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 11/25
+2023-02-24 23:46:21,427 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:21,501 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:21,502 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:21,520 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:46:21,522 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:21,603 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:21,604 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:21,628 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 12/25
+2023-02-24 23:46:21,630 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:21,708 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:21,708 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:21,809 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:21,809 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:21,823 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:46:21,825 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:21,831 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 13/25
+2023-02-24 23:46:21,833 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:21,911 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:21,911 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:22,013 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:22,013 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:22,036 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 14/25
+2023-02-24 23:46:22,039 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:22,115 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:22,115 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:22,127 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:46:22,128 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:22,218 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:22,218 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:22,246 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 15/25
+2023-02-24 23:46:22,247 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:22,319 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:22,320 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:22,422 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:22,422 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:22,430 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:46:22,431 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:22,448 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 16/25
+2023-02-24 23:46:22,451 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:22,527 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:22,527 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:22,629 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:22,629 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:22,653 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 17/25
+2023-02-24 23:46:22,654 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:22,731 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:22,731 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:22,733 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:46:22,734 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:22,832 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:22,832 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:22,856 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 18/25
+2023-02-24 23:46:22,856 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:22,934 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:22,934 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:23,036 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:23,036 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:23,037 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:46:23,038 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:23,057 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 19/25
+2023-02-24 23:46:23,059 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:23,143 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:23,143 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:23,245 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:23,245 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:23,261 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 20/25
+2023-02-24 23:46:23,262 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:23,344 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:46:23,347 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:23,347 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:23,349 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:23,450 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:23,450 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:23,464 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 21/25
+2023-02-24 23:46:23,465 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:23,552 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:23,553 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:23,651 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:46:23,652 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:23,655 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:23,655 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:23,667 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 22/25
+2023-02-24 23:46:23,668 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:23,756 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:23,757 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:23,858 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:23,858 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:23,869 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 23/25
+2023-02-24 23:46:23,870 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:23,953 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:46:23,955 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:23,959 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:23,959 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:24,061 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:24,061 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:24,071 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 24/25
+2023-02-24 23:46:24,073 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:24,163 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:24,163 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:24,256 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:46:24,257 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:24,258 — l1_unit0-a6e400 — DEBUG — _unit_task:200 — Querying for state [0.0]
+2023-02-24 23:46:24,265 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:24,265 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:24,274 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 25/25
+2023-02-24 23:46:24,276 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:24,277 — l1_unit1-890f77 — DEBUG — _unit_task:200 — Querying for state [0.8]
+2023-02-24 23:46:24,298 — l1_unit0-a6e400 — DEBUG — _unit_task:204 — Output state = 0
+2023-02-24 23:46:24,298 — l1_unit0-a6e400 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:46:24,298 — l1_unit0-a6e400 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:46:24,307 — l1_unit0-a6e400 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:46:24,342 — l1_unit1-890f77 — DEBUG — _unit_task:204 — Output state = 0
+2023-02-24 23:46:24,342 — l1_unit1-890f77 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:46:24,343 — l1_unit1-890f77 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:46:24,345 — l1_unit1-890f77 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:46:24,367 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:24,367 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:24,469 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:24,469 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:24,547 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 1/25
+2023-02-24 23:46:24,548 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:24,571 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:24,571 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:24,609 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:46:24,611 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:24,673 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:24,673 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:24,749 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 2/25
+2023-02-24 23:46:24,750 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.03]
+2023-02-24 23:46:24,774 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.03
+2023-02-24 23:46:24,774 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:24,859 — l0_unit_0-2a4e40 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.03 to 0.039
+2023-02-24 23:46:24,860 — l0_unit_0-2a4e40 — DEBUG — scalar_reading:68 — _scalar_reading=0.039
+2023-02-24 23:46:24,876 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:24,876 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:24,913 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:46:24,914 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:24,951 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 3/25
+2023-02-24 23:46:24,953 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:24,978 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:24,978 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:25,080 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:25,081 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:25,154 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 4/25
+2023-02-24 23:46:25,158 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:25,183 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:25,184 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:25,217 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:46:25,219 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:25,286 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:25,286 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:25,359 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 5/25
+2023-02-24 23:46:25,361 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:25,388 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:25,388 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:25,490 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:25,490 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:25,520 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:46:25,522 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:25,563 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 6/25
+2023-02-24 23:46:25,566 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:25,593 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:25,594 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:25,697 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:25,697 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:25,767 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 7/25
+2023-02-24 23:46:25,768 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:25,799 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:25,799 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:25,823 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:46:25,825 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:25,901 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:25,901 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:25,969 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 8/25
+2023-02-24 23:46:25,971 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:26,004 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:26,004 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:26,106 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:26,106 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:26,126 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:46:26,127 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:26,172 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 9/25
+2023-02-24 23:46:26,173 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:26,208 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:26,209 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:26,312 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:26,314 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:26,374 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 10/25
+2023-02-24 23:46:26,379 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:26,421 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:26,421 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:26,429 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:46:26,430 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:26,523 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:26,524 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:26,580 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 11/25
+2023-02-24 23:46:26,581 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:26,625 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:26,625 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:26,727 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:26,727 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:26,732 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:46:26,733 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:26,783 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 12/25
+2023-02-24 23:46:26,784 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:26,828 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:26,828 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:26,930 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:26,930 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:26,985 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 13/25
+2023-02-24 23:46:26,986 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:27,035 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:27,036 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:27,036 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:46:27,039 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:27,140 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:27,140 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:27,188 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 14/25
+2023-02-24 23:46:27,189 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:27,245 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:27,245 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:27,341 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:46:27,343 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:27,344 — l1_unit0-a6e400 — DEBUG — _unit_task:200 — Querying for state [0.0]
+2023-02-24 23:46:27,350 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:27,350 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:27,390 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 15/25
+2023-02-24 23:46:27,392 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:27,415 — l1_unit0-a6e400 — DEBUG — _unit_task:204 — Output state = 0
+2023-02-24 23:46:27,415 — l1_unit0-a6e400 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:46:27,416 — l1_unit0-a6e400 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:46:27,418 — l1_unit0-a6e400 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:46:27,453 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:27,453 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:27,555 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:27,555 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:27,594 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 16/25
+2023-02-24 23:46:27,595 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:27,657 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:27,657 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:27,720 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:46:27,721 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:27,758 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:27,758 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:27,797 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 17/25
+2023-02-24 23:46:27,798 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:27,859 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:27,860 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:27,961 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:27,961 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:27,999 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 18/25
+2023-02-24 23:46:28,001 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:28,022 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:46:28,024 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:28,063 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:28,063 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:28,165 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:28,166 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:28,202 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 19/25
+2023-02-24 23:46:28,203 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:28,268 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:28,268 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:28,327 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:46:28,330 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:28,370 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:28,370 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:28,405 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 20/25
+2023-02-24 23:46:28,406 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:28,472 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:28,472 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:28,574 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:28,574 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:46:28,607 — l1_unit1-890f77 — DEBUG — _unit_task:186 — Temporal window event 21/25
+2023-02-24 23:46:28,609 — l1_unit1-890f77 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:28,631 — l1_unit0-a6e400 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:46:28,633 — l1_unit0-a6e400 — DEBUG — _unit_task:191 — input_vector=[0.039]
+2023-02-24 23:46:28,677 — l0_unit_0-2a4e40 — DEBUG — _unit_task:79 — scalar_reading=0.039
+2023-02-24 23:46:28,677 — l0_unit_0-2a4e40 — DEBUG — _unit_task:80 — Writing input on redis
+2023-02-24 23:47:48,772 — SensorialUnit1-cb5533 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit1-cb5533
+2023-02-24 23:47:48,786 — SensorialUnit1-cb5533 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit1-cb5533"
+     name:	SensorialUnit1
+     id:	SensorialUnit1-cb5533
+     Ts:	0.5
+2023-02-24 23:47:48,788 — SensorialUnit2-cb0ddd — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit2-cb0ddd
+2023-02-24 23:47:48,797 — SensorialUnit2-cb0ddd — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit2-cb0ddd"
+     name:	SensorialUnit2
+     id:	SensorialUnit2-cb0ddd
+     Ts:	0.5
+2023-02-24 23:47:48,799 — SensorialUnit3-6ef349 — DEBUG — __init__:44 — Initializing SensorialUnit SensorialUnit3-6ef349
+2023-02-24 23:47:48,810 — SensorialUnit3-6ef349 — DEBUG — __init__:48 — Properties: SensorialUnit "SensorialUnit3-6ef349"
+     name:	SensorialUnit3
+     id:	SensorialUnit3-6ef349
+     Ts:	0.5
+2023-02-24 23:47:48,811 — QUnit-48cbb0 — DEBUG — __init__:44 — Initializing QUnit QUnit-48cbb0
+2023-02-24 23:47:48,827 — QUnit-48cbb0 — DEBUG — __init__:82 — Properties: QUnit "QUnit-48cbb0"
+     name:	QUnit
+     id:	QUnit-48cbb0
+     model:	[model: AngularModel, n: 3, tau: 10]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	0.5
+2023-02-24 23:47:48,829 — QUnit-48cbb0 — DEBUG — query:115 — Changing query from [0.0, 0.0, 0.0] to [0.8, 0.2, 0.4]
+2023-02-24 23:47:48,830 — QUnit-48cbb0 — DEBUG — query:118 — _query=[0.8, 0.2, 0.4]
+2023-02-24 23:47:48,830 — QUnit-48cbb0 — INFO — start:72 — Starting QUnit
+2023-02-24 23:47:48,844 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:47:48,850 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:48,852 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:48,853 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:48,853 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:49,345 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 1 to 0.438
+2023-02-24 23:47:49,346 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.438
+2023-02-24 23:47:49,355 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:47:49,358 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:49,361 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:49,364 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:49,365 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:49,868 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:47:49,869 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:49,870 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:49,871 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:49,871 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:50,373 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:47:50,374 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:50,375 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:50,376 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:50,377 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:50,879 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:47:50,882 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:50,884 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:50,887 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:50,888 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:51,391 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:47:51,394 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:51,397 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:51,399 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:51,400 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:51,903 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:47:51,904 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:51,905 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:51,906 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:51,907 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:52,409 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:47:52,411 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:52,414 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:52,417 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:52,418 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:52,921 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:47:52,923 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:52,926 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:52,930 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:52,932 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:53,434 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:47:53,438 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:53,441 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:53,445 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:53,446 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:53,449 — QUnit-48cbb0 — DEBUG — _unit_task:200 — Querying for state [0.8, 0.2, 0.4]
+2023-02-24 23:47:53,627 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.438 to 0.495
+2023-02-24 23:47:53,628 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.495
+2023-02-24 23:47:53,717 — QUnit-48cbb0 — DEBUG — _unit_task:204 — Output state = 111
+2023-02-24 23:47:53,717 — QUnit-48cbb0 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:47:53,717 — QUnit-48cbb0 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:47:53,719 — QUnit-48cbb0 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:47:54,221 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:47:54,224 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:54,228 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:54,231 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:54,232 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:54,735 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:47:54,737 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:54,741 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:54,746 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:54,750 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:55,252 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:47:55,254 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:55,256 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:55,259 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:55,260 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:55,763 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:47:55,765 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:55,766 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:55,767 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:55,768 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:56,270 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:47:56,273 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:56,276 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:56,280 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:56,281 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:56,783 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:47:56,784 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:56,785 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:56,787 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:56,787 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:57,289 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:47:57,292 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:57,295 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:57,299 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:57,300 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:57,471 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.495 to 0.42
+2023-02-24 23:47:57,472 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.42
+2023-02-24 23:47:57,803 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:47:57,804 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:57,805 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:57,806 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:57,806 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:58,308 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:47:58,312 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:58,315 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:58,318 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:58,319 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:58,823 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:47:58,824 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:58,826 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:58,828 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:58,828 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:58,829 — QUnit-48cbb0 — DEBUG — _unit_task:200 — Querying for state [0.8, 0.2, 0.4]
+2023-02-24 23:47:58,877 — QUnit-48cbb0 — DEBUG — _unit_task:204 — Output state = 001
+2023-02-24 23:47:58,878 — QUnit-48cbb0 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:47:58,878 — QUnit-48cbb0 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:47:58,880 — QUnit-48cbb0 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:47:59,381 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:47:59,383 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:59,388 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:59,389 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:59,391 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:47:59,893 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:47:59,897 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:47:59,901 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:47:59,906 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:47:59,907 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:00,410 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:48:00,411 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:00,413 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:00,414 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:00,414 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:00,916 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:48:00,918 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:00,920 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:00,921 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:00,922 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:01,361 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.42 to 0.885
+2023-02-24 23:48:01,364 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.885
+2023-02-24 23:48:01,423 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:48:01,424 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:01,425 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:01,427 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:01,428 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:01,930 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:48:01,933 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:01,936 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:01,940 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:01,941 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:02,444 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:48:02,445 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:02,447 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:02,448 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:02,448 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:02,951 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:48:02,956 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:02,961 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:02,967 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:02,968 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:03,472 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:48:03,474 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:03,478 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:03,482 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:03,484 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:03,987 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:48:03,991 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:03,994 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:03,999 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:04,000 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:04,004 — QUnit-48cbb0 — DEBUG — _unit_task:200 — Querying for state [0.8, 0.2, 0.4]
+2023-02-24 23:48:04,056 — QUnit-48cbb0 — DEBUG — _unit_task:204 — Output state = 001
+2023-02-24 23:48:04,056 — QUnit-48cbb0 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:48:04,056 — QUnit-48cbb0 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:48:04,058 — QUnit-48cbb0 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:48:04,559 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:48:04,560 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:04,565 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:04,568 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:04,568 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:05,071 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:48:05,074 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:05,078 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:05,083 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:05,084 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:05,152 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.885 to 0.449
+2023-02-24 23:48:05,153 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.449
+2023-02-24 23:48:05,587 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:48:05,588 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:05,589 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:05,590 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:05,590 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:06,092 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:48:06,094 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:06,095 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:06,097 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:06,098 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:06,600 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:48:06,602 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:06,606 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:06,611 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:06,612 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:07,115 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:48:07,116 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:07,124 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:07,129 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:07,135 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:07,637 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:48:07,638 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:07,639 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:07,641 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:07,641 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:08,143 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:48:08,144 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:08,145 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:08,146 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:08,147 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:08,649 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:48:08,653 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:08,661 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:08,665 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:08,667 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:08,936 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.449 to 0.345
+2023-02-24 23:48:08,938 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.345
+2023-02-24 23:48:09,170 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:48:09,171 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:09,178 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:09,181 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:09,184 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:09,185 — QUnit-48cbb0 — DEBUG — _unit_task:200 — Querying for state [0.8, 0.2, 0.4]
+2023-02-24 23:48:09,249 — QUnit-48cbb0 — DEBUG — _unit_task:204 — Output state = 001
+2023-02-24 23:48:09,250 — QUnit-48cbb0 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:48:09,250 — QUnit-48cbb0 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:48:09,252 — QUnit-48cbb0 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:48:09,754 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:48:09,758 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:09,764 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:09,768 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:09,769 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:10,273 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:48:10,274 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:10,275 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:10,277 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:10,277 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:10,780 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:48:10,782 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:10,783 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:10,788 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:10,788 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:11,290 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:48:11,294 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:11,298 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:11,303 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:11,304 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:11,807 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:48:11,808 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:11,809 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:11,810 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:11,814 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:12,316 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:48:12,323 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:12,330 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:12,338 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:12,343 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:12,703 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.345 to 0.6
+2023-02-24 23:48:12,705 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.6
+2023-02-24 23:48:12,852 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:48:12,853 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:12,855 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:12,856 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:12,856 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:13,357 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:48:13,360 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:13,362 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:13,365 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:13,366 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:13,869 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:48:13,870 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:13,871 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:13,873 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:13,873 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:14,374 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:48:14,377 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:14,379 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:14,382 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:14,384 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:14,386 — QUnit-48cbb0 — DEBUG — _unit_task:200 — Querying for state [0.8, 0.2, 0.4]
+2023-02-24 23:48:14,473 — QUnit-48cbb0 — DEBUG — _unit_task:204 — Output state = 001
+2023-02-24 23:48:14,473 — QUnit-48cbb0 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:48:14,474 — QUnit-48cbb0 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:48:14,476 — QUnit-48cbb0 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:48:14,977 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:48:14,978 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:14,983 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:14,984 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:14,985 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:15,486 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:48:15,489 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:15,492 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:15,495 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:15,496 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:15,999 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:48:16,000 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:16,002 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:16,003 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:16,004 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:16,506 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:48:16,508 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:16,511 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:16,513 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:16,514 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:16,928 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.6 to 0.55
+2023-02-24 23:48:16,930 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.55
+2023-02-24 23:48:17,016 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:48:17,017 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:17,018 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:17,019 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:17,020 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:17,522 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:48:17,524 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:17,527 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:17,530 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:17,530 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:18,033 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:48:18,035 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:18,039 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:18,047 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:18,049 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:18,552 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:48:18,554 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:18,557 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:18,559 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:18,560 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:19,063 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:48:19,064 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:19,065 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:19,066 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:19,066 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:19,568 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:48:19,572 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:19,576 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:19,580 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:19,581 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:19,585 — QUnit-48cbb0 — DEBUG — _unit_task:200 — Querying for state [0.8, 0.2, 0.4]
+2023-02-24 23:48:19,642 — QUnit-48cbb0 — DEBUG — _unit_task:204 — Output state = 100
+2023-02-24 23:48:19,642 — QUnit-48cbb0 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:48:19,642 — QUnit-48cbb0 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:48:19,644 — QUnit-48cbb0 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:48:20,146 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:48:20,148 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:20,151 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:20,155 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:20,155 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:20,552 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.55 to 0.312
+2023-02-24 23:48:20,554 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.312
+2023-02-24 23:48:20,658 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:48:20,659 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:20,661 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:20,662 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:20,662 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:21,166 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:48:21,170 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:21,175 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:21,180 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:21,181 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:21,685 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:48:21,687 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:21,689 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:21,690 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:21,691 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:22,213 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:48:22,216 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:22,222 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:22,225 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:22,226 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:22,729 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:48:22,731 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:22,732 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:22,733 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:22,733 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:23,236 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:48:23,240 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:23,243 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:23,248 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:23,249 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:23,753 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:48:23,753 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:23,755 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:23,756 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:23,756 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:24,258 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:48:24,262 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:24,266 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:24,271 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:24,272 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:24,329 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.312 to 0.022
+2023-02-24 23:48:24,330 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.022
+2023-02-24 23:48:24,777 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:48:24,779 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:24,781 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:24,783 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:24,784 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:24,787 — QUnit-48cbb0 — DEBUG — _unit_task:200 — Querying for state [0.8, 0.2, 0.4]
+2023-02-24 23:48:24,848 — QUnit-48cbb0 — DEBUG — _unit_task:204 — Output state = 001
+2023-02-24 23:48:24,848 — QUnit-48cbb0 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:48:24,849 — QUnit-48cbb0 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:48:24,851 — QUnit-48cbb0 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:48:25,352 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:48:25,353 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:25,354 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:25,355 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:25,356 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:25,858 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:48:25,861 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:25,864 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:25,867 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:25,868 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:26,373 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:48:26,374 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:26,376 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:26,378 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:26,378 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:26,880 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:48:26,882 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:26,886 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:26,894 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:26,899 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:27,402 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:48:27,405 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:27,409 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:27,414 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:27,415 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:27,918 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:48:27,920 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:27,921 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:27,922 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:27,923 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:28,425 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:48:28,428 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:28,431 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:28,435 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:28,436 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:28,548 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.022 to 0.753
+2023-02-24 23:48:28,549 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.753
+2023-02-24 23:48:28,939 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:48:28,940 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:28,942 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:28,943 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:28,943 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:29,445 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:48:29,449 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:29,453 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:29,458 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:29,459 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:29,964 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:48:29,967 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:29,970 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:29,974 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:29,975 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:29,978 — QUnit-48cbb0 — DEBUG — _unit_task:200 — Querying for state [0.8, 0.2, 0.4]
+2023-02-24 23:48:30,042 — QUnit-48cbb0 — DEBUG — _unit_task:204 — Output state = 101
+2023-02-24 23:48:30,042 — QUnit-48cbb0 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:48:30,042 — QUnit-48cbb0 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:48:30,044 — QUnit-48cbb0 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:48:30,545 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:48:30,546 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:30,547 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:30,548 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:30,553 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:31,055 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:48:31,059 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:31,063 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:31,068 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:31,069 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:31,572 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:48:31,574 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:31,579 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:31,583 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:31,584 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:32,086 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:48:32,090 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:32,094 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:32,098 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:32,099 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:32,283 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.753 to 0.526
+2023-02-24 23:48:32,285 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.526
+2023-02-24 23:48:32,603 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:48:32,604 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:32,605 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:32,606 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:32,608 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:33,109 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:48:33,112 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:33,115 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:33,120 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:33,121 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:33,624 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:48:33,625 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:33,626 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:33,627 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:33,627 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:34,130 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:48:34,134 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:34,138 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:34,142 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:34,143 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:34,647 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:48:34,649 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:34,651 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:34,654 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:34,655 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:35,157 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:48:35,159 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:35,160 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:35,161 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:35,161 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:35,162 — QUnit-48cbb0 — DEBUG — _unit_task:200 — Querying for state [0.8, 0.2, 0.4]
+2023-02-24 23:48:35,236 — QUnit-48cbb0 — DEBUG — _unit_task:204 — Output state = 001
+2023-02-24 23:48:35,237 — QUnit-48cbb0 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:48:35,237 — QUnit-48cbb0 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:48:35,240 — QUnit-48cbb0 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:48:35,742 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:48:35,746 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:35,749 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:35,753 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:35,754 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:35,956 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.526 to 0.27
+2023-02-24 23:48:35,957 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.27
+2023-02-24 23:48:36,257 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:48:36,258 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:36,259 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:36,260 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:36,260 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:36,762 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:48:36,763 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:36,764 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:36,765 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:36,765 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:37,266 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:48:37,267 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:37,268 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:37,269 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:37,269 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:37,771 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:48:37,774 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:37,777 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:37,780 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:37,781 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:38,284 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:48:38,287 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:38,293 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:38,297 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:38,298 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:38,802 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:48:38,804 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:38,807 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:38,811 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:38,813 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:39,315 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:48:39,316 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:39,318 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:39,320 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:39,320 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:39,823 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:48:39,825 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:39,828 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:39,831 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:39,832 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:40,117 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.27 to 0.958
+2023-02-24 23:48:40,118 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.958
+2023-02-24 23:48:40,335 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:48:40,336 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:40,338 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:40,341 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:40,342 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:40,343 — QUnit-48cbb0 — DEBUG — _unit_task:200 — Querying for state [0.8, 0.2, 0.4]
+2023-02-24 23:48:40,390 — QUnit-48cbb0 — DEBUG — _unit_task:204 — Output state = 101
+2023-02-24 23:48:40,390 — QUnit-48cbb0 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:48:40,390 — QUnit-48cbb0 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:48:40,392 — QUnit-48cbb0 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:48:40,894 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:48:40,897 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:40,900 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:40,903 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:40,904 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:41,407 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:48:41,410 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:41,413 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:41,416 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:41,417 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:41,919 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 3/10
+2023-02-24 23:48:41,920 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:41,921 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:41,922 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:41,922 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:42,424 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 4/10
+2023-02-24 23:48:42,427 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:42,429 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:42,432 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:42,433 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:42,935 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 5/10
+2023-02-24 23:48:42,936 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:42,943 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:42,945 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:42,947 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:43,451 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 6/10
+2023-02-24 23:48:43,454 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:43,460 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:43,464 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:43,465 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:43,621 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.958 to 0.747
+2023-02-24 23:48:43,623 — SensorialUnit1-cb5533 — DEBUG — scalar_reading:68 — _scalar_reading=0.747
+2023-02-24 23:48:43,969 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 7/10
+2023-02-24 23:48:43,970 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:43,971 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:43,972 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:43,973 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:44,474 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 8/10
+2023-02-24 23:48:44,477 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:44,479 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:44,482 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:44,483 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:44,985 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 9/10
+2023-02-24 23:48:44,986 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:44,987 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:44,988 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:44,989 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:45,491 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 10/10
+2023-02-24 23:48:45,496 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:45,500 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:45,502 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:45,503 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:45,505 — QUnit-48cbb0 — DEBUG — _unit_task:200 — Querying for state [0.8, 0.2, 0.4]
+2023-02-24 23:48:45,558 — QUnit-48cbb0 — DEBUG — _unit_task:204 — Output state = 001
+2023-02-24 23:48:45,558 — QUnit-48cbb0 — DEBUG — _unit_task:206 — Opening a connection to redis...
+2023-02-24 23:48:45,559 — QUnit-48cbb0 — DEBUG — _unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-02-24 23:48:45,561 — QUnit-48cbb0 — DEBUG — _unit_task:219 — Initializing a new temporal window
+2023-02-24 23:48:46,063 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-02-24 23:48:46,066 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:46,070 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:46,074 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:46,075 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:46,579 — QUnit-48cbb0 — DEBUG — _unit_task:186 — Temporal window event 2/10
+2023-02-24 23:48:46,581 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit1-cb5533 input
+2023-02-24 23:48:46,590 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit2-cb0ddd input
+2023-02-24 23:48:46,594 — QUnit-48cbb0 — INFO — input_vector:153 — Unable to read SensorialUnit3-6ef349 input
+2023-02-24 23:48:46,597 — QUnit-48cbb0 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-02-24 23:48:46,850 — QUnit-48cbb0 — INFO — stop:83 — Stopping QUnit
+2023-02-24 23:48:46,850 — QUnit-48cbb0 — INFO — stop:85 — Cleaning redis
+2023-02-24 23:48:46,857 — redis — INFO — flush_redis:81 — Flushing redis database
+2023-02-24 23:48:46,862 — redis — DEBUG — flush_redis:82 — Previous redis state: {'l1_unit0-a6e400 in_qunits': '{"0": "l0_unit_0-2a4e40"}', 'l1_unit1-890f77 output': '1.0', 'l1_unit1-890f77 query': '[0.8]', 'l1_unit1-890f77 class': 'QUnit', 'l0_unit_0-2a4e40 class': 'SensorialUnit', 'l1_unit0-a6e400 query': '[0.0]', 'l0_unit_0-2a4e40 output': '0.039', 'l1_unit0-a6e400 output': '0.0', 'l1_unit0-a6e400 class': 'QUnit', 'l1_unit1-890f77 in_qunits': '{"0": "l0_unit_0-2a4e40"}', 'l1_unit1-890f77 state': '0', 'l1_unit0-a6e400 state': '0'}
+2023-02-24 23:48:46,863 — redis — DEBUG — flush_redis:85 — Current redis state: {}
