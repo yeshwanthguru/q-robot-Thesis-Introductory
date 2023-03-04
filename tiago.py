@@ -77,7 +77,7 @@ class PickGuiTrigger:
     
     def pickup_callback(self, msg):
         print("Received pickup goal pose:pickuppose_recieved") # Print the pose to the terminal
-        
+       
 
 
     def place_callback(self, msg):

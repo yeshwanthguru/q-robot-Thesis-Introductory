@@ -1516,6 +1516,14 @@ python-versions = ">=3.6"
 plugins = ["importlib-metadata"]
 
 [[package]]
+name = "pykdl"
+version = "1.4.0"
+description = "Python binding for KDL"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pylint"
 version = "2.15.10"
 description = "python code static checker"
@@ -2383,7 +2391,7 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<4"
-content-hash = "78bdf9e2ec6f5fda654b43a41aa4539343c822ae56dda5aa2ac26319917c43f5"
+content-hash = "93f7ca745c23a60d02ee471b36024ac42b2e51622e9b7f0441bcc03ac1f23405"
 
 [metadata.files]
 anyio = [
@@ -3599,6 +3607,11 @@ pycparser = [
 pygments = [
     {file = "Pygments-2.14.0-py3-none-any.whl", hash = "sha256:fa7bd7bd2771287c0de303af8bfdfc731f51bd2c6a47ab69d117138893b82717"},
     {file = "Pygments-2.14.0.tar.gz", hash = "sha256:b3ed06a9e8ac9a9aae5a6f5dbe78a8a58655d17b43b93c078f094ddc476ae297"},
+]
+pykdl = [
+    {file = "PyKDL-1.4.0-cp27-cp27mu-manylinux1_x86_64.whl", hash = "sha256:ead346b826a94816d1110bf8450e2fe98842cd55698024a9d65dfff486fa5b33"},
+    {file = "PyKDL-1.4.0-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:bd8ebd2829f3334b9c723af610972525aa1cb61a27d279a705992d093d20aed7"},
+    {file = "PyKDL-1.4.0.tar.gz", hash = "sha256:a63eeb3f91d26e72cf369fa3f76d034f513f9d65d47d1de68fc3e783db6223d0"},
 ]
 pylint = [
     {file = "pylint-2.15.10-py3-none-any.whl", hash = "sha256:9df0d07e8948a1c3ffa3b6e2d7e6e63d9fb457c5da5b961ed63106594780cc7e"},
