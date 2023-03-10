@@ -1,0 +1,273 @@
+2023-02-28 10:06:14,629 — l0_unit_0-b3f2a7 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-b3f2a7
+2023-02-28 10:06:14,727 — l0_unit_0-b3f2a7 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-b3f2a7"
+     name:	l0_unit_0
+     id:	l0_unit_0-b3f2a7
+     Ts:	0.1
+2023-02-28 10:06:14,742 — l0_unit_1-627fa9 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-627fa9
+2023-02-28 10:06:14,785 — l0_unit_1-627fa9 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-627fa9"
+     name:	l0_unit_1
+     id:	l0_unit_1-627fa9
+     Ts:	0.1
+2023-02-28 10:06:14,788 — l0_unit_2-cab29a — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-cab29a
+2023-02-28 10:06:14,869 — l0_unit_2-cab29a — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-cab29a"
+     name:	l0_unit_2
+     id:	l0_unit_2-cab29a
+     Ts:	0.1
+2023-02-28 10:16:52,107 — l0_unit_0-cc7cb2 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-cc7cb2
+2023-02-28 10:16:52,149 — l0_unit_0-cc7cb2 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-cc7cb2"
+     name:	l0_unit_0
+     id:	l0_unit_0-cc7cb2
+     Ts:	0.1
+2023-02-28 10:16:52,156 — l0_unit_1-c3cf5f — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-c3cf5f
+2023-02-28 10:16:52,279 — l0_unit_1-c3cf5f — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-c3cf5f"
+     name:	l0_unit_1
+     id:	l0_unit_1-c3cf5f
+     Ts:	0.1
+2023-02-28 10:16:52,285 — l0_unit_2-ba5694 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-ba5694
+2023-02-28 10:16:52,380 — l0_unit_2-ba5694 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-ba5694"
+     name:	l0_unit_2
+     id:	l0_unit_2-ba5694
+     Ts:	0.1
+2023-02-28 10:46:37,864 — l0_unit_0-fa2691 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-fa2691
+2023-02-28 10:46:37,936 — l0_unit_0-fa2691 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-fa2691"
+     name:	l0_unit_0
+     id:	l0_unit_0-fa2691
+     Ts:	0.1
+2023-02-28 10:46:37,939 — l0_unit_1-08875e — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-08875e
+2023-02-28 10:46:38,013 — l0_unit_1-08875e — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-08875e"
+     name:	l0_unit_1
+     id:	l0_unit_1-08875e
+     Ts:	0.1
+2023-02-28 10:46:38,016 — l0_unit_2-6a3913 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-6a3913
+2023-02-28 10:46:38,118 — l0_unit_2-6a3913 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-6a3913"
+     name:	l0_unit_2
+     id:	l0_unit_2-6a3913
+     Ts:	0.1
+2023-02-28 10:46:38,596 — l0_unit_0-fa2691 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.3 to 0.5300048474109407
+2023-02-28 10:46:38,597 — l0_unit_0-fa2691 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.5300048474109407
+2023-02-28 10:46:38,601 — l0_unit_1-08875e — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.5 to -0.04998421271432395
+2023-02-28 10:46:38,617 — l0_unit_1-08875e — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=-0.04998421271432395
+2023-02-28 10:46:38,629 — l0_unit_2-6a3913 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.7 to 0.864459070967584
+2023-02-28 10:46:38,631 — l0_unit_2-6a3913 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.864459070967584
+2023-02-28 10:48:29,977 — l0_unit_0-f0a60c — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-f0a60c
+2023-02-28 10:48:30,024 — l0_unit_0-f0a60c — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-f0a60c"
+     name:	l0_unit_0
+     id:	l0_unit_0-f0a60c
+     Ts:	0.1
+2023-02-28 10:48:30,026 — l0_unit_1-cdcc85 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-cdcc85
+2023-02-28 10:48:30,088 — l0_unit_1-cdcc85 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-cdcc85"
+     name:	l0_unit_1
+     id:	l0_unit_1-cdcc85
+     Ts:	0.1
+2023-02-28 10:48:30,091 — l0_unit_2-5ec077 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-5ec077
+2023-02-28 10:48:30,186 — l0_unit_2-5ec077 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-5ec077"
+     name:	l0_unit_2
+     id:	l0_unit_2-5ec077
+     Ts:	0.1
+2023-02-28 10:48:30,643 — l0_unit_0-f0a60c — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.3 to 0.5300048474109407
+2023-02-28 10:48:30,647 — l0_unit_0-f0a60c — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.5300048474109407
+2023-02-28 10:48:30,655 — l0_unit_1-cdcc85 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.5 to -0.04998421271432395
+2023-02-28 10:48:30,657 — l0_unit_1-cdcc85 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=-0.04998421271432395
+2023-02-28 10:48:30,668 — l0_unit_2-5ec077 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.7 to 0.864459070967584
+2023-02-28 10:48:30,669 — l0_unit_2-5ec077 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.864459070967584
+2023-02-28 10:55:36,289 — l0_unit_0-eaffa7 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-eaffa7
+2023-02-28 10:55:36,306 — l0_unit_0-eaffa7 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-eaffa7"
+     name:	l0_unit_0
+     id:	l0_unit_0-eaffa7
+     Ts:	0.1
+2023-02-28 10:55:36,308 — l0_unit_1-560a8f — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-560a8f
+2023-02-28 10:55:36,318 — l0_unit_1-560a8f — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-560a8f"
+     name:	l0_unit_1
+     id:	l0_unit_1-560a8f
+     Ts:	0.1
+2023-02-28 10:55:36,320 — l0_unit_2-8a2e19 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-8a2e19
+2023-02-28 10:55:36,331 — l0_unit_2-8a2e19 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-8a2e19"
+     name:	l0_unit_2
+     id:	l0_unit_2-8a2e19
+     Ts:	0.1
+2023-02-28 11:06:14,091 — l0_unit_0-2c9ea7 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-2c9ea7
+2023-02-28 11:06:14,134 — l0_unit_0-2c9ea7 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-2c9ea7"
+     name:	l0_unit_0
+     id:	l0_unit_0-2c9ea7
+     Ts:	0.1
+2023-02-28 11:06:14,137 — l0_unit_1-f3b116 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-f3b116
+2023-02-28 11:06:14,185 — l0_unit_1-f3b116 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-f3b116"
+     name:	l0_unit_1
+     id:	l0_unit_1-f3b116
+     Ts:	0.1
+2023-02-28 11:06:14,188 — l0_unit_2-ef9c6e — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-ef9c6e
+2023-02-28 11:06:14,238 — l0_unit_2-ef9c6e — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-ef9c6e"
+     name:	l0_unit_2
+     id:	l0_unit_2-ef9c6e
+     Ts:	0.1
+2023-02-28 11:08:59,590 — l0_unit_0-846784 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-846784
+2023-02-28 11:08:59,703 — l0_unit_0-846784 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-846784"
+     name:	l0_unit_0
+     id:	l0_unit_0-846784
+     Ts:	0.1
+2023-02-28 11:08:59,707 — l0_unit_1-b795ff — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-b795ff
+2023-02-28 11:08:59,734 — l0_unit_1-b795ff — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-b795ff"
+     name:	l0_unit_1
+     id:	l0_unit_1-b795ff
+     Ts:	0.1
+2023-02-28 11:08:59,737 — l0_unit_2-2524f4 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-2524f4
+2023-02-28 11:08:59,801 — l0_unit_2-2524f4 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-2524f4"
+     name:	l0_unit_2
+     id:	l0_unit_2-2524f4
+     Ts:	0.1
+2023-02-28 11:09:00,284 — l0_unit_0-846784 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-02-28 11:09:00,287 — l0_unit_0-846784 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.3
+2023-02-28 11:09:00,308 — l0_unit_1-b795ff — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.5
+2023-02-28 11:09:00,312 — l0_unit_1-b795ff — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.5
+2023-02-28 11:09:00,321 — l0_unit_2-2524f4 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.4
+2023-02-28 11:09:00,323 — l0_unit_2-2524f4 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.4
+2023-02-28 11:10:18,750 — l0_unit_0-84f8e9 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-84f8e9
+2023-02-28 11:10:18,883 — l0_unit_0-84f8e9 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-84f8e9"
+     name:	l0_unit_0
+     id:	l0_unit_0-84f8e9
+     Ts:	0.1
+2023-02-28 11:10:18,885 — l0_unit_1-65f380 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-65f380
+2023-02-28 11:10:18,929 — l0_unit_1-65f380 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-65f380"
+     name:	l0_unit_1
+     id:	l0_unit_1-65f380
+     Ts:	0.1
+2023-02-28 11:10:18,933 — l0_unit_2-06b73d — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-06b73d
+2023-02-28 11:10:19,009 — l0_unit_2-06b73d — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-06b73d"
+     name:	l0_unit_2
+     id:	l0_unit_2-06b73d
+     Ts:	0.1
+2023-02-28 11:10:19,350 — l0_unit_0-84f8e9 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-02-28 11:10:19,352 — l0_unit_0-84f8e9 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.3
+2023-02-28 11:10:19,358 — l0_unit_1-65f380 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.5
+2023-02-28 11:10:19,359 — l0_unit_1-65f380 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.5
+2023-02-28 11:10:19,364 — l0_unit_2-06b73d — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.4
+2023-02-28 11:10:19,365 — l0_unit_2-06b73d — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.4
+2023-02-28 11:11:25,560 — l0_unit_0-6e4a46 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-6e4a46
+2023-02-28 11:11:25,631 — l0_unit_0-6e4a46 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-6e4a46"
+     name:	l0_unit_0
+     id:	l0_unit_0-6e4a46
+     Ts:	0.1
+2023-02-28 11:11:25,636 — l0_unit_1-360ee4 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-360ee4
+2023-02-28 11:11:25,727 — l0_unit_1-360ee4 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-360ee4"
+     name:	l0_unit_1
+     id:	l0_unit_1-360ee4
+     Ts:	0.1
+2023-02-28 11:11:25,730 — l0_unit_2-951cf7 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-951cf7
+2023-02-28 11:11:25,809 — l0_unit_2-951cf7 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-951cf7"
+     name:	l0_unit_2
+     id:	l0_unit_2-951cf7
+     Ts:	0.1
+2023-02-28 11:11:26,107 — l0_unit_0-6e4a46 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-02-28 11:11:26,108 — l0_unit_0-6e4a46 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.3
+2023-02-28 11:11:26,112 — l0_unit_1-360ee4 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.5
+2023-02-28 11:11:26,112 — l0_unit_1-360ee4 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.5
+2023-02-28 11:11:26,133 — l0_unit_2-951cf7 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.4
+2023-02-28 11:11:26,135 — l0_unit_2-951cf7 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.4
+2023-02-28 11:39:25,015 — l0_unit_0-f18ed9 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-f18ed9
+2023-02-28 11:39:25,084 — l0_unit_0-f18ed9 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-f18ed9"
+     name:	l0_unit_0
+     id:	l0_unit_0-f18ed9
+     Ts:	0.1
+2023-02-28 11:39:25,088 — l0_unit_1-762446 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-762446
+2023-02-28 11:39:25,121 — l0_unit_1-762446 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-762446"
+     name:	l0_unit_1
+     id:	l0_unit_1-762446
+     Ts:	0.1
+2023-02-28 11:39:25,125 — l0_unit_2-d590d4 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-d590d4
+2023-02-28 11:39:25,208 — l0_unit_2-d590d4 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-d590d4"
+     name:	l0_unit_2
+     id:	l0_unit_2-d590d4
+     Ts:	0.1
+2023-02-28 11:39:25,214 — l1_unit0-e2ad09 — DEBUG — QUnit.__init__:44 — Initializing QUnit l1_unit0-e2ad09
+2023-02-28 11:39:25,405 — l1_unit0-e2ad09 — DEBUG — QUnit.__init__:82 — Properties: QUnit "l1_unit0-e2ad09"
+     name:	l1_unit0
+     id:	l1_unit0-e2ad09
+     model:	[model: AngularModel, n: 1, tau: 10]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0]
+     Ts:	0.3
+2023-02-28 11:39:25,419 — l1_unit1-8473ea — DEBUG — QUnit.__init__:44 — Initializing QUnit l1_unit1-8473ea
+2023-02-28 11:39:25,542 — l1_unit1-8473ea — DEBUG — QUnit.__init__:82 — Properties: QUnit "l1_unit1-8473ea"
+     name:	l1_unit1
+     id:	l1_unit1-8473ea
+     model:	[model: AngularModel, n: 1, tau: 25]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0]
+     Ts:	0.2
+2023-02-28 11:39:25,553 — l1_unit2-7586cc — DEBUG — QUnit.__init__:44 — Initializing QUnit l1_unit2-7586cc
+2023-02-28 11:39:25,718 — l1_unit2-7586cc — DEBUG — QUnit.__init__:82 — Properties: QUnit "l1_unit2-7586cc"
+     name:	l1_unit2
+     id:	l1_unit2-7586cc
+     model:	[model: AngularModel, n: 1, tau: 40]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0]
+     Ts:	0.2
+2023-02-28 11:39:25,720 — l0_unit_0-b73f66 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-b73f66
+2023-02-28 11:39:25,802 — l0_unit_0-b73f66 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-b73f66"
+     name:	l0_unit_0
+     id:	l0_unit_0-b73f66
+     Ts:	0.1
+2023-02-28 11:39:25,805 — l0_unit_1-fb5dda — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-fb5dda
+2023-02-28 11:39:25,903 — l0_unit_1-fb5dda — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-fb5dda"
+     name:	l0_unit_1
+     id:	l0_unit_1-fb5dda
+     Ts:	0.1
+2023-02-28 11:39:25,907 — l0_unit_2-734d0e — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-734d0e
+2023-02-28 11:39:26,007 — l0_unit_2-734d0e — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-734d0e"
+     name:	l0_unit_2
+     id:	l0_unit_2-734d0e
+     Ts:	0.1
+2023-02-28 11:40:30,450 — l0_unit_0-58cb41 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-58cb41
+2023-02-28 11:40:30,474 — l0_unit_0-58cb41 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-58cb41"
+     name:	l0_unit_0
+     id:	l0_unit_0-58cb41
+     Ts:	0.1
+2023-02-28 11:40:30,476 — l0_unit_1-1a86af — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-1a86af
+2023-02-28 11:40:30,486 — l0_unit_1-1a86af — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-1a86af"
+     name:	l0_unit_1
+     id:	l0_unit_1-1a86af
+     Ts:	0.1
+2023-02-28 11:40:30,488 — l0_unit_2-f37183 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-f37183
+2023-02-28 11:40:30,499 — l0_unit_2-f37183 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-f37183"
+     name:	l0_unit_2
+     id:	l0_unit_2-f37183
+     Ts:	0.1
+2023-02-28 11:40:30,502 — l1_unit0-7179f4 — DEBUG — QUnit.__init__:44 — Initializing QUnit l1_unit0-7179f4
+2023-02-28 11:40:30,517 — l1_unit0-7179f4 — DEBUG — QUnit.__init__:82 — Properties: QUnit "l1_unit0-7179f4"
+     name:	l1_unit0
+     id:	l1_unit0-7179f4
+     model:	[model: AngularModel, n: 1, tau: 10]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0]
+     Ts:	0.3
+2023-02-28 11:40:30,519 — l1_unit1-499490 — DEBUG — QUnit.__init__:44 — Initializing QUnit l1_unit1-499490
+2023-02-28 11:40:30,536 — l1_unit1-499490 — DEBUG — QUnit.__init__:82 — Properties: QUnit "l1_unit1-499490"
+     name:	l1_unit1
+     id:	l1_unit1-499490
+     model:	[model: AngularModel, n: 1, tau: 25]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0]
+     Ts:	0.2
+2023-02-28 11:40:30,538 — l1_unit2-d87e7a — DEBUG — QUnit.__init__:44 — Initializing QUnit l1_unit2-d87e7a
+2023-02-28 11:40:30,555 — l1_unit2-d87e7a — DEBUG — QUnit.__init__:82 — Properties: QUnit "l1_unit2-d87e7a"
+     name:	l1_unit2
+     id:	l1_unit2-d87e7a
+     model:	[model: AngularModel, n: 1, tau: 40]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0]
+     Ts:	0.2
+2023-02-28 11:40:30,557 — l0_unit_0-d313d3 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-d313d3
+2023-02-28 11:40:30,573 — l0_unit_0-d313d3 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-d313d3"
+     name:	l0_unit_0
+     id:	l0_unit_0-d313d3
+     Ts:	0.1
+2023-02-28 11:40:30,575 — l0_unit_1-c4c112 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-c4c112
+2023-02-28 11:40:30,590 — l0_unit_1-c4c112 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-c4c112"
+     name:	l0_unit_1
+     id:	l0_unit_1-c4c112
+     Ts:	0.1
+2023-02-28 11:40:30,592 — l0_unit_2-6313d7 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-6313d7
+2023-02-28 11:40:30,609 — l0_unit_2-6313d7 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-6313d7"
+     name:	l0_unit_2
+     id:	l0_unit_2-6313d7
+     Ts:	0.1

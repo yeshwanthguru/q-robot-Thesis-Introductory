@@ -1,0 +1,123 @@
+2023-03-05 22:50:26,089 — l0_unit_0-b45a33 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-b45a33
+2023-03-05 22:50:26,104 — l0_unit_0-b45a33 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-b45a33"
+     name:	l0_unit_0
+     id:	l0_unit_0-b45a33
+     Ts:	0.1
+2023-03-05 22:50:26,106 — l0_unit_1-32aa04 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-32aa04
+2023-03-05 22:50:26,118 — l0_unit_1-32aa04 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-32aa04"
+     name:	l0_unit_1
+     id:	l0_unit_1-32aa04
+     Ts:	0.1
+2023-03-05 22:50:26,120 — l0_unit_2-947052 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-947052
+2023-03-05 22:50:26,132 — l0_unit_2-947052 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-947052"
+     name:	l0_unit_2
+     id:	l0_unit_2-947052
+     Ts:	0.1
+2023-03-05 22:52:44,925 — l0_unit_0-ce6fde — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-ce6fde
+2023-03-05 22:52:44,940 — l0_unit_0-ce6fde — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-ce6fde"
+     name:	l0_unit_0
+     id:	l0_unit_0-ce6fde
+     Ts:	0.1
+2023-03-05 22:52:44,942 — l0_unit_1-5ead69 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-5ead69
+2023-03-05 22:52:44,952 — l0_unit_1-5ead69 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-5ead69"
+     name:	l0_unit_1
+     id:	l0_unit_1-5ead69
+     Ts:	0.1
+2023-03-05 22:52:44,954 — l0_unit_2-509216 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-509216
+2023-03-05 22:52:44,964 — l0_unit_2-509216 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-509216"
+     name:	l0_unit_2
+     id:	l0_unit_2-509216
+     Ts:	0.1
+2023-03-05 22:52:48,370 — l0_unit_0-ce6fde — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.4
+2023-03-05 22:52:48,371 — l0_unit_0-ce6fde — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.4
+2023-03-05 22:52:49,272 — l0_unit_0-ce6fde — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.4 to 0.0
+2023-03-05 22:52:49,274 — l0_unit_0-ce6fde — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0
+2023-03-05 22:52:50,474 — l0_unit_1-5ead69 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.5
+2023-03-05 22:52:50,477 — l0_unit_1-5ead69 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.5
+2023-03-05 22:52:52,546 — l0_unit_2-509216 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.6
+2023-03-05 22:52:52,548 — l0_unit_2-509216 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.6
+2023-03-05 22:52:53,674 — l0_unit_0-ce6fde — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.4
+2023-03-05 22:52:53,676 — l0_unit_0-ce6fde — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.4
+2023-03-05 22:52:57,305 — l0_unit_2-509216 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.6 to 0.0
+2023-03-05 22:52:57,308 — l0_unit_2-509216 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0
+2023-03-05 22:52:58,385 — l0_unit_2-509216 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.6
+2023-03-05 22:52:58,386 — l0_unit_2-509216 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.6
+2023-03-05 22:52:59,041 — l0_unit_2-509216 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.6 to 0.0
+2023-03-05 22:52:59,042 — l0_unit_2-509216 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0
+2023-03-05 22:53:00,465 — l0_unit_1-5ead69 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.5 to 0.0
+2023-03-05 22:53:00,466 — l0_unit_1-5ead69 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0
+2023-03-05 22:53:01,169 — l0_unit_0-ce6fde — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.4 to 0.0
+2023-03-05 22:53:01,170 — l0_unit_0-ce6fde — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0
+2023-03-05 22:54:40,710 — l0_unit_0-abecec — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-abecec
+2023-03-05 22:54:40,727 — l0_unit_0-abecec — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-abecec"
+     name:	l0_unit_0
+     id:	l0_unit_0-abecec
+     Ts:	0.1
+2023-03-05 22:54:40,728 — l0_unit_1-abfec0 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-abfec0
+2023-03-05 22:54:40,738 — l0_unit_1-abfec0 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-abfec0"
+     name:	l0_unit_1
+     id:	l0_unit_1-abfec0
+     Ts:	0.1
+2023-03-05 22:54:40,741 — l0_unit_2-c0ab90 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-c0ab90
+2023-03-05 22:54:40,753 — l0_unit_2-c0ab90 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-c0ab90"
+     name:	l0_unit_2
+     id:	l0_unit_2-c0ab90
+     Ts:	0.1
+2023-03-05 22:54:43,179 — l0_unit_0-abecec — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.4
+2023-03-05 22:54:43,181 — l0_unit_0-abecec — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.4
+2023-03-05 22:54:52,932 — l0_unit_1-abfec0 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.5
+2023-03-05 22:54:52,934 — l0_unit_1-abfec0 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.5
+2023-03-05 22:54:56,979 — l0_unit_2-c0ab90 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.6
+2023-03-05 22:54:56,980 — l0_unit_2-c0ab90 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.6
+2023-03-05 22:54:57,988 — l0_unit_2-c0ab90 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.6 to 0.0
+2023-03-05 22:54:57,989 — l0_unit_2-c0ab90 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0
+2023-03-05 22:55:01,794 — l0_unit_1-abfec0 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.5 to 0.0
+2023-03-05 22:55:01,795 — l0_unit_1-abfec0 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0
+2023-03-05 22:55:02,892 — l0_unit_0-abecec — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.4 to 0.0
+2023-03-05 22:55:02,893 — l0_unit_0-abecec — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0
+2023-03-05 22:56:26,697 — l0_unit_0-e7fba0 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-e7fba0
+2023-03-05 22:56:26,711 — l0_unit_0-e7fba0 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-e7fba0"
+     name:	l0_unit_0
+     id:	l0_unit_0-e7fba0
+     Ts:	0.1
+2023-03-05 22:56:26,713 — l0_unit_1-b92549 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-b92549
+2023-03-05 22:56:26,724 — l0_unit_1-b92549 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-b92549"
+     name:	l0_unit_1
+     id:	l0_unit_1-b92549
+     Ts:	0.1
+2023-03-05 22:56:26,726 — l0_unit_2-9a26f9 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-9a26f9
+2023-03-05 22:56:26,736 — l0_unit_2-9a26f9 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-9a26f9"
+     name:	l0_unit_2
+     id:	l0_unit_2-9a26f9
+     Ts:	0.1
+2023-03-05 22:56:28,660 — l0_unit_0-e7fba0 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.4
+2023-03-05 22:56:28,661 — l0_unit_0-e7fba0 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.4
+2023-03-05 22:56:32,765 — l0_unit_0-e7fba0 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.4 to 0.0
+2023-03-05 22:56:32,766 — l0_unit_0-e7fba0 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0
+2023-03-05 22:57:37,168 — l0_unit_0-1cce1a — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_0-1cce1a
+2023-03-05 22:57:37,182 — l0_unit_0-1cce1a — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_0-1cce1a"
+     name:	l0_unit_0
+     id:	l0_unit_0-1cce1a
+     Ts:	0.1
+2023-03-05 22:57:37,184 — l0_unit_1-785247 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_1-785247
+2023-03-05 22:57:37,194 — l0_unit_1-785247 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_1-785247"
+     name:	l0_unit_1
+     id:	l0_unit_1-785247
+     Ts:	0.1
+2023-03-05 22:57:37,196 — l0_unit_2-c147ab — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit l0_unit_2-c147ab
+2023-03-05 22:57:37,206 — l0_unit_2-c147ab — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "l0_unit_2-c147ab"
+     name:	l0_unit_2
+     id:	l0_unit_2-c147ab
+     Ts:	0.1
+2023-03-05 22:57:39,888 — l0_unit_0-1cce1a — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.4
+2023-03-05 22:57:39,889 — l0_unit_0-1cce1a — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.4
+2023-03-05 22:57:42,445 — l0_unit_0-1cce1a — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.4 to 0.0
+2023-03-05 22:57:42,446 — l0_unit_0-1cce1a — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0
+2023-03-05 22:57:45,073 — l0_unit_1-785247 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.5
+2023-03-05 22:57:45,074 — l0_unit_1-785247 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.5
+2023-03-05 22:57:46,237 — l0_unit_1-785247 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.5 to 0.0
+2023-03-05 22:57:46,239 — l0_unit_1-785247 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0
+2023-03-05 22:57:47,440 — l0_unit_2-c147ab — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.6
+2023-03-05 22:57:47,441 — l0_unit_2-c147ab — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.6
+2023-03-05 22:57:47,830 — l0_unit_2-c147ab — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.6 to 0.0
+2023-03-05 22:57:47,831 — l0_unit_2-c147ab — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0

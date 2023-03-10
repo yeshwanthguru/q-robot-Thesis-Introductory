@@ -2,3 +2,5 @@
 .catkin_workspace
 src/scripts/__pycache__/turtlesim.cpython-38.pyc
 callback_functions.log
+switch.py
+.qrobot_logs/qrobot.log

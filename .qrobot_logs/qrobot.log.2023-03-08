@@ -1,0 +1,159 @@
+2023-03-08 22:39:10,679 — Sensorial_unit0-1e90cf — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit0-1e90cf
+2023-03-08 22:39:10,696 — Sensorial_unit0-1e90cf — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit0-1e90cf"
+     name:	Sensorial_unit0
+     id:	Sensorial_unit0-1e90cf
+     Ts:	5.0
+2023-03-08 22:39:10,698 — Sensorial_unit1-a520b1 — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit1-a520b1
+2023-03-08 22:39:10,710 — Sensorial_unit1-a520b1 — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit1-a520b1"
+     name:	Sensorial_unit1
+     id:	Sensorial_unit1-a520b1
+     Ts:	5.0
+2023-03-08 22:39:10,713 — Sensorial_unit2-fa5173 — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit2-fa5173
+2023-03-08 22:39:10,727 — Sensorial_unit2-fa5173 — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit2-fa5173"
+     name:	Sensorial_unit2
+     id:	Sensorial_unit2-fa5173
+     Ts:	5.0
+2023-03-08 22:39:10,728 — Sensorial_unit0-1e90cf — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-03-08 22:39:10,729 — Sensorial_unit0-1e90cf — DEBUG — scalar_reading:68 — _scalar_reading=0.3
+2023-03-08 22:39:10,729 — Sensorial_unit1-a520b1 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.2
+2023-03-08 22:39:10,730 — Sensorial_unit1-a520b1 — DEBUG — scalar_reading:68 — _scalar_reading=0.2
+2023-03-08 22:39:10,730 — Sensorial_unit2-fa5173 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-03-08 22:39:10,731 — Sensorial_unit2-fa5173 — DEBUG — scalar_reading:68 — _scalar_reading=0.3
+2023-03-08 22:39:10,733 — qunit0-c3865d — DEBUG — __init__:44 — Initializing QUnit qunit0-c3865d
+2023-03-08 22:39:10,751 — qunit0-c3865d — DEBUG — __init__:82 — Properties: QUnit "qunit0-c3865d"
+     name:	qunit0
+     id:	qunit0-c3865d
+     model:	[model: AngularModel, n: 3, tau: 10]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	10.0
+2023-03-08 22:39:10,752 — qunit0-c3865d — DEBUG — set_input:169 — Changing dim 0 input from None to Sensorial_unit0
+2023-03-08 22:39:10,752 — qunit0-c3865d — DEBUG — set_input:173 — _in_qunits={0: 'Sensorial_unit0'}
+2023-03-08 22:39:10,753 — qunit0-c3865d — DEBUG — set_input:169 — Changing dim 1 input from None to Sensorial_unit1
+2023-03-08 22:39:10,753 — qunit0-c3865d — DEBUG — set_input:173 — _in_qunits={0: 'Sensorial_unit0', 1: 'Sensorial_unit1'}
+2023-03-08 22:39:10,753 — qunit0-c3865d — DEBUG — set_input:169 — Changing dim 2 input from None to Sensorial_unit2
+2023-03-08 22:39:10,753 — qunit0-c3865d — DEBUG — set_input:173 — _in_qunits={0: 'Sensorial_unit0', 1: 'Sensorial_unit1', 2: 'Sensorial_unit2'}
+2023-03-08 22:39:10,754 — qunit0-c3865d — INFO — start:72 — Starting QUnit
+2023-03-08 22:39:10,766 — qunit0-c3865d — DEBUG — query:115 — Changing query from [0.0, 0.0, 0.0] to [0.4, 0.5, 0.8]
+2023-03-08 22:39:10,769 — qunit0-c3865d — DEBUG — query:118 — _query=[0.4, 0.5, 0.8]
+2023-03-08 22:39:10,770 — qunit0-c3865d — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-03-08 22:39:10,777 — qunit0-c3865d — INFO — input_vector:153 — Unable to read Sensorial_unit0 input
+2023-03-08 22:39:10,779 — qunit0-c3865d — INFO — input_vector:153 — Unable to read Sensorial_unit1 input
+2023-03-08 22:39:10,781 — qunit0-c3865d — INFO — input_vector:153 — Unable to read Sensorial_unit2 input
+2023-03-08 22:39:10,781 — qunit0-c3865d — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-03-08 22:39:13,797 — qunit0-c3865d — INFO — stop:83 — Stopping QUnit
+2023-03-08 22:39:13,797 — qunit0-c3865d — INFO — stop:85 — Cleaning redis
+2023-03-08 22:39:13,801 — redis — INFO — flush_redis:81 — Flushing redis database
+2023-03-08 22:39:13,803 — redis — DEBUG — flush_redis:82 — Previous redis state: {'l1_unit0-06d3c4 class': 'QUnit', 'l1_unit0-e8cbda class': 'QUnit'}
+2023-03-08 22:39:13,805 — redis — DEBUG — flush_redis:85 — Current redis state: {}
+2023-03-08 22:39:59,095 — Sensorial_unit0-9314ad — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit0-9314ad
+2023-03-08 22:39:59,110 — Sensorial_unit0-9314ad — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit0-9314ad"
+     name:	Sensorial_unit0
+     id:	Sensorial_unit0-9314ad
+     Ts:	5.0
+2023-03-08 22:39:59,111 — Sensorial_unit1-dfce13 — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit1-dfce13
+2023-03-08 22:39:59,122 — Sensorial_unit1-dfce13 — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit1-dfce13"
+     name:	Sensorial_unit1
+     id:	Sensorial_unit1-dfce13
+     Ts:	5.0
+2023-03-08 22:39:59,124 — Sensorial_unit2-ff1fc4 — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit2-ff1fc4
+2023-03-08 22:39:59,134 — Sensorial_unit2-ff1fc4 — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit2-ff1fc4"
+     name:	Sensorial_unit2
+     id:	Sensorial_unit2-ff1fc4
+     Ts:	5.0
+2023-03-08 22:39:59,135 — Sensorial_unit0-9314ad — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-03-08 22:39:59,135 — Sensorial_unit0-9314ad — DEBUG — scalar_reading:68 — _scalar_reading=0.3
+2023-03-08 22:39:59,136 — Sensorial_unit1-dfce13 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.2
+2023-03-08 22:39:59,136 — Sensorial_unit1-dfce13 — DEBUG — scalar_reading:68 — _scalar_reading=0.2
+2023-03-08 22:39:59,137 — Sensorial_unit2-ff1fc4 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-03-08 22:39:59,137 — Sensorial_unit2-ff1fc4 — DEBUG — scalar_reading:68 — _scalar_reading=0.3
+2023-03-08 22:40:44,501 — Sensorial_unit0-6199e2 — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit0-6199e2
+2023-03-08 22:40:44,515 — Sensorial_unit0-6199e2 — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit0-6199e2"
+     name:	Sensorial_unit0
+     id:	Sensorial_unit0-6199e2
+     Ts:	5.0
+2023-03-08 22:40:44,517 — Sensorial_unit1-9a0ee7 — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit1-9a0ee7
+2023-03-08 22:40:44,527 — Sensorial_unit1-9a0ee7 — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit1-9a0ee7"
+     name:	Sensorial_unit1
+     id:	Sensorial_unit1-9a0ee7
+     Ts:	5.0
+2023-03-08 22:40:44,529 — Sensorial_unit2-58fb1e — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit2-58fb1e
+2023-03-08 22:40:44,543 — Sensorial_unit2-58fb1e — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit2-58fb1e"
+     name:	Sensorial_unit2
+     id:	Sensorial_unit2-58fb1e
+     Ts:	5.0
+2023-03-08 22:40:44,544 — Sensorial_unit0-6199e2 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-03-08 22:40:44,544 — Sensorial_unit0-6199e2 — DEBUG — scalar_reading:68 — _scalar_reading=0.3
+2023-03-08 22:40:44,545 — Sensorial_unit1-9a0ee7 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.2
+2023-03-08 22:40:44,545 — Sensorial_unit1-9a0ee7 — DEBUG — scalar_reading:68 — _scalar_reading=0.2
+2023-03-08 22:40:44,546 — Sensorial_unit2-58fb1e — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-03-08 22:40:44,546 — Sensorial_unit2-58fb1e — DEBUG — scalar_reading:68 — _scalar_reading=0.3
+2023-03-08 22:43:25,260 — Sensorial_unit0-13120a — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit0-13120a
+2023-03-08 22:43:25,274 — Sensorial_unit0-13120a — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit0-13120a"
+     name:	Sensorial_unit0
+     id:	Sensorial_unit0-13120a
+     Ts:	5.0
+2023-03-08 22:43:25,276 — Sensorial_unit1-7eabdd — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit1-7eabdd
+2023-03-08 22:43:25,285 — Sensorial_unit1-7eabdd — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit1-7eabdd"
+     name:	Sensorial_unit1
+     id:	Sensorial_unit1-7eabdd
+     Ts:	5.0
+2023-03-08 22:43:25,287 — Sensorial_unit2-bb3700 — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit2-bb3700
+2023-03-08 22:43:25,298 — Sensorial_unit2-bb3700 — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit2-bb3700"
+     name:	Sensorial_unit2
+     id:	Sensorial_unit2-bb3700
+     Ts:	5.0
+2023-03-08 22:43:25,298 — Sensorial_unit0-13120a — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-03-08 22:43:25,299 — Sensorial_unit0-13120a — DEBUG — scalar_reading:68 — _scalar_reading=0.3
+2023-03-08 22:43:25,300 — Sensorial_unit1-7eabdd — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.2
+2023-03-08 22:43:25,300 — Sensorial_unit1-7eabdd — DEBUG — scalar_reading:68 — _scalar_reading=0.2
+2023-03-08 22:43:25,300 — Sensorial_unit2-bb3700 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-03-08 22:43:25,301 — Sensorial_unit2-bb3700 — DEBUG — scalar_reading:68 — _scalar_reading=0.3
+2023-03-08 22:44:08,268 — Sensorial_unit0-362dd6 — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit0-362dd6
+2023-03-08 22:44:08,282 — Sensorial_unit0-362dd6 — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit0-362dd6"
+     name:	Sensorial_unit0
+     id:	Sensorial_unit0-362dd6
+     Ts:	5.0
+2023-03-08 22:44:08,284 — Sensorial_unit1-dec237 — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit1-dec237
+2023-03-08 22:44:08,294 — Sensorial_unit1-dec237 — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit1-dec237"
+     name:	Sensorial_unit1
+     id:	Sensorial_unit1-dec237
+     Ts:	5.0
+2023-03-08 22:44:08,296 — Sensorial_unit2-a0793c — DEBUG — __init__:44 — Initializing SensorialUnit Sensorial_unit2-a0793c
+2023-03-08 22:44:08,306 — Sensorial_unit2-a0793c — DEBUG — __init__:48 — Properties: SensorialUnit "Sensorial_unit2-a0793c"
+     name:	Sensorial_unit2
+     id:	Sensorial_unit2-a0793c
+     Ts:	5.0
+2023-03-08 22:44:08,307 — Sensorial_unit0-362dd6 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-03-08 22:44:08,307 — Sensorial_unit0-362dd6 — DEBUG — scalar_reading:68 — _scalar_reading=0.3
+2023-03-08 22:44:08,308 — Sensorial_unit1-dec237 — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.2
+2023-03-08 22:44:08,308 — Sensorial_unit1-dec237 — DEBUG — scalar_reading:68 — _scalar_reading=0.2
+2023-03-08 22:44:08,309 — Sensorial_unit2-a0793c — DEBUG — scalar_reading:64 — Changing scalar reading from 0.0 to 0.3
+2023-03-08 22:44:08,309 — Sensorial_unit2-a0793c — DEBUG — scalar_reading:68 — _scalar_reading=0.3
+2023-03-08 22:44:08,311 — qunit0-378021 — DEBUG — __init__:44 — Initializing QUnit qunit0-378021
+2023-03-08 22:44:08,326 — qunit0-378021 — DEBUG — __init__:82 — Properties: QUnit "qunit0-378021"
+     name:	qunit0
+     id:	qunit0-378021
+     model:	[model: AngularModel, n: 3, tau: 10]
+     burst:	<class 'qrobot.bursts.oneburst.OneBurst'>
+     query:	[0.0, 0.0, 0.0]
+     Ts:	10.0
+2023-03-08 22:44:08,327 — qunit0-378021 — DEBUG — set_input:169 — Changing dim 0 input from None to Sensorial_unit0
+2023-03-08 22:44:08,327 — qunit0-378021 — DEBUG — set_input:173 — _in_qunits={0: 'Sensorial_unit0'}
+2023-03-08 22:44:08,327 — qunit0-378021 — DEBUG — set_input:169 — Changing dim 1 input from None to Sensorial_unit1
+2023-03-08 22:44:08,327 — qunit0-378021 — DEBUG — set_input:173 — _in_qunits={0: 'Sensorial_unit0', 1: 'Sensorial_unit1'}
+2023-03-08 22:44:08,328 — qunit0-378021 — DEBUG — set_input:169 — Changing dim 2 input from None to Sensorial_unit2
+2023-03-08 22:44:08,328 — qunit0-378021 — DEBUG — set_input:173 — _in_qunits={0: 'Sensorial_unit0', 1: 'Sensorial_unit1', 2: 'Sensorial_unit2'}
+2023-03-08 22:44:08,328 — qunit0-378021 — INFO — start:72 — Starting QUnit
+2023-03-08 22:44:08,339 — qunit0-378021 — DEBUG — query:115 — Changing query from [0.0, 0.0, 0.0] to [0.4, 0.5, 0.8]
+2023-03-08 22:44:08,340 — qunit0-378021 — DEBUG — query:118 — _query=[0.4, 0.5, 0.8]
+2023-03-08 22:44:08,346 — qunit0-378021 — DEBUG — _unit_task:186 — Temporal window event 1/10
+2023-03-08 22:44:08,353 — qunit0-378021 — INFO — input_vector:153 — Unable to read Sensorial_unit0 input
+2023-03-08 22:44:08,354 — qunit0-378021 — INFO — input_vector:153 — Unable to read Sensorial_unit1 input
+2023-03-08 22:44:08,360 — qunit0-378021 — INFO — input_vector:153 — Unable to read Sensorial_unit2 input
+2023-03-08 22:44:08,361 — qunit0-378021 — DEBUG — _unit_task:191 — input_vector=[0.0, 0.0, 0.0]
+2023-03-08 22:44:11,142 — qunit0-378021 — INFO — stop:83 — Stopping QUnit
+2023-03-08 22:44:11,142 — qunit0-378021 — INFO — stop:85 — Cleaning redis
+2023-03-08 22:44:11,150 — redis — INFO — flush_redis:81 — Flushing redis database
+2023-03-08 22:44:11,151 — redis — DEBUG — flush_redis:82 — Previous redis state: {}
+2023-03-08 22:44:11,154 — redis — DEBUG — flush_redis:85 — Current redis state: {}
