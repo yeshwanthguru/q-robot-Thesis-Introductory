@@ -1,0 +1,13 @@
+# Service to pick up an object
+# Input: PoseStamped pick_pose - pose of the object to be picked up
+# Output: bool success - whether the pick was successful or not
+---
+geometry_msgs/PoseStamped pick_pose
+bool success
+
+
+
+
+
+
+
