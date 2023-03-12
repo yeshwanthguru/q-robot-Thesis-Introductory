@@ -1,53 +1,69 @@
 #!/usr/bin/env python
 
 import rospy
-from geometry_msgs.msg import PoseStamped
-from moveit_commander import RobotCommander, PlanningSceneInterface, MoveGroupCommander
-from tf.transformations import euler_from_quaternion, quaternion_from_euler
+import math
+import tf
+import moveit_commander
+import moveit_msgs.msg
+import geometry_msgs.msg
 
-# Define a callback function to receive the grasp pose
-def grasp_pose_callback(msg):
-    global grasp_pose
-    grasp_pose = msg.pose
+
+def grasp_pose_callback(data):
+    global target_position
+    target_position = [data.pose.position.x, data.pose.position.y, data.pose.position.z]
+
+
+def move_tiago_arm():
+    # Initialize MoveIt commander and set the arm group
+    robot = moveit_commander.RobotCommander()
+    arm_group = moveit_commander.MoveGroupCommander('arm')
+
+    # Create a transform listener to check for obstacles
+    listener = tf.TransformListener()
+
+    # Subscribe to the grasp_pose topic
+    rospy.Subscriber('/grasp_pose', geometry_msgs.msg.PoseStamped, grasp_pose_callback)
+
+    # Loop until the arm reaches the target position
+    while not rospy.is_shutdown():
+        # Check if there are any obstacles between the current and target positions
+        try:
+            listener.waitForTransform('base_link', 'arm_7_link', rospy.Time(0), rospy.Duration(0.1))
+            (trans, rot) = listener.lookupTransform('base_link', 'arm_7_link', rospy.Time(0))
+            distance = math.sqrt(trans[0] ** 2 + trans[1] ** 2 + trans[2] ** 2)
+            if distance < 0.1: # Change this to the desired obstacle avoidance threshold
+                rospy.logwarn('Obstacle detected!')
+                return False
+        except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
+            pass
+
+        # Move the arm towards the target position
+        if 'target_position' in globals():
+            arm_group.set_position_target(target_position)
+            arm_group.go(wait=True)
+
+            # Check if the arm has reached the target position
+            current_pose = arm_group.get_current_pose().pose
+            distance = math.sqrt((target_position[0] - current_pose.position.x) ** 2 +
+                                 (target_position[1] - current_pose.position.y) ** 2 +
+                                 (target_position[2] - current_pose.position.z) ** 2)
+            if distance < 0.05: # Change this to the desired distance threshold
+                rospy.loginfo('Target position reached!')
+                return True
+
 
 if __name__ == '__main__':
     try:
-        # Initialize the node
-        rospy.init_node('tiago_grasp_node')
+        # Initialize ROS node
+        rospy.init_node('tiago_arm_control', anonymous=True)
 
-        # Initialize the Tiago robot interface
-        robot = RobotCommander()
-        scene = PlanningSceneInterface()
-        arm_group = MoveGroupCommander('arm')
+        # Move the Tiago arm
+        success = move_tiago_arm()
 
-        # Subscribe to the grasp pose topic
-        grasp_pose = None
-        rospy.Subscriber('/grasp_pose', PoseStamped, grasp_pose_callback)
-
-        # Wait for the grasp pose to be received
-        while not rospy.is_shutdown() and grasp_pose is None:
-            rospy.sleep(0.1)
-
-        # Convert the grasp pose from Quaternion to Euler angles
-        q = [grasp_pose.orientation.x, grasp_pose.orientation.y,
-             grasp_pose.orientation.z, grasp_pose.orientation.w]
-        roll, pitch, yaw = euler_from_quaternion(q)
-
-        # Move the arm to the grasp pose
-        arm_group.set_pose_target(grasp_pose)
-        arm_group.go()
-
-        # Close the gripper
-        gripper_group = MoveGroupCommander('gripper')
-        gripper_group.set_joint_value_target([0.0])
-        gripper_group.go()
-
-        # Lift the object
-        grasp_pose.position.z += 0.1
-        grasp_pose.orientation = quaternion_from_euler(roll, pitch, yaw)
-        arm_group.set_pose_target(grasp_pose)
-        arm_group.go()
+        if success:
+            rospy.loginfo('Tiago arm successfully moved to target position.')
+        else:
+            rospy.logerr('Failed to move Tiago arm to target position.')
 
     except rospy.ROSInterruptException:
         pass
-
