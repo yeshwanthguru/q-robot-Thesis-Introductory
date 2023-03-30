@@ -2,40 +2,34 @@
 
 import rospy
 import os
-from geometry_msgs.msg import Pose, PoseStamped
+from geometry_msgs.msg import PoseStamped
+import tf.transformations as tr
 
-LOG_FILE_PATH = '/home/yg/tiago_public_ws/src/tiago_quantum_robot/data/grasp_pose.log'
+def transform_pose(pose_in):
+    # Get the translation and rotation from the input pose
+    pos_in = pose_in.pose.position
+    ori_in = pose_in.pose.orientation
+    mat_rot_x = tr.rotation_matrix(3.142, [1,0,0])
+    rot_in = tr.quaternion_matrix([ori_in.x, ori_in.y, ori_in.z, ori_in.w])
+    rot_out = mat_rot_x.dot(rot_in)
+    ori_out = tr.quaternion_from_matrix(rot_out)
+    # Construct the transformed pose
+    pose_out = PoseStamped()
+    pose_out.header = pose_in.header
+    pose_out.pose.position = pos_in
+    pose_out.pose.orientation.x = ori_out[0]
+    pose_out.pose.orientation.y = ori_out[1]
+    pose_out.pose.orientation.z = ori_out[2]
+    pose_out.pose.orientation.w = ori_out[3]
+    return pose_out
 
 def callback(data):
-    # Invert the received pose
-    inverted_pose = Pose()
-    inverted_pose.position.x = -data.pose.position.x
-    inverted_pose.position.y = -data.pose.position.y
-    inverted_pose.position.z = -data.pose.position.z
-    inverted_pose.orientation.x = -data.pose.orientation.x
-    inverted_pose.orientation.y = -data.pose.orientation.y
-    inverted_pose.orientation.z = -data.pose.orientation.z
-    inverted_pose.orientation.w = data.pose.orientation.w
-    
-    # Publish the inverted pose on the /grasp_pose topic
-    grasp_pose_pub.publish(PoseStamped(header=data.header, pose=inverted_pose))
-    
-    # Log the inverted pose in the terminal
-    rospy.loginfo("Inverted pose:\n%s", inverted_pose)
-    
-    # Log the inverted pose in the file
-    with open(LOG_FILE_PATH, 'a') as f:
-        f.write(str(inverted_pose) + '\n')
-
+    # Transform the received pose and publish the result
+    transformed_pose = transform_pose(data)
+    pub.publish(transformed_pose)   
 if __name__ == '__main__':
-    # Create the directory for the log file if it doesn't exist
-    log_dir = os.path.dirname(LOG_FILE_PATH)
-    if not os.path.exists(log_dir):
-        os.makedirs(log_dir)
-
-    rospy.init_node('pose_inverter', anonymous=True)
+    rospy.init_node('pose_transformer', anonymous=True)
+    # Setup subscriber to detected_aruco_pose and publisher to transformed_pose
     detected_pose_sub = rospy.Subscriber('/detected_aruco_pose', PoseStamped, callback)
-    grasp_pose_pub = rospy.Publisher('/grasp_pose', PoseStamped, queue_size=1)
+    pub = rospy.Publisher('/grasp_pose', PoseStamped, queue_size=10)
     rospy.spin()
-
-
