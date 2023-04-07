@@ -1,69 +1,61 @@
 #!/usr/bin/env python
-
 import rospy
-import math
-import tf
-import moveit_commander
-import moveit_msgs.msg
-import geometry_msgs.msg
+import actionlib
 
+from play_motion_msgs.msg import PlayMotionAction, PlayMotionGoal
+from geometry_msgs.msg import PoseStamped
+from control_msgs.msg import JointTrajectoryControllerState
+from std_msgs.msg import String
+from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 
-def grasp_pose_callback(data):
-    global target_position
-    target_position = [data.pose.position.x, data.pose.position.y, data.pose.position.z]
+global decision_made
+# define a global variable to store the pose of the object
+decision_made = None
 
+class Robot:
+    def __init__(self):
+        self.play_m_as = actionlib.SimpleActionClient('/play_motion', PlayMotionAction)
+        self.play_m_as.wait_for_server()
 
-def move_tiago_arm():
-    # Initialize MoveIt commander and set the arm group
-    robot = moveit_commander.RobotCommander()
-    arm_group = moveit_commander.MoveGroupCommander('arm')
+    def prepare_robot(self, decision_made):
+        rospy.loginfo("Stopping arm_controller...")
+        rospy.sleep(1.0) # wait for arm_controller to stop
+        rospy.loginfo("Unfold arm safely")
+        pmg = PlayMotionGoal()
+        pmg.motion_name = 'prepare_grasp'
+        pmg.skip_planning = False
+        self.play_m_as.send_goal(pmg)
+        self.play_m_as.wait_for_result()
+        rospy.loginfo("Grasp prepared.")
 
-    # Create a transform listener to check for obstacles
-    listener = tf.TransformListener()
+    def pick_pose(self):
+        rospy.loginfo("Picking final pose")
+        pmg = PlayMotionGoal()
+        pmg.motion_name = 'pick_final_pose'
+        pmg.skip_planning = False
+        self.play_m_as.send_goal(pmg)
+        self.play_m_as.wait_for_result()
 
-    # Subscribe to the grasp_pose topic
-    rospy.Subscriber('/grasp_pose', geometry_msgs.msg.PoseStamped, grasp_pose_callback)
+def callback(data):
+    global decision_made
+    decision_made = data
+    print(decision_made)
+    robot.prepare_robot(decision_made)
+    robot.pick_pose()
+    pub = rospy.Publisher('/decision_achieved', String, queue_size=10)
+    pub.publish("Decision achieved.")
 
-    # Loop until the arm reaches the target position
+def listener():
+    rospy.init_node('listener', anonymous=True)
+    global robot
+    global grasp_pose_sub
+    robot = Robot()
+    grasp_pose_sub = rospy.Subscriber('/decision_made', String, callback)
     while not rospy.is_shutdown():
-        # Check if there are any obstacles between the current and target positions
-        try:
-            listener.waitForTransform('base_link', 'arm_7_link', rospy.Time(0), rospy.Duration(0.1))
-            (trans, rot) = listener.lookupTransform('base_link', 'arm_7_link', rospy.Time(0))
-            distance = math.sqrt(trans[0] ** 2 + trans[1] ** 2 + trans[2] ** 2)
-            if distance < 0.1: # Change this to the desired obstacle avoidance threshold
-                rospy.logwarn('Obstacle detected!')
-                return False
-        except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
-            pass
-
-        # Move the arm towards the target position
-        if 'target_position' in globals():
-            arm_group.set_position_target(target_position)
-            arm_group.go(wait=True)
-
-            # Check if the arm has reached the target position
-            current_pose = arm_group.get_current_pose().pose
-            distance = math.sqrt((target_position[0] - current_pose.position.x) ** 2 +
-                                 (target_position[1] - current_pose.position.y) ** 2 +
-                                 (target_position[2] - current_pose.position.z) ** 2)
-            if distance < 0.05: # Change this to the desired distance threshold
-                rospy.loginfo('Target position reached!')
-                return True
-
+        rospy.spin()
 
 if __name__ == '__main__':
     try:
-        # Initialize ROS node
-        rospy.init_node('tiago_arm_control', anonymous=True)
-
-        # Move the Tiago arm
-        success = move_tiago_arm()
-
-        if success:
-            rospy.loginfo('Tiago arm successfully moved to target position.')
-        else:
-            rospy.logerr('Failed to move Tiago arm to target position.')
-
-    except rospy.ROSInterruptException:
-        pass
+        listener()
+    except rospy.ROSInterruptException as e:
+        rospy.logwarn("Exception occurred: {}".format(e))
