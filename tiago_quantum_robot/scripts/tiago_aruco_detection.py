@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
-from geometry_msgs.msg import PoseStamped ,PoseArray
+from geometry_msgs.msg import PoseStamped
 from tf2_geometry_msgs import do_transform_pose
 import tf2_ros
 
@@ -12,9 +12,8 @@ class ArucoDetector:
         self.tfBuffer = tf2_ros.Buffer()
         self.tf_l = tf2_ros.TransformListener(self.tfBuffer)
         self.detected_pose_pub = rospy.Publisher('/detected_aruco_pose', PoseStamped, queue_size=1)
-        self.grasps_pub = rospy.Publisher('/grasp_poses', PoseArray, latch=True)
         self.detections_count = 0
-        self.log_file = open('/home/yg/tiago_dual_public_ws/src/tiago_tutorials/tiago_pick_demo/scripts/aruco_pose.log', 'w')
+        self.log_file = open('/home/yg/tiago_public_ws/src/tiago_quantum_robot/data/aruco_pose.log', 'w')
 
     def strip_leading_slash(self, s):
         return s[1:] if s.startswith("/") else s
