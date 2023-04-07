@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import qrobot
 import time
 from qrobot.models import AngularModel
