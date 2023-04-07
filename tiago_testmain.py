@@ -76,7 +76,7 @@ def tiago_brain():
                             Sensorial_unit0.stop()
                             Sensorial_unit1.stop()
                             Sensorial_unit2.stop()
-			    Qunit.start()
+			    Qunit.stop()
                             print(json.dumps(status, indent=1, sort_keys=True))
                             print(f'{qunit_name} output:', qunit_output)
                             print("Object is present let me pick the object")
