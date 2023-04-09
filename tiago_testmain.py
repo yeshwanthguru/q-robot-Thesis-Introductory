@@ -21,7 +21,6 @@ Sensorial_unit0 = SensorialUnit("Sensorial_unit0", Ts=0.1)
 Sensorial_unit1 = SensorialUnit("Sensorial_unit1", Ts=0.1)
 Sensorial_unit2 = SensorialUnit("Sensorial_unit2", Ts=0.1)
 
-
 def objectpose_callback(msg):
     # Use actual sensor data from the robot
     Sensorial_unit0.scalar_reading = randint(0, 1000) / 1000
@@ -33,15 +32,36 @@ def pick_callback(msg):
 def handover_callback(msg):
     # Use actual sensor data from the robot
     Sensorial_unit2.scalar_reading = randint(0, 1000) / 1000
-
+    
 def tiago_brain():
+    topic_active = False
+    
+    # Subscribe to all topics
+    detected_aruco_pose_subscriber = rospy.Subscriber("/detected_aruco_pose", PoseStamped, objectpose_callback)
+    grasp_pose_subscriber = rospy.Subscriber('/grasp_pose', PoseStamped, pick_callback)
+    reach_goal_subscriber = rospy.Subscriber('/reach_goal', JointTrajectory, handover_callback)
+    
+    # Wait until all topic subscribers are connected
+    while not rospy.is_shutdown():
+        if detected_aruco_pose_subscriber.get_num_connections() == 0:
+            rospy.logerr("'/detected_aruco_pose' sensor not connected")
+            continue
+        elif grasp_pose_subscriber.get_num_connections() == 0:
+            rospy.logerr("'/grasp_pose' sensor not connected")
+            continue
+        elif reach_goal_subscriber.get_num_connections() == 0:
+            rospy.logerr("'/reach_goal' sensor not connected")
+            continue
+        else:
+            break  # All subscribers are active
+    
     # Create a new QUnit that receives inputs from all three sensorial units
     Qunit = QUnit(name="Qunit", model=AngularModel(n=3, tau=25), burst=ZeroBurst(), Ts=0.2, in_qunits={
         0: Sensorial_unit0.id,
         1: Sensorial_unit1.id,
         2: Sensorial_unit2.id,
     })
-    topic_active = False
+
     decision_made_published = False
     Qunit.query = [0.8, 0.5, 0.6]
     Sensorial_unit0.start()
@@ -55,12 +75,6 @@ def tiago_brain():
 
     while not rospy.is_shutdown():
         try:
-            if not topic_active:
-                rospy.Subscriber("/detected_aruco_pose", PoseStamped, objectpose_callback)
-                rospy.Subscriber('/grasp_pose', PoseStamped, pick_callback)
-                rospy.Subscriber('/reach_goal', JointTrajectory, handover_callback)
-                topic_active = True
-
             # Read status and store it
             status = qrobot.qunits.redis_utils.redis_status()
             statuses.append(status)
@@ -78,7 +92,7 @@ def tiago_brain():
                             Sensorial_unit2.stop()
                             Qunit.stop()
                             print(json.dumps(status, indent=1, sort_keys=True))
-                            print(f'{qunit_name} output:', qunit_output)
+                            print(f'{qunit_name} output:', qunit_output)                           
                             print("Object is present let me pick the object")
                             if not decision_made_published:
                                 decision_made_published = True
@@ -97,10 +111,10 @@ def tiago_brain():
             pass
 
 def restart_callback(msg):
-	try:
-		tiago_brain()
-	except rospy.exceptions.ROSInterruptException:
-		pass
+    try:
+        tiago_brain()
+    except rospy.exceptions.ROSInterruptException:
+        pass
 
 if __name__ == '__main__':
     tiago_brain()
