@@ -20,14 +20,17 @@ Sensorial_unit2 = SensorialUnit("Sensorial_unit2", Ts=0.1)
 
 def objectpose_callback(msg):
     # Object pose measured by the robots camera detecting the aruco tag on the object(Generates the uncertain data based on the rostopic input).
+    Sensorial_unit0.msg_data = msg
     Sensorial_unit0.scalar_reading = randint(0, 1000) / 1000
 
 def pick_callback(msg):
     # grasp_pose of the object which has been extracted from the object pose by inverting aruco tag transform to represent the grasp_pose of the object(Generates the uncertain data based on the rostopic input).\n    
+    Sensorial_unit1.msg_data = msg
     Sensorial_unit1.scalar_reading = randint(0, 1000) / 1000
 
 def handover_callback(msg):
     # handover pose by the robot(Generates the uncertain data based on the rostopic input)
+    Sensorial_unit2.msg_data = msg
     Sensorial_unit2.scalar_reading = randint(0, 1000) / 1000
     
 def tiago_brain():
