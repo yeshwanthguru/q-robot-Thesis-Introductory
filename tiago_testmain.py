@@ -1,11 +1,11 @@
 #!/usr/bin/env python3.8
 import rospy
 import json
+import qrobot
 from random import randint
 from geometry_msgs.msg import PoseStamped
 from trajectory_msgs.msg import JointTrajectory
 from std_msgs.msg import String
-import qrobot.qunits.redis_utils
 from qrobot.models import AngularModel
 from qrobot.bursts import ZeroBurst
 from qrobot.qunits import QUnit, SensorialUnit
@@ -13,8 +13,6 @@ from qrobot.qunits import QUnit, SensorialUnit
 # Initialize ROS node
 rospy.init_node('Tiago_brain', anonymous=True)
 
-# Set appropriate Threshold
-Ts = 0.5
 
 Sensorial_unit0 = SensorialUnit("Sensorial_unit0", Ts=0.1)
 Sensorial_unit1 = SensorialUnit("Sensorial_unit1", Ts=0.1)
@@ -25,7 +23,7 @@ def objectpose_callback(msg):
     Sensorial_unit0.scalar_reading = randint(0, 1000) / 1000
 
 def pick_callback(msg):
-    # grasp_pose of the object which has been extracted from the object pose by inverting aruco tag transform to represent the grasp_pose of the object(Generates the uncertain data based on the rostopic input).
+    # grasp_pose of the object which has been extracted from the object pose by inverting aruco tag transform to represent the grasp_pose of the object(Generates the uncertain data based on the rostopic input).\n    
     Sensorial_unit1.scalar_reading = randint(0, 1000) / 1000
 
 def handover_callback(msg):
@@ -55,19 +53,17 @@ def tiago_brain():
             break  # All subscribers are active
     
     # Create a new QUnit that receives inputs from all three sensorial units
-    Qunit = QUnit(name="Qunit", model=AngularModel(n=3, tau=25), burst=ZeroBurst(), Ts=0.2, in_qunits={
+    qunit = QUnit(name="qunit", model=AngularModel(n=3, tau=25), burst=ZeroBurst(), Ts=0.5, in_qunits={
         0: Sensorial_unit0.id,
         1: Sensorial_unit1.id,
         2: Sensorial_unit2.id,
     })
-
     decision_made_published = False
-    Qunit.query = [0.8, 0.5, 0.6]
+    qunit.query = [0.8, 0.5, 0.6]
     Sensorial_unit0.start()
     Sensorial_unit1.start()
     Sensorial_unit2.start()
-    Qunit.start()
-    statuses = []
+    qunit.start()
 
     # Create a publisher object for the '/decision_made' topic
     decision_made_publisher = rospy.Publisher('/decision_made', String, queue_size=10)
@@ -76,27 +72,20 @@ def tiago_brain():
         try:
             # Read status of the qunit output and store it 
             status = qrobot.qunits.redis_utils.redis_status()
-            statuses.append(status)
-             
             # Decision Block--->Extract output values for all QUnits
             # The following decision block extracts the output values for all QUnits. 
             # Decision block starts with a for loop that iterates over the items in the status dictionary.
             for key, value in status.items():
                 # It checks if the key contains the string "class" and its corresponding value is "QUnit". 
-                if ' class' in key and value == 'QUnit':
+                if ' class' in key and value == 'QUnit': 
                     # If this is true, it uses string slicing to retrieve the name of the QUnit output and stores it in qunit_name. 
                     qunit_name = key[:-6] 
                     # It then retrieves the output value from the status dictionary associated with this QUnit and stores it in qunit_output.
                     qunit_output = status.get(f'{qunit_name} output')
-                    # If qunit_output is not None, it is converted to a float and compared to the threshold value Ts.
+                    # If qunit_output is not None, it is converted to a float and compared to the  Ts.
                     if qunit_output is not None:
-                        qunit_output = float(qunit_output)  # Convert to float
-                        if qunit_output > Ts:
-                            # If qunit_output exceeds Ts, it stops three Sensorial Unit objects and the QUnit object using their stop methods.
-                            Sensorial_unit0.stop()
-                            Sensorial_unit1.stop()
-                            Sensorial_unit2.stop()
-                            Qunit.stop()
+                        qunit_output = float(qunit_output)  
+                        if qunit_output > qunit.Ts:
                             # Then, it prints the status dictionary and the value of qunit_name and qunit_output. 
                             print(json.dumps(status, indent=1, sort_keys=True))
                             print(f'{qunit_name} output:', qunit_output)                           
@@ -111,9 +100,14 @@ def tiago_brain():
                                 # Once the working is done it publishes the topic /decision_achieved 
                                 # which i have subscribed in the qrobot node ,to restart the script(restart logic is just in case if place multiple objects on the table for handover task) 
                                 rospy.Subscriber('/decision_achieved', String, restart_callback)
+                                Sensorial_unit0.stop()
+                                Sensorial_unit1.stop()
+                                Sensorial_unit2.stop()
+                                qunit.stop()
                                 rospy.spin()
+                            
 
-            # Print output
+            # Print output           
             print(json.dumps(status, indent=1, sort_keys=True))
 
             # Plot graph
@@ -123,6 +117,8 @@ def tiago_brain():
         except rospy.exceptions.ROSInterruptException:
             pass
 
+    rospy.spin()
+
 def restart_callback(msg):
     try:
         rospy.loginfo_once("Handover object executed")
@@ -130,6 +126,7 @@ def restart_callback(msg):
         tiago_brain()
     except rospy.exceptions.ROSInterruptException:
         pass
+
 
 if __name__ == '__main__':
     tiago_brain()
