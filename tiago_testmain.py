@@ -19,20 +19,66 @@ Sensorial_unit1 = SensorialUnit("Sensorial_unit1", Ts=0.1)
 Sensorial_unit2 = SensorialUnit("Sensorial_unit2", Ts=0.1)
 
 def objectpose_callback(msg):
-    # Object pose measured by the robots camera detecting the aruco tag on the object(Generates the uncertain data based on the rostopic input).
-    Sensorial_unit0.msg_data = msg
-    Sensorial_unit0.scalar_reading = randint(0, 1000) / 1000
+    if msg:
+        # extract relevant data from msg
+        x = msg.pose.position.x
+        y = msg.pose.position.y
+        z = msg.pose.position.z
+        
+        # extract orientation data from msg
+        qx = msg.pose.orientation.x
+        qy = msg.pose.orientation.y
+        qz = msg.pose.orientation.z
+        qw = msg.pose.orientation.w
+        
+        # perform calculations to convert to scalar reading
+        object_pose = (x + y + z + qx + qy + qz + qw) / 7
+        
+        # store data in Sensorial_unit0
+        Sensorial_unit0.scalar_reading = object_pose
+    else:
+        Sensorial_unit0.scalar_reading = 0
+
+
 
 def pick_callback(msg):
-    # grasp_pose of the object which has been extracted from the object pose by inverting aruco tag transform to represent the grasp_pose of the object(Generates the uncertain data based on the rostopic input).\n    
-    Sensorial_unit1.msg_data = msg
-    Sensorial_unit1.scalar_reading = randint(0, 1000) / 1000
+    if msg:
+        # extract relevant data from msg
+        x = msg.pose.position.x
+        y = msg.pose.position.y
+        z = msg.pose.position.z
+        
+        # extract orientation data from msg
+        qx = msg.pose.orientation.x
+        qy = msg.pose.orientation.y
+        qz = msg.pose.orientation.z
+        qw = msg.pose.orientation.w
+        
+        # perform calculations to convert to scalar reading
+        pick_pose = (x + y + z + qx + qy + qz + qw) / 7
+        
+        # store data in Sensorial_unit2
+        Sensorial_unit1.scalar_reading = pick_pose
+    else:
+        Sensorial_unit1.scalar_reading = 0
+
+
 
 def handover_callback(msg):
-    # handover pose by the robot(Generates the uncertain data based on the rostopic input)
-    Sensorial_unit2.msg_data = msg
-    Sensorial_unit2.scalar_reading = randint(0, 1000) / 1000
-    
+    if msg:
+        positions = msg.points[-1].positions 
+        # Convert trajectory positions to scalar between 0 and 1
+        min_pos = min(positions)
+        max_pos = max(positions)
+        abs_min_pos = abs(min_pos)
+        abs_max_pos = abs(max_pos)
+        handover = [(pos + abs_min_pos) / (abs_max_pos + abs_min_pos + 1e-6) for pos in positions] # Adding a small constant to denominator to avoid division by zero       
+        traj = sum(handover) / len(handover)
+        Sensorial_unit2.scalar_reading = traj
+    else:
+        Sensorial_unit2.scalar_reading = 0
+
+  
 def tiago_brain():
     #topic_active = False
     
