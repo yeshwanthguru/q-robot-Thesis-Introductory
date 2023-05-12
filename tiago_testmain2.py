@@ -25,8 +25,7 @@ def objectpose_callback(msg):
 def tiago_brain():
 
     detected_aruco_pose_subscriber = rospy.Subscriber("/mapped_distance", Float32, objectpose_callback)
- 
-
+    
     while not rospy.is_shutdown():
         if detected_aruco_pose_subscriber.get_num_connections() == 0:
             rospy.logwarn_once("/mapped_distance' sensor not connected")
@@ -34,8 +33,9 @@ def tiago_brain():
         else:
             break  
 
-    qunit = QUnit(name="qunit", model=AngularModel(n=1, tau=25), burst=ZeroBurst(), Ts=0.5, in_qunits={
+    qunit = QUnit(name="qunit", model=AngularModel(n=1, tau=2), burst=ZeroBurst(), Ts=0.5, in_qunits={
         0: Sensorial_unit0.id,
+        
         
     })
     
@@ -64,8 +64,6 @@ def tiago_brain():
                                 decision_made_published = True
                                 decision_made_publisher.publish(String(data="Object is Present"))
                                 rospy.Subscriber('/decision_achieved', String, restart_callback)
-                                Sensorial_unit0.stop()
-                                qunit.stop()
                                 rospy.spin()
 
             print(json.dumps(status, indent=1, sort_keys=True))
