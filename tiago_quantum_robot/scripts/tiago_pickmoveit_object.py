@@ -8,7 +8,12 @@ import moveit_commander
 import sys
 from std_srvs.srv import Empty, EmptyResponse
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
-import time
+from std_msgs.msg import String
+from geometry_msgs.msg import PoseStamped
+from tf2_ros import Buffer, TransformListener
+import tf2_geometry_msgs
+from std_msgs.msg import Float32
+import math
 
 global robot
 global move_group
@@ -18,7 +23,7 @@ global object_pose
 # flag to indicate if pose has been received
 pose_received = False
 grasped = False
-
+aruco_pose_in_base = None
 # define the desired values here
 z_axis_offset = 0.1
 y_axis_offset = 0.3
@@ -26,7 +31,7 @@ y_axis_offset = 0.3
 def reach_goal(data):
     global reach_goal
     positions = data.points[0].positions
-    rospy.loginfo('Received Joint Positions: {}'.format(positions))
+    rospy.loginfo_once('Received Joint Positions: {}'.format(positions))
     reach_goal = positions
 
 def close_gripper():
@@ -58,13 +63,22 @@ def open_gripper():
         rospy.loginfo('open_gripper')
         rospy.sleep(0.1)
 
-    
+def callback(msg):
+    global aruco_pose_in_base
+    # Transform the received pose to the TF2 frame
+    aruco_pose_in_base = tf2_geometry_msgs.do_transform_pose(msg, buffer.lookup_transform("base_footprint",
+                                                                                           msg.header.frame_id,
+                                                                                           rospy.Time(0),
+                                                                                           rospy.Duration(1.0)))
 def grasp_pose_callback(msg):
     global grasp_pose    
     global object_pose
     global move_group
     global pose_received    
     global grasped
+    global aruco_pose_in_base
+    global arm_group
+    
     if not pose_received:
         pose_received = True
         object_pose = msg
@@ -78,21 +92,26 @@ def grasp_pose_callback(msg):
         plan = move_group.go(wait=True)
         move_group.stop()
         move_group.clear_pose_targets()
-        rospy.loginfo('PickObject:reached')
+        rospy.loginfo('PickObject: reached pre-grasp pose')
         
-        joint_goal = [0.31, 0.28, -0.42, -1.63, 1.71, -2.07, 1.25, 1.62]
-        move_group.go(joint_goal, wait=True)
-        move_group.stop()     
+        # Calculate the target pose for the end effector
+        target_pose = aruco_pose_in_base.pose
+        object_pose.pose.position.z = target_pose.position.z  # Set the z-axis value from target_pose
+        move_group.set_pose_target(object_pose.pose)  # Use object_pose as the target
+        plan1 = move_group.go(wait=True)
+        move_group.stop()
+        move_group.clear_pose_targets()
+        rospy.loginfo('PickObject: reached final grasp pose')
         rospy.sleep(1)
         rospy.loginfo('Grasping Object...')
         close_gripper()
         grasped = True
-        
+
     elif grasped:
         # Lift object
         object_pose.pose.position.z += 0.1
         move_group.set_pose_target(object_pose.pose)
-        plan = move_group.go(wait=True)
+        plan2 = move_group.go(wait=True)
         move_group.stop()
         move_group.clear_pose_targets()
         rospy.loginfo('lifting the object')
@@ -107,19 +126,33 @@ def grasp_pose_callback(msg):
         rospy.sleep(1)
         rospy.loginfo('Returning Object to Initial Position...')
         move_group.set_pose_target(object_pose.pose)
-        plan = move_group.go(wait=True)
+        plan3 = move_group.go(wait=True)
         move_group.stop()
         move_group.clear_pose_targets()
-        
 
+        
 if __name__ == '__main__':
     rospy.init_node('grasp_pose_subscriber')
-    # initialize moveit commander
+    buffer = Buffer()
+    listener = TransformListener(buffer)
+    decision_received = False
+    
+    def decision_callback(msg):
+        global decision_received
+        decision_received = True
+    
+    rospy.Subscriber('/decision_process', String, decision_callback)
+    
+    while not decision_received:
+        rospy.loginfo_once("Waiting for decision...")
+        rospy.sleep(1.0)
+    
     moveit_commander.roscpp_initialize(sys.argv)
     robot = moveit_commander.RobotCommander()
-    # define group of joint to adjust the height of TIAGo
-    move_group = moveit_commander.MoveGroupCommander('arm_torso')      
+    move_group = moveit_commander.MoveGroupCommander('arm_torso')          
     rospy.Subscriber('/grasp_pose', PoseStamped, grasp_pose_callback)
     rospy.Subscriber('/reach_goal', JointTrajectory, reach_goal)
+    rospy.Subscriber('/detected_aruco_pose', PoseStamped, callback)
     rospy.loginfo("PickObject - Services ready")
     rospy.spin()
+
