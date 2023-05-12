@@ -7,7 +7,7 @@ import tf2_geometry_msgs
 from std_msgs.msg import Float32
 import math
 
-def calculate_distance():
+def calculate_Object_distance_():
     rospy.init_node('distance_calculator')
     buffer = Buffer()
     listener = TransformListener(buffer)
@@ -42,18 +42,13 @@ def calculate_distance():
                         + (aruco_pose_in_base.pose.position.z - xtion_pose_in_base.pose.position.z) ** 2) ** 0.5
 
             # setting the minimum and maximum distance values as per the requirement
-            min_distance = 0.35 
+            min_distance = 0.26
             max_distance = 0.50 
 
-            # using a simple map function to map the distance to a value between 0 and 1
-            mapped_value = (distance - min_distance) / (max_distance - min_distance)
-
-            # clamping the value between 0 and 1 (in case the distance value goes beyond the set range)
-            if mapped_value > 1:
-                mapped_value = 0
-            else:
-                mapped_value = max(0, mapped_value)
-
+            # map the distance to a value between -1 and 1 with a center point of 0
+            mapped_value = ((distance - min_distance) / (max_distance - min_distance)) * 2 - 1
+            mapped_value = abs(mapped_value)
+            mapped_value = min(1, mapped_value)
             # publishing the mapped value on the '/mapped_distance' topic
             mapped_distance_pub = rospy.Publisher('/mapped_distance', Float32, queue_size=10)
             mapped_distance_pub.publish(mapped_value)
@@ -73,4 +68,4 @@ def calculate_distance():
     rospy.spin()
 
 if __name__ == '__main__':
-    calculate_distance()
+    calculate_Object_distance_()
