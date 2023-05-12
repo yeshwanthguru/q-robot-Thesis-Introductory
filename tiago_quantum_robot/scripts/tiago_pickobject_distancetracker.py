@@ -41,7 +41,7 @@ def calculate_Object_distance_():
                         + (aruco_pose_in_base.pose.position.y - xtion_pose_in_base.pose.position.y) ** 2 
                         + (aruco_pose_in_base.pose.position.z - xtion_pose_in_base.pose.position.z) ** 2) ** 0.5
 
-            # setting the minimum and maximum distance values as per the requirement
+            # setting the minimum and maximum distance values as per the robot reachable state
             min_distance = 0.26
             max_distance = 0.50 
 
