@@ -1,0 +1,4 @@
+2023-05-22 00:20:29,280 — qunit-90236c — DEBUG — QUnit._unit_task:186 — Temporal window event 7/10
+2023-05-22 00:20:29,318 — qunit-90236c — DEBUG — QUnit._unit_task:191 — input_vector=[1.0]
+2023-05-22 00:20:29,836 — qunit-90236c — DEBUG — QUnit._unit_task:186 — Temporal window event 8/10
+2023-05-22 00:20:29,838 — qunit-90236c — DEBUG — QUnit._unit_task:191 — input_vector=[1.0]

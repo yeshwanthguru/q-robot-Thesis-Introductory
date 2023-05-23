@@ -33,7 +33,7 @@ def tiago_brain():
         else:
             break  
 
-    qunit = QUnit(name="qunit", model=AngularModel(n=1, tau=2), burst=ZeroBurst(), Ts=0.5, in_qunits={
+    qunit = QUnit(name="qunit", model=AngularModel(n=1, tau=10), burst=ZeroBurst(), Ts=0.5, in_qunits={
         0: Sensorial_unit0.id,
         
         

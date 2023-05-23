@@ -1,0 +1,1100 @@
+2023-05-13 20:34:27,442 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.__init__:44 — Initializing SensorialUnit Sensorial_unit0-8d1501
+2023-05-13 20:34:27,621 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.__init__:48 — Properties: SensorialUnit "Sensorial_unit0-8d1501"
+     name:	Sensorial_unit0
+     id:	Sensorial_unit0-8d1501
+     Ts:	0.1
+2023-05-13 20:34:27,686 — qunit-6ccf21 — DEBUG — QUnit.__init__:44 — Initializing QUnit qunit-6ccf21
+2023-05-13 20:34:27,875 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0 to 0.2645341753959656
+2023-05-13 20:34:27,876 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2645341753959656
+2023-05-13 20:34:27,877 — qunit-6ccf21 — DEBUG — QUnit.__init__:82 — Properties: QUnit "qunit-6ccf21"
+     name:	qunit
+     id:	qunit-6ccf21
+     model:	[model: AngularModel, n: 1, tau: 2]
+     burst:	<class 'qrobot.bursts.zeroburst.ZeroBurst'>
+     query:	[0.0]
+     Ts:	0.5
+2023-05-13 20:34:27,878 — qunit-6ccf21 — DEBUG — QUnit.query:115 — Changing query from [0.0] to [0.8]
+2023-05-13 20:34:27,880 — qunit-6ccf21 — DEBUG — QUnit.query:118 — _query=[0.8]
+2023-05-13 20:34:27,880 — Sensorial_unit0-8d1501 — INFO — SensorialUnit.start:72 — Starting SensorialUnit
+2023-05-13 20:34:27,919 — qunit-6ccf21 — INFO — QUnit.start:72 — Starting QUnit
+2023-05-13 20:34:27,974 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:27,976 — qunit-6ccf21 — INFO — QUnit.input_vector:153 — Unable to read Sensorial_unit0-8d1501 input
+2023-05-13 20:34:27,978 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.0]
+2023-05-13 20:34:28,004 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2645341753959656
+2023-05-13 20:34:28,005 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:28,111 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2645341753959656
+2023-05-13 20:34:28,111 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:28,215 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2645341753959656
+2023-05-13 20:34:28,216 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:28,240 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2645341753959656 to 0.2643684148788452
+2023-05-13 20:34:28,241 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2643684148788452
+2023-05-13 20:34:28,320 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643684148788452
+2023-05-13 20:34:28,320 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:28,426 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643684148788452
+2023-05-13 20:34:28,427 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:28,483 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:28,488 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.2643684148788452]
+2023-05-13 20:34:28,491 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:28,530 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643684148788452
+2023-05-13 20:34:28,530 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:28,633 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643684148788452
+2023-05-13 20:34:28,633 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:28,740 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643684148788452
+2023-05-13 20:34:28,740 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:28,845 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643684148788452
+2023-05-13 20:34:28,845 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:28,948 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643684148788452
+2023-05-13 20:34:28,948 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:29,051 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643684148788452
+2023-05-13 20:34:29,051 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:29,154 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643684148788452
+2023-05-13 20:34:29,154 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:29,258 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643684148788452
+2023-05-13 20:34:29,258 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:29,260 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2643684148788452 to 0.26419249176979065
+2023-05-13 20:34:29,261 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26419249176979065
+2023-05-13 20:34:29,361 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26419249176979065
+2023-05-13 20:34:29,361 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:29,465 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26419249176979065
+2023-05-13 20:34:29,465 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:29,569 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26419249176979065
+2023-05-13 20:34:29,569 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:29,671 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26419249176979065
+2023-05-13 20:34:29,672 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:29,701 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26419249176979065 to 0.2643027603626251
+2023-05-13 20:34:29,702 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2643027603626251
+2023-05-13 20:34:29,774 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643027603626251
+2023-05-13 20:34:29,774 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:29,878 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643027603626251
+2023-05-13 20:34:29,878 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:29,987 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643027603626251
+2023-05-13 20:34:29,987 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:30,092 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643027603626251
+2023-05-13 20:34:30,093 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:30,196 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643027603626251
+2023-05-13 20:34:30,196 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:30,308 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2643027603626251
+2023-05-13 20:34:30,309 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:30,400 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2643027603626251 to 0.26427680253982544
+2023-05-13 20:34:30,400 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26427680253982544
+2023-05-13 20:34:30,413 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26427680253982544
+2023-05-13 20:34:30,413 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:30,517 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26427680253982544
+2023-05-13 20:34:30,517 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:30,626 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26427680253982544
+2023-05-13 20:34:30,629 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:30,734 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26427680253982544
+2023-05-13 20:34:30,735 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:30,841 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26427680253982544
+2023-05-13 20:34:30,841 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:30,950 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26427680253982544
+2023-05-13 20:34:30,950 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:31,060 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26427680253982544
+2023-05-13 20:34:31,060 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:31,168 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26427680253982544
+2023-05-13 20:34:31,169 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:31,272 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26427680253982544
+2023-05-13 20:34:31,272 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:31,288 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26427680253982544 to 0.2640514075756073
+2023-05-13 20:34:31,289 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2640514075756073
+2023-05-13 20:34:31,377 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2640514075756073
+2023-05-13 20:34:31,377 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:31,405 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 1
+2023-05-13 20:34:31,405 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:31,406 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:31,413 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:31,480 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2640514075756073
+2023-05-13 20:34:31,480 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:31,583 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2640514075756073
+2023-05-13 20:34:31,583 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:31,673 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2640514075756073 to 0.26900964975357056
+2023-05-13 20:34:31,674 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26900964975357056
+2023-05-13 20:34:31,686 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26900964975357056
+2023-05-13 20:34:31,686 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:31,789 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26900964975357056
+2023-05-13 20:34:31,789 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:31,895 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26900964975357056
+2023-05-13 20:34:31,896 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:31,921 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:31,923 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.26900964975357056]
+2023-05-13 20:34:31,999 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26900964975357056
+2023-05-13 20:34:31,999 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:32,102 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26900964975357056
+2023-05-13 20:34:32,103 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:32,206 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26900964975357056
+2023-05-13 20:34:32,207 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:32,309 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26900964975357056
+2023-05-13 20:34:32,309 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:32,354 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26900964975357056 to 0.2693338692188263
+2023-05-13 20:34:32,354 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2693338692188263
+2023-05-13 20:34:32,412 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2693338692188263
+2023-05-13 20:34:32,412 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:32,424 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:32,427 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.2693338692188263]
+2023-05-13 20:34:32,428 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:32,516 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2693338692188263
+2023-05-13 20:34:32,516 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:32,619 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2693338692188263
+2023-05-13 20:34:32,620 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:32,708 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2693338692188263 to 0.26808086037635803
+2023-05-13 20:34:32,709 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26808086037635803
+2023-05-13 20:34:32,722 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26808086037635803
+2023-05-13 20:34:32,723 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:32,825 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26808086037635803
+2023-05-13 20:34:32,825 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:32,833 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:34:32,833 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:32,835 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:32,839 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:32,927 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26808086037635803
+2023-05-13 20:34:32,927 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:33,030 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26808086037635803
+2023-05-13 20:34:33,030 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:33,135 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26808086037635803
+2023-05-13 20:34:33,135 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:33,190 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26808086037635803 to 0.26796552538871765
+2023-05-13 20:34:33,191 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26796552538871765
+2023-05-13 20:34:33,243 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26796552538871765
+2023-05-13 20:34:33,243 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:33,342 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:33,344 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.26796552538871765]
+2023-05-13 20:34:33,347 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26796552538871765
+2023-05-13 20:34:33,347 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:33,449 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26796552538871765
+2023-05-13 20:34:33,449 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:33,551 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26796552538871765
+2023-05-13 20:34:33,552 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:33,568 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26796552538871765 to 0.2685707211494446
+2023-05-13 20:34:33,569 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2685707211494446
+2023-05-13 20:34:33,654 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2685707211494446
+2023-05-13 20:34:33,656 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:33,761 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2685707211494446
+2023-05-13 20:34:33,761 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:33,846 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:33,857 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.2685707211494446]
+2023-05-13 20:34:33,858 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:33,864 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2685707211494446
+2023-05-13 20:34:33,864 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:33,879 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2685707211494446 to 0.26857471466064453
+2023-05-13 20:34:33,881 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26857471466064453
+2023-05-13 20:34:33,945 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 1
+2023-05-13 20:34:33,946 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:33,947 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:33,953 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:33,966 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26857471466064453
+2023-05-13 20:34:33,966 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:34,069 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26857471466064453
+2023-05-13 20:34:34,069 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:34,173 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26857471466064453
+2023-05-13 20:34:34,173 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:34,204 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26857471466064453 to 0.26902279257774353
+2023-05-13 20:34:34,205 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26902279257774353
+2023-05-13 20:34:34,280 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26902279257774353
+2023-05-13 20:34:34,280 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:34,384 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26902279257774353
+2023-05-13 20:34:34,385 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:34,456 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:34,457 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.26902279257774353]
+2023-05-13 20:34:34,487 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26902279257774353
+2023-05-13 20:34:34,487 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:34,590 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26902279257774353
+2023-05-13 20:34:34,591 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:34,693 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26902279257774353
+2023-05-13 20:34:34,694 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:34,701 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26902279257774353 to 0.26859164237976074
+2023-05-13 20:34:34,702 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26859164237976074
+2023-05-13 20:34:34,798 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26859164237976074
+2023-05-13 20:34:34,798 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:34,901 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26859164237976074
+2023-05-13 20:34:34,901 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:34,959 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:34,961 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.26859164237976074]
+2023-05-13 20:34:34,964 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26859164237976074 to 0.26894888281822205
+2023-05-13 20:34:34,965 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26894888281822205
+2023-05-13 20:34:34,968 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:35,003 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26894888281822205
+2023-05-13 20:34:35,003 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:35,063 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 1
+2023-05-13 20:34:35,064 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:35,065 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:35,074 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:35,109 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26894888281822205
+2023-05-13 20:34:35,109 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:35,211 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26894888281822205
+2023-05-13 20:34:35,211 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:35,316 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26894888281822205
+2023-05-13 20:34:35,316 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:35,392 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26894888281822205 to 0.2671075463294983
+2023-05-13 20:34:35,393 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2671075463294983
+2023-05-13 20:34:35,422 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2671075463294983
+2023-05-13 20:34:35,423 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:35,525 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2671075463294983
+2023-05-13 20:34:35,526 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:35,582 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:35,586 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.2671075463294983]
+2023-05-13 20:34:35,629 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2671075463294983
+2023-05-13 20:34:35,629 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:35,734 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2671075463294983
+2023-05-13 20:34:35,734 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:35,831 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2671075463294983 to 0.26709210872650146
+2023-05-13 20:34:35,832 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26709210872650146
+2023-05-13 20:34:35,837 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26709210872650146
+2023-05-13 20:34:35,837 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:35,941 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26709210872650146
+2023-05-13 20:34:35,941 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:36,043 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26709210872650146
+2023-05-13 20:34:36,044 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:36,089 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:36,091 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.26709210872650146]
+2023-05-13 20:34:36,095 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:36,146 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26709210872650146
+2023-05-13 20:34:36,146 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:36,147 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26709210872650146 to 0.2669394910335541
+2023-05-13 20:34:36,148 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2669394910335541
+2023-05-13 20:34:36,175 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:34:36,175 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:36,176 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:36,178 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:36,249 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2669394910335541
+2023-05-13 20:34:36,250 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:36,352 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2669394910335541
+2023-05-13 20:34:36,353 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:36,451 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2669394910335541 to 0.26700493693351746
+2023-05-13 20:34:36,452 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26700493693351746
+2023-05-13 20:34:36,456 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26700493693351746
+2023-05-13 20:34:36,457 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:36,562 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26700493693351746
+2023-05-13 20:34:36,563 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:36,666 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26700493693351746
+2023-05-13 20:34:36,667 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:36,680 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:36,682 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.26700493693351746]
+2023-05-13 20:34:36,770 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26700493693351746
+2023-05-13 20:34:36,770 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:36,875 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26700493693351746
+2023-05-13 20:34:36,875 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:36,905 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26700493693351746 to 0.2641514241695404
+2023-05-13 20:34:36,910 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2641514241695404
+2023-05-13 20:34:36,978 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2641514241695404
+2023-05-13 20:34:36,978 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:37,081 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2641514241695404
+2023-05-13 20:34:37,081 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:37,183 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2641514241695404
+2023-05-13 20:34:37,183 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:37,184 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:37,186 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.2641514241695404]
+2023-05-13 20:34:37,186 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:37,252 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2641514241695404 to 0.26405373215675354
+2023-05-13 20:34:37,253 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26405373215675354
+2023-05-13 20:34:37,285 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26405373215675354
+2023-05-13 20:34:37,286 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:37,338 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 1
+2023-05-13 20:34:37,339 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:37,339 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:37,343 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:37,389 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26405373215675354
+2023-05-13 20:34:37,389 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:37,499 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26405373215675354
+2023-05-13 20:34:37,500 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:37,611 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26405373215675354
+2023-05-13 20:34:37,612 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:37,658 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26405373215675354 to 0.2620316743850708
+2023-05-13 20:34:37,659 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2620316743850708
+2023-05-13 20:34:37,714 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2620316743850708
+2023-05-13 20:34:37,714 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:37,816 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2620316743850708
+2023-05-13 20:34:37,816 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:37,845 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:37,849 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.2620316743850708]
+2023-05-13 20:34:37,922 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2620316743850708
+2023-05-13 20:34:37,923 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:38,025 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2620316743850708
+2023-05-13 20:34:38,025 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:38,133 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2620316743850708
+2023-05-13 20:34:38,133 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:38,134 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2620316743850708 to 0.264325886964798
+2023-05-13 20:34:38,135 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.264325886964798
+2023-05-13 20:34:38,206 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.264325886964798 to 0.2628140151500702
+2023-05-13 20:34:38,207 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2628140151500702
+2023-05-13 20:34:38,236 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2628140151500702
+2023-05-13 20:34:38,236 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:38,338 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2628140151500702
+2023-05-13 20:34:38,338 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:38,351 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:38,354 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.2628140151500702]
+2023-05-13 20:34:38,358 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:38,448 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2628140151500702
+2023-05-13 20:34:38,449 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:38,503 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 1
+2023-05-13 20:34:38,503 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:38,504 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:38,514 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:38,551 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2628140151500702
+2023-05-13 20:34:38,552 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:38,594 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2628140151500702 to 0.2646840214729309
+2023-05-13 20:34:38,595 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2646840214729309
+2023-05-13 20:34:38,655 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2646840214729309
+2023-05-13 20:34:38,655 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:38,758 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2646840214729309
+2023-05-13 20:34:38,759 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:38,862 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2646840214729309
+2023-05-13 20:34:38,863 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:38,917 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2646840214729309 to 0.26196765899658203
+2023-05-13 20:34:38,918 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.26196765899658203
+2023-05-13 20:34:38,966 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26196765899658203
+2023-05-13 20:34:38,966 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:39,016 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:39,019 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.26196765899658203]
+2023-05-13 20:34:39,071 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26196765899658203
+2023-05-13 20:34:39,071 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:39,174 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.26196765899658203
+2023-05-13 20:34:39,174 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:39,227 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.26196765899658203 to 0.2640538513660431
+2023-05-13 20:34:39,229 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2640538513660431
+2023-05-13 20:34:39,281 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2640538513660431
+2023-05-13 20:34:39,282 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:39,385 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2640538513660431
+2023-05-13 20:34:39,385 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:39,487 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2640538513660431
+2023-05-13 20:34:39,487 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:39,521 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:39,523 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.2640538513660431]
+2023-05-13 20:34:39,527 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:39,543 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2640538513660431 to 0.25694742798805237
+2023-05-13 20:34:39,544 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.25694742798805237
+2023-05-13 20:34:39,591 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.25694742798805237
+2023-05-13 20:34:39,591 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:39,657 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 1
+2023-05-13 20:34:39,657 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:39,658 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:39,675 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:39,694 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.25694742798805237
+2023-05-13 20:34:39,694 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:39,797 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.25694742798805237
+2023-05-13 20:34:39,797 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:39,833 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.25694742798805237 to 0.2503480613231659
+2023-05-13 20:34:39,835 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2503480613231659
+2023-05-13 20:34:39,900 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2503480613231659
+2023-05-13 20:34:39,900 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:40,005 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2503480613231659
+2023-05-13 20:34:40,005 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:40,112 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2503480613231659
+2023-05-13 20:34:40,113 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:40,173 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2503480613231659 to 0.2436133623123169
+2023-05-13 20:34:40,175 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2436133623123169
+2023-05-13 20:34:40,177 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:40,179 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.2503480613231659]
+2023-05-13 20:34:40,218 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2436133623123169
+2023-05-13 20:34:40,219 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:40,323 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2436133623123169
+2023-05-13 20:34:40,323 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:40,427 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2436133623123169
+2023-05-13 20:34:40,428 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:40,534 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2436133623123169
+2023-05-13 20:34:40,535 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:40,639 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2436133623123169
+2023-05-13 20:34:40,639 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:40,680 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:40,682 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.2436133623123169]
+2023-05-13 20:34:40,684 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:40,752 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2436133623123169
+2023-05-13 20:34:40,753 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:40,793 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2436133623123169 to 0.2404104471206665
+2023-05-13 20:34:40,794 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2404104471206665
+2023-05-13 20:34:40,856 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2404104471206665
+2023-05-13 20:34:40,856 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:40,962 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2404104471206665
+2023-05-13 20:34:40,962 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:40,971 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:34:40,973 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:40,988 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:41,010 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:41,026 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2404104471206665 to 0.23245979845523834
+2023-05-13 20:34:41,028 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.23245979845523834
+2023-05-13 20:34:41,065 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.23245979845523834
+2023-05-13 20:34:41,066 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:41,169 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.23245979845523834
+2023-05-13 20:34:41,169 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:41,272 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.23245979845523834
+2023-05-13 20:34:41,273 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:41,376 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.23245979845523834
+2023-05-13 20:34:41,378 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:41,425 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.23245979845523834 to 0.21568818390369415
+2023-05-13 20:34:41,426 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.21568818390369415
+2023-05-13 20:34:41,491 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.21568818390369415
+2023-05-13 20:34:41,492 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:41,512 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:41,513 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.21568818390369415]
+2023-05-13 20:34:41,594 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.21568818390369415
+2023-05-13 20:34:41,594 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:41,637 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.21568818390369415 to 0.21114838123321533
+2023-05-13 20:34:41,638 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.21114838123321533
+2023-05-13 20:34:41,697 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.21114838123321533
+2023-05-13 20:34:41,697 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:41,801 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.21114838123321533
+2023-05-13 20:34:41,802 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:41,906 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.21114838123321533
+2023-05-13 20:34:41,906 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:42,009 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.21114838123321533
+2023-05-13 20:34:42,009 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:42,012 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.21114838123321533 to 0.19353698194026947
+2023-05-13 20:34:42,013 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.19353698194026947
+2023-05-13 20:34:42,016 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:42,018 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.21114838123321533]
+2023-05-13 20:34:42,027 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:42,112 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.19353698194026947
+2023-05-13 20:34:42,112 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:42,215 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.19353698194026947
+2023-05-13 20:34:42,215 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:42,226 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 1
+2023-05-13 20:34:42,227 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:42,228 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:42,239 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:42,319 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.19353698194026947
+2023-05-13 20:34:42,319 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:42,424 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.19353698194026947
+2023-05-13 20:34:42,425 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:42,528 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.19353698194026947
+2023-05-13 20:34:42,528 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:42,544 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.19353698194026947 to 0.17613419890403748
+2023-05-13 20:34:42,544 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.17613419890403748
+2023-05-13 20:34:42,638 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.17613419890403748
+2023-05-13 20:34:42,638 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:42,741 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.17613419890403748
+2023-05-13 20:34:42,741 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:42,744 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:42,745 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.17613419890403748]
+2023-05-13 20:34:42,861 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.17613419890403748
+2023-05-13 20:34:42,861 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:42,941 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.17613419890403748 to 0.17270955443382263
+2023-05-13 20:34:42,941 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.17270955443382263
+2023-05-13 20:34:42,964 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.17270955443382263
+2023-05-13 20:34:42,964 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:43,066 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.17270955443382263
+2023-05-13 20:34:43,066 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:43,172 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.17270955443382263
+2023-05-13 20:34:43,172 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:43,263 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:43,268 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.17270955443382263]
+2023-05-13 20:34:43,270 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:43,276 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.17270955443382263
+2023-05-13 20:34:43,276 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:43,324 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.17270955443382263 to 0.15747156739234924
+2023-05-13 20:34:43,325 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.15747156739234924
+2023-05-13 20:34:43,380 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.15747156739234924
+2023-05-13 20:34:43,380 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:43,387 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:34:43,388 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:43,389 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:43,393 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:43,483 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.15747156739234924
+2023-05-13 20:34:43,483 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:43,586 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.15747156739234924
+2023-05-13 20:34:43,586 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:43,694 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.15747156739234924
+2023-05-13 20:34:43,695 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:43,697 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.15747156739234924 to 0.13532555103302002
+2023-05-13 20:34:43,698 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.13532555103302002
+2023-05-13 20:34:43,797 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.13532555103302002
+2023-05-13 20:34:43,797 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:43,895 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:43,897 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.13532555103302002]
+2023-05-13 20:34:43,899 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.13532555103302002
+2023-05-13 20:34:43,899 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:43,963 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.13532555103302002 to 0.1245550736784935
+2023-05-13 20:34:43,964 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.1245550736784935
+2023-05-13 20:34:44,005 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.1245550736784935
+2023-05-13 20:34:44,005 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:44,107 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.1245550736784935
+2023-05-13 20:34:44,108 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:44,214 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.1245550736784935
+2023-05-13 20:34:44,215 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:44,314 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.1245550736784935 to 0.10366856306791306
+2023-05-13 20:34:44,314 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.10366856306791306
+2023-05-13 20:34:44,321 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.10366856306791306
+2023-05-13 20:34:44,321 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:44,399 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:44,400 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.10366856306791306]
+2023-05-13 20:34:44,402 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:44,423 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.10366856306791306
+2023-05-13 20:34:44,423 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:44,525 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.10366856306791306
+2023-05-13 20:34:44,525 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:44,536 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 1
+2023-05-13 20:34:44,537 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:44,538 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:44,542 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:44,628 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.10366856306791306
+2023-05-13 20:34:44,628 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:44,731 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.10366856306791306 to 0.08336184173822403
+2023-05-13 20:34:44,732 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.08336184173822403
+2023-05-13 20:34:44,734 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.08336184173822403
+2023-05-13 20:34:44,735 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:44,837 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.08336184173822403
+2023-05-13 20:34:44,837 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:44,939 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.08336184173822403
+2023-05-13 20:34:44,939 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:45,044 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:45,047 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.08336184173822403]
+2023-05-13 20:34:45,047 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.08336184173822403
+2023-05-13 20:34:45,048 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:45,075 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.08336184173822403 to 0.06693175435066223
+2023-05-13 20:34:45,077 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.06693175435066223
+2023-05-13 20:34:45,150 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.06693175435066223
+2023-05-13 20:34:45,150 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:45,253 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.06693175435066223
+2023-05-13 20:34:45,253 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:45,343 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.06693175435066223 to 0.0512881726026535
+2023-05-13 20:34:45,344 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.0512881726026535
+2023-05-13 20:34:45,355 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.0512881726026535
+2023-05-13 20:34:45,355 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:45,457 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.0512881726026535
+2023-05-13 20:34:45,457 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:45,550 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:45,552 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.0512881726026535]
+2023-05-13 20:34:45,554 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:45,561 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.0512881726026535
+2023-05-13 20:34:45,561 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:45,666 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.0512881726026535
+2023-05-13 20:34:45,666 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:45,732 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 1
+2023-05-13 20:34:45,732 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:45,735 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:45,750 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:45,770 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.0512881726026535
+2023-05-13 20:34:45,770 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:45,853 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.0512881726026535 to 0.012299544177949429
+2023-05-13 20:34:45,854 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.012299544177949429
+2023-05-13 20:34:45,872 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.012299544177949429
+2023-05-13 20:34:45,872 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:45,974 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.012299544177949429
+2023-05-13 20:34:45,975 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:46,077 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.012299544177949429
+2023-05-13 20:34:46,077 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:46,172 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.012299544177949429 to 0.009991521015763283
+2023-05-13 20:34:46,174 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.009991521015763283
+2023-05-13 20:34:46,181 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.009991521015763283
+2023-05-13 20:34:46,181 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:46,258 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:46,261 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.009991521015763283]
+2023-05-13 20:34:46,285 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.009991521015763283
+2023-05-13 20:34:46,286 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:46,400 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.009991521015763283
+2023-05-13 20:34:46,400 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:46,502 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.009991521015763283
+2023-05-13 20:34:46,502 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:46,507 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.009991521015763283 to 0.027450256049633026
+2023-05-13 20:34:46,508 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.027450256049633026
+2023-05-13 20:34:46,605 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.027450256049633026
+2023-05-13 20:34:46,605 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:46,712 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.027450256049633026
+2023-05-13 20:34:46,712 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:46,763 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:46,769 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.027450256049633026]
+2023-05-13 20:34:46,775 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:46,819 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.027450256049633026 to 0.059996504336595535
+2023-05-13 20:34:46,820 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.059996504336595535
+2023-05-13 20:34:46,835 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.059996504336595535
+2023-05-13 20:34:46,836 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:46,885 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 1
+2023-05-13 20:34:46,885 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:46,885 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:46,888 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:46,937 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.059996504336595535
+2023-05-13 20:34:46,938 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:47,041 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.059996504336595535
+2023-05-13 20:34:47,041 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:47,145 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.059996504336595535
+2023-05-13 20:34:47,145 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:47,250 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.059996504336595535
+2023-05-13 20:34:47,250 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:47,326 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.059996504336595535 to 0.07988641411066055
+2023-05-13 20:34:47,326 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.07988641411066055
+2023-05-13 20:34:47,355 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.07988641411066055
+2023-05-13 20:34:47,355 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:47,390 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:47,392 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.07988641411066055]
+2023-05-13 20:34:47,457 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.07988641411066055
+2023-05-13 20:34:47,458 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:47,561 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.07988641411066055
+2023-05-13 20:34:47,561 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:47,596 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.07988641411066055 to 0.1089918315410614
+2023-05-13 20:34:47,597 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.1089918315410614
+2023-05-13 20:34:47,665 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.1089918315410614
+2023-05-13 20:34:47,666 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:47,771 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.1089918315410614
+2023-05-13 20:34:47,772 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:47,877 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.1089918315410614
+2023-05-13 20:34:47,877 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:47,893 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:47,897 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.1089918315410614]
+2023-05-13 20:34:47,898 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.1089918315410614 to 0.12778688967227936
+2023-05-13 20:34:47,900 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.12778688967227936
+2023-05-13 20:34:47,905 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:47,981 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.12778688967227936
+2023-05-13 20:34:47,981 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:48,069 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 1
+2023-05-13 20:34:48,069 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:48,070 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:48,076 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:48,083 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.12778688967227936
+2023-05-13 20:34:48,083 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:48,187 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.12778688967227936
+2023-05-13 20:34:48,188 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:48,290 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.12778688967227936
+2023-05-13 20:34:48,290 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:48,308 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.12778688967227936 to 0.15907171368598938
+2023-05-13 20:34:48,311 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.15907171368598938
+2023-05-13 20:34:48,395 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.15907171368598938
+2023-05-13 20:34:48,395 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:48,510 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.15907171368598938
+2023-05-13 20:34:48,510 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:48,580 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:48,583 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.15907171368598938]
+2023-05-13 20:34:48,613 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.15907171368598938
+2023-05-13 20:34:48,613 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:48,640 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.15907171368598938 to 0.18408764898777008
+2023-05-13 20:34:48,641 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.18408764898777008
+2023-05-13 20:34:48,715 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.18408764898777008
+2023-05-13 20:34:48,715 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:48,819 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.18408764898777008
+2023-05-13 20:34:48,819 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:48,917 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.18408764898777008 to 0.20864921808242798
+2023-05-13 20:34:48,918 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.20864921808242798
+2023-05-13 20:34:48,922 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.20864921808242798
+2023-05-13 20:34:48,922 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:49,033 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.20864921808242798
+2023-05-13 20:34:49,033 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:49,085 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:49,087 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.20864921808242798]
+2023-05-13 20:34:49,090 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:49,138 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.20864921808242798
+2023-05-13 20:34:49,139 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:49,223 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 1
+2023-05-13 20:34:49,223 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:49,224 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:49,228 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:49,241 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.20864921808242798
+2023-05-13 20:34:49,241 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:49,336 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.20864921808242798 to 0.24887855350971222
+2023-05-13 20:34:49,337 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.24887855350971222
+2023-05-13 20:34:49,344 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.24887855350971222
+2023-05-13 20:34:49,344 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:49,446 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.24887855350971222
+2023-05-13 20:34:49,447 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:49,549 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.24887855350971222
+2023-05-13 20:34:49,550 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:49,654 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.24887855350971222
+2023-05-13 20:34:49,654 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:49,682 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.24887855350971222 to 0.2691434621810913
+2023-05-13 20:34:49,683 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.2691434621810913
+2023-05-13 20:34:49,730 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:49,732 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.24887855350971222]
+2023-05-13 20:34:49,757 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2691434621810913
+2023-05-13 20:34:49,757 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:49,859 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2691434621810913
+2023-05-13 20:34:49,859 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:49,962 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.2691434621810913
+2023-05-13 20:34:49,962 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:50,045 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.2691434621810913 to 0.29065048694610596
+2023-05-13 20:34:50,045 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.29065048694610596
+2023-05-13 20:34:50,064 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.29065048694610596
+2023-05-13 20:34:50,064 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:50,167 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.29065048694610596
+2023-05-13 20:34:50,167 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:50,233 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:50,239 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.29065048694610596]
+2023-05-13 20:34:50,246 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:50,270 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.29065048694610596
+2023-05-13 20:34:50,271 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:50,373 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.29065048694610596
+2023-05-13 20:34:50,374 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:50,481 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.29065048694610596
+2023-05-13 20:34:50,481 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:50,499 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.29065048694610596 to 0.30795538425445557
+2023-05-13 20:34:50,500 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.30795538425445557
+2023-05-13 20:34:50,580 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:34:50,581 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:50,581 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:50,584 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.30795538425445557
+2023-05-13 20:34:50,584 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:50,597 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:50,689 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.30795538425445557
+2023-05-13 20:34:50,689 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:50,796 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.30795538425445557
+2023-05-13 20:34:50,796 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:50,849 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.30795538425445557 to 0.3520992398262024
+2023-05-13 20:34:50,849 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.3520992398262024
+2023-05-13 20:34:50,902 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.3520992398262024
+2023-05-13 20:34:50,902 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:51,010 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.3520992398262024
+2023-05-13 20:34:51,010 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:51,105 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:51,108 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.3520992398262024]
+2023-05-13 20:34:51,113 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.3520992398262024
+2023-05-13 20:34:51,114 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:51,199 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.3520992398262024 to 0.3777543902397156
+2023-05-13 20:34:51,202 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.3777543902397156
+2023-05-13 20:34:51,216 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.3777543902397156
+2023-05-13 20:34:51,217 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:51,320 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.3777543902397156
+2023-05-13 20:34:51,320 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:51,424 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.3777543902397156
+2023-05-13 20:34:51,424 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:51,446 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.3777543902397156 to 0.4066043794155121
+2023-05-13 20:34:51,450 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.4066043794155121
+2023-05-13 20:34:51,529 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.4066043794155121
+2023-05-13 20:34:51,529 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:51,611 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:51,613 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.4066043794155121]
+2023-05-13 20:34:51,614 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:51,632 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.4066043794155121
+2023-05-13 20:34:51,632 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:51,697 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.4066043794155121 to 0.44504499435424805
+2023-05-13 20:34:51,697 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.44504499435424805
+2023-05-13 20:34:51,734 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.44504499435424805
+2023-05-13 20:34:51,734 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:51,738 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:34:51,738 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:51,740 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:51,744 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:51,837 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.44504499435424805
+2023-05-13 20:34:51,837 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:51,941 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.44504499435424805
+2023-05-13 20:34:51,941 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:51,982 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.44504499435424805 to 0.4538019001483917
+2023-05-13 20:34:51,983 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.4538019001483917
+2023-05-13 20:34:52,044 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.4538019001483917
+2023-05-13 20:34:52,044 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:52,146 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.4538019001483917
+2023-05-13 20:34:52,146 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:52,247 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:52,249 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.4538019001483917
+2023-05-13 20:34:52,249 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:52,251 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.4538019001483917]
+2023-05-13 20:34:52,257 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.4538019001483917 to 0.4942363202571869
+2023-05-13 20:34:52,258 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.4942363202571869
+2023-05-13 20:34:52,352 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.4942363202571869
+2023-05-13 20:34:52,352 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:52,456 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.4942363202571869
+2023-05-13 20:34:52,456 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:52,558 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.4942363202571869
+2023-05-13 20:34:52,558 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:52,661 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.4942363202571869
+2023-05-13 20:34:52,661 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:52,718 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.4942363202571869 to 0.5213266611099243
+2023-05-13 20:34:52,719 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.5213266611099243
+2023-05-13 20:34:52,752 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:52,756 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.4942363202571869]
+2023-05-13 20:34:52,758 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:52,768 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.5213266611099243
+2023-05-13 20:34:52,768 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:52,872 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.5213266611099243
+2023-05-13 20:34:52,872 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:52,976 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.5213266611099243
+2023-05-13 20:34:52,977 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:52,987 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:34:52,988 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:52,991 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:53,002 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:53,063 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.5213266611099243 to 0.5240259170532227
+2023-05-13 20:34:53,064 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.5240259170532227
+2023-05-13 20:34:53,078 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.5240259170532227
+2023-05-13 20:34:53,079 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:53,182 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.5240259170532227
+2023-05-13 20:34:53,182 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:53,235 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.5240259170532227 to 0.5507842898368835
+2023-05-13 20:34:53,236 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.5507842898368835
+2023-05-13 20:34:53,287 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.5507842898368835
+2023-05-13 20:34:53,288 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:53,390 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.5507842898368835
+2023-05-13 20:34:53,390 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:53,493 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.5507842898368835
+2023-05-13 20:34:53,493 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:53,506 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:53,508 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.5507842898368835]
+2023-05-13 20:34:53,552 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.5507842898368835 to 0.5829664468765259
+2023-05-13 20:34:53,554 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.5829664468765259
+2023-05-13 20:34:53,598 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.5829664468765259
+2023-05-13 20:34:53,598 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:53,702 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.5829664468765259
+2023-05-13 20:34:53,703 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:53,804 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.5829664468765259
+2023-05-13 20:34:53,804 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:53,889 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.5829664468765259 to 0.6050499081611633
+2023-05-13 20:34:53,890 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.6050499081611633
+2023-05-13 20:34:53,907 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6050499081611633
+2023-05-13 20:34:53,907 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:54,009 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6050499081611633
+2023-05-13 20:34:54,009 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:54,011 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:54,013 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.6050499081611633]
+2023-05-13 20:34:54,019 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:54,111 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6050499081611633
+2023-05-13 20:34:54,112 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:54,142 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.6050499081611633 to 0.6064414978027344
+2023-05-13 20:34:54,143 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.6064414978027344
+2023-05-13 20:34:54,155 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:34:54,156 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:54,158 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:54,166 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:54,216 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6064414978027344
+2023-05-13 20:34:54,216 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:54,318 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6064414978027344
+2023-05-13 20:34:54,318 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:54,425 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6064414978027344
+2023-05-13 20:34:54,425 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:54,468 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.6064414978027344 to 0.6431595683097839
+2023-05-13 20:34:54,469 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.6431595683097839
+2023-05-13 20:34:54,530 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6431595683097839
+2023-05-13 20:34:54,530 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:54,632 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6431595683097839
+2023-05-13 20:34:54,633 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:54,670 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:54,673 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.6431595683097839]
+2023-05-13 20:34:54,735 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6431595683097839
+2023-05-13 20:34:54,735 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:54,839 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6431595683097839
+2023-05-13 20:34:54,840 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:54,912 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.6431595683097839 to 0.6879638433456421
+2023-05-13 20:34:54,914 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.6879638433456421
+2023-05-13 20:34:54,943 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6879638433456421
+2023-05-13 20:34:54,943 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:55,045 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6879638433456421
+2023-05-13 20:34:55,045 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:55,147 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6879638433456421
+2023-05-13 20:34:55,148 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:55,177 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:55,180 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.6879638433456421]
+2023-05-13 20:34:55,186 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:55,250 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6879638433456421
+2023-05-13 20:34:55,250 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:55,355 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.6879638433456421
+2023-05-13 20:34:55,355 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:55,366 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.6879638433456421 to 0.705101728439331
+2023-05-13 20:34:55,366 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.705101728439331
+2023-05-13 20:34:55,413 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:34:55,413 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:55,415 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:55,425 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:55,458 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.705101728439331
+2023-05-13 20:34:55,459 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:55,561 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.705101728439331
+2023-05-13 20:34:55,561 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:55,664 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.705101728439331 to 0.7229428291320801
+2023-05-13 20:34:55,664 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.7229428291320801
+2023-05-13 20:34:55,665 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7229428291320801
+2023-05-13 20:34:55,665 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:55,767 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7229428291320801
+2023-05-13 20:34:55,768 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:55,829 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.7229428291320801 to 0.7271320819854736
+2023-05-13 20:34:55,830 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.7271320819854736
+2023-05-13 20:34:55,870 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7271320819854736
+2023-05-13 20:34:55,870 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:55,926 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:55,928 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.7271320819854736]
+2023-05-13 20:34:55,973 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7271320819854736
+2023-05-13 20:34:55,973 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:56,075 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7271320819854736
+2023-05-13 20:34:56,075 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:56,178 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7271320819854736
+2023-05-13 20:34:56,178 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:56,235 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.7271320819854736 to 0.7582026124000549
+2023-05-13 20:34:56,236 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.7582026124000549
+2023-05-13 20:34:56,280 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7582026124000549
+2023-05-13 20:34:56,281 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:56,384 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7582026124000549
+2023-05-13 20:34:56,385 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:56,431 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:56,433 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.7582026124000549]
+2023-05-13 20:34:56,435 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:56,487 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7582026124000549
+2023-05-13 20:34:56,487 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:56,533 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:34:56,534 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:56,535 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:56,541 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:56,590 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7582026124000549
+2023-05-13 20:34:56,590 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:56,693 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7582026124000549
+2023-05-13 20:34:56,693 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:56,796 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7582026124000549
+2023-05-13 20:34:56,797 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:56,829 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.7582026124000549 to 0.7639082670211792
+2023-05-13 20:34:56,830 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.7639082670211792
+2023-05-13 20:34:56,901 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7639082670211792
+2023-05-13 20:34:56,902 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:57,004 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7639082670211792
+2023-05-13 20:34:57,005 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:57,043 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:57,045 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.7639082670211792]
+2023-05-13 20:34:57,102 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.7639082670211792 to 0.7817409634590149
+2023-05-13 20:34:57,105 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.7817409634590149
+2023-05-13 20:34:57,108 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7817409634590149
+2023-05-13 20:34:57,108 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:57,212 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7817409634590149
+2023-05-13 20:34:57,212 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:57,317 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7817409634590149
+2023-05-13 20:34:57,317 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:57,420 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.7817409634590149
+2023-05-13 20:34:57,421 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:57,516 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.7817409634590149 to 0.8036773204803467
+2023-05-13 20:34:57,519 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.8036773204803467
+2023-05-13 20:34:57,523 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8036773204803467
+2023-05-13 20:34:57,524 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:57,547 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:57,550 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.8036773204803467]
+2023-05-13 20:34:57,555 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:57,627 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8036773204803467
+2023-05-13 20:34:57,627 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:57,731 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8036773204803467
+2023-05-13 20:34:57,731 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:57,761 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:34:57,761 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:57,762 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:57,766 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:57,838 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8036773204803467
+2023-05-13 20:34:57,838 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:57,882 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.8036773204803467 to 0.8120864033699036
+2023-05-13 20:34:57,883 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.8120864033699036
+2023-05-13 20:34:57,944 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8120864033699036
+2023-05-13 20:34:57,944 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:58,047 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8120864033699036
+2023-05-13 20:34:58,048 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:58,151 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8120864033699036
+2023-05-13 20:34:58,152 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:58,248 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.8120864033699036 to 0.8121320009231567
+2023-05-13 20:34:58,249 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.8121320009231567
+2023-05-13 20:34:58,256 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8121320009231567
+2023-05-13 20:34:58,256 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:58,270 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:58,271 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.8121320009231567]
+2023-05-13 20:34:58,360 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8121320009231567
+2023-05-13 20:34:58,360 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:58,463 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8121320009231567
+2023-05-13 20:34:58,463 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:58,568 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8121320009231567
+2023-05-13 20:34:58,568 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:58,610 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.8121320009231567 to 0.8107717633247375
+2023-05-13 20:34:58,611 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.8107717633247375
+2023-05-13 20:34:58,672 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8107717633247375
+2023-05-13 20:34:58,673 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:58,774 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:58,775 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.8107717633247375]
+2023-05-13 20:34:58,776 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8107717633247375
+2023-05-13 20:34:58,776 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:58,779 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:58,857 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:34:58,857 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:34:58,859 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:34:58,874 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:34:58,880 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8107717633247375
+2023-05-13 20:34:58,880 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:58,984 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8107717633247375
+2023-05-13 20:34:58,984 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:58,996 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.8107717633247375 to 0.8182867169380188
+2023-05-13 20:34:58,996 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.8182867169380188
+2023-05-13 20:34:59,086 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8182867169380188
+2023-05-13 20:34:59,086 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:59,190 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8182867169380188
+2023-05-13 20:34:59,191 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:59,293 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8182867169380188
+2023-05-13 20:34:59,294 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:59,363 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.8182867169380188 to 0.8291038870811462
+2023-05-13 20:34:59,364 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.8291038870811462
+2023-05-13 20:34:59,382 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:34:59,384 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.8182867169380188]
+2023-05-13 20:34:59,396 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8291038870811462
+2023-05-13 20:34:59,397 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:59,500 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8291038870811462
+2023-05-13 20:34:59,500 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:59,602 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8291038870811462
+2023-05-13 20:34:59,602 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:59,704 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8291038870811462
+2023-05-13 20:34:59,705 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:59,766 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.8291038870811462 to 0.8369886875152588
+2023-05-13 20:34:59,768 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.8369886875152588
+2023-05-13 20:34:59,808 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8369886875152588
+2023-05-13 20:34:59,808 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:34:59,885 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:34:59,889 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.8369886875152588]
+2023-05-13 20:34:59,891 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:34:59,911 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8369886875152588
+2023-05-13 20:34:59,911 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:00,013 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8369886875152588
+2023-05-13 20:35:00,014 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:00,120 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8369886875152588
+2023-05-13 20:35:00,121 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:00,168 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.8369886875152588 to 0.832537829875946
+2023-05-13 20:35:00,169 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.832537829875946
+2023-05-13 20:35:00,228 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.832537829875946
+2023-05-13 20:35:00,228 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:00,234 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:35:00,234 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:35:00,236 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:35:00,244 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:35:00,332 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.832537829875946
+2023-05-13 20:35:00,332 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:00,458 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.832537829875946
+2023-05-13 20:35:00,459 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:00,562 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.832537829875946
+2023-05-13 20:35:00,562 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:00,590 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.832537829875946 to 0.8364266157150269
+2023-05-13 20:35:00,593 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.8364266157150269
+2023-05-13 20:35:00,665 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8364266157150269
+2023-05-13 20:35:00,665 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:00,747 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:35:00,749 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.8364266157150269]
+2023-05-13 20:35:00,768 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8364266157150269
+2023-05-13 20:35:00,769 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:00,873 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8364266157150269
+2023-05-13 20:35:00,873 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:00,947 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.8364266157150269 to 0.8354990482330322
+2023-05-13 20:35:00,952 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.8354990482330322
+2023-05-13 20:35:00,980 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8354990482330322
+2023-05-13 20:35:00,980 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:01,084 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8354990482330322
+2023-05-13 20:35:01,084 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:01,188 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8354990482330322
+2023-05-13 20:35:01,189 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:01,252 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 2/2
+2023-05-13 20:35:01,254 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.8354990482330322]
+2023-05-13 20:35:01,255 — qunit-6ccf21 — DEBUG — QUnit._unit_task:200 — Querying for state [0.8]
+2023-05-13 20:35:01,291 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8354990482330322
+2023-05-13 20:35:01,292 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:01,334 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.8354990482330322 to 0.8362970352172852
+2023-05-13 20:35:01,335 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.8362970352172852
+2023-05-13 20:35:01,394 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8362970352172852
+2023-05-13 20:35:01,394 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:01,420 — qunit-6ccf21 — DEBUG — QUnit._unit_task:204 — Output state = 0
+2023-05-13 20:35:01,421 — qunit-6ccf21 — DEBUG — QUnit._unit_task:206 — Opening a connection to redis...
+2023-05-13 20:35:01,421 — qunit-6ccf21 — DEBUG — QUnit._unit_task:208 — Redis connected: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-05-13 20:35:01,454 — qunit-6ccf21 — DEBUG — QUnit._unit_task:219 — Initializing a new temporal window
+2023-05-13 20:35:01,497 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8362970352172852
+2023-05-13 20:35:01,497 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:01,600 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8362970352172852
+2023-05-13 20:35:01,600 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:01,701 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.8362970352172852 to 0.8364453911781311
+2023-05-13 20:35:01,702 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.8364453911781311
+2023-05-13 20:35:01,704 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8364453911781311
+2023-05-13 20:35:01,704 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:01,807 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8364453911781311
+2023-05-13 20:35:01,807 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:01,909 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8364453911781311
+2023-05-13 20:35:01,909 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:01,962 — qunit-6ccf21 — DEBUG — QUnit._unit_task:186 — Temporal window event 1/2
+2023-05-13 20:35:01,967 — qunit-6ccf21 — DEBUG — QUnit._unit_task:191 — input_vector=[0.8364453911781311]
+2023-05-13 20:35:02,012 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8364453911781311
+2023-05-13 20:35:02,013 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:02,026 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.8364453911781311 to 0.833544135093689
+2023-05-13 20:35:02,027 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.833544135093689
+2023-05-13 20:35:02,115 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.833544135093689
+2023-05-13 20:35:02,116 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:02,220 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.833544135093689
+2023-05-13 20:35:02,220 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:02,323 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.833544135093689
+2023-05-13 20:35:02,323 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis
+2023-05-13 20:35:02,363 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:64 — Changing scalar reading from 0.833544135093689 to 0.8341697454452515
+2023-05-13 20:35:02,363 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit.scalar_reading:68 — _scalar_reading=0.8341697454452515
+2023-05-13 20:35:02,425 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:79 — scalar_reading=0.8341697454452515
+2023-05-13 20:35:02,425 — Sensorial_unit0-8d1501 — DEBUG — SensorialUnit._unit_task:80 — Writing input on redis

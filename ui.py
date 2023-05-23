@@ -1,87 +1,53 @@
-#!/usr/bin/env python3.8
+import cv2
+import mediapipe as mp
+import math
 
-import rospy
-from geometry_msgs.msg import PoseStamped
-from std_msgs.msg import String
-from std_srvs.srv import Empty
+def calculate_distance(focal_length, known_width, pixel_width):
+    return (known_width * focal_length) / pixel_width
 
-object_pose = None
-pick_up_pose_done = False
-place_pose_done = False
-service_called = False
+def main():
+    cap = cv2.VideoCapture(0)  # Use default camera (index 0)
+    mp_hands = mp.solutions.hands
+    hands = mp_hands.Hands(static_image_mode=False, max_num_hands=1, min_detection_confidence=0.5, min_tracking_confidence=0.5)
+    mp_drawing = mp.solutions.drawing_utils  # Module for drawing landmarks
 
-def pose_of_the_object(msg):
-    global object_pose, pick_up_pose_done, service_called
-    if not service_called:
-        object_pose = msg.pose
-        pos_x = object_pose.position.x
-        pos_y = object_pose.position.y
-        pos_z = object_pose.position.z
-        ori_x = object_pose.orientation.x
-        ori_y = object_pose.orientation.y
-        ori_z = object_pose.orientation.z
-        ori_w = object_pose.orientation.w
+    # Known values for distance calculation
+    known_width = 20  # Width of the hand in centimeters
+    focal_length = 800  # Focal length of the camera in pixels (example value)
 
-        # Print the extracted pose data in the terminal
-        rospy.loginfo("Aruco detected object pose:")
-        rospy.loginfo("  position:")
-        rospy.loginfo("    x: {}".format(pos_x))
-        rospy.loginfo("    y: {}".format(pos_y))
-        rospy.loginfo("    z: {}".format(pos_z))
-        rospy.loginfo("  orientation:")
-        rospy.loginfo("    x: {}".format(ori_x))
-        rospy.loginfo("    y: {}".format(ori_y))
-        rospy.loginfo("    z: {}".format(ori_z))
-        rospy.loginfo("    w: {}".format(ori_w))
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
 
-        # Call pick_up_pose function
-        pick_up_pose()
+        # Convert the image to RGB
+        image_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
-def pick_up_pose():
-    global pick_up_pose_done, object_pose
-    if object_pose is not None:
-        # Generate pick goal measurement
-        pick_goal = PoseStamped()
-        pick_goal.pose = object_pose
-        pick_goal.header.frame_id = "base_link"
-        rospy.loginfo("Pick goal generated")
-        pick_up_pose_done = True
-    else:
-        rospy.loginfo("No object detected, cannot pick up")
+        # Process the image and detect hands
+        results = hands.process(image_rgb)
 
-    # Call place_pose function
-    place_pose()
+        # Draw the hand landmarks on the image
+        image_out = frame.copy()
+        if results.multi_hand_landmarks:
+            for hand_landmarks in results.multi_hand_landmarks:
+                mp_drawing.draw_landmarks(image_out, hand_landmarks, mp_hands.HAND_CONNECTIONS)
 
-def place_pose():
-    global place_pose_done, pick_up_pose_done, service_called
-    if pick_up_pose_done is True:
-        # Generate place goal measurement
-        place_goal = PoseStamped()
-        place_goal.pose = object_pose
-        place_goal.header.frame_id = "destination"
-        rospy.loginfo("Place goal generated")
-        place_pose_done = True
-        service_called = True
+                # Calculate the distance
+                x1 = hand_landmarks.landmark[mp_hands.HandLandmark.WRIST].x * image_out.shape[1]
+                x2 = hand_landmarks.landmark[mp_hands.HandLandmark.THUMB_TIP].x * image_out.shape[1]
+                pixel_width = abs(x2 - x1)
+                distance = calculate_distance(focal_length, known_width, pixel_width)
 
-        # Call pick_gui service
-        rospy.wait_for_service('/pick_gui')
-        try:
-            pick_gui = rospy.ServiceProxy('/pick_gui', Empty)
-            resp = pick_gui()
-            rospy.loginfo("Service pick_gui called")
-        except rospy.ServiceException as e:
-            rospy.logerr("Service call failed: {}".format(e))
+                # Display the distance on the image
+                cv2.putText(image_out, f"Distance: {distance:.2f} cm", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
 
-        # Terminate the script
-        rospy.signal_shutdown("End of script")
-    else:
-        rospy.loginfo("No object detected and pick goal received, cannot Proceed")
-        rospy.signal_shutdown("End of script")
+        # Show the output image
+        cv2.imshow('Hand Detection', image_out)
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
 
-def listener():
-    rospy.init_node('listener', anonymous=True)
-    rospy.spin()
+    cap.release()
+    cv2.destroyAllWindows()
 
 if __name__ == '__main__':
-    rospy.Subscriber('/detected_aruco_pose', PoseStamped, pose_of_the_object)
-    listener()
+    main()
