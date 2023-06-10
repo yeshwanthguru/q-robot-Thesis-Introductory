@@ -50,14 +50,14 @@ def tiago_brain():
 
                     if qunit_output is not None:
                         qunit_output = float(qunit_output)  
-                        if qunit_output > qunit.Ts:
+                        if Sensorial_unit0.scalar_reading == 0:
+                            print("The decision now is False")
+                        elif qunit_output > qunit.Ts:
                             print(json.dumps(status, indent=1, sort_keys=True))
                             print(f'{qunit_name} output:', qunit_output)                           
                             rospy.loginfo("Object is present, let me pick the object")
                             decision_made_publisher.publish("True")  # Publish "True" for "Object is Present"
-                        else:
-                            print("The decision now is False")
-                            decision_made_publisher.publish("False")  # Publish "False" for "The decision now is False"
+                      
 
             print(json.dumps(status, indent=1, sort_keys=True))
 
