@@ -1,5 +1,11 @@
 #!/usr/bin/env python
+"""
+Pickobject_distance_calculator
+===========
 
+This script represents the distance from the robot to the object detected  
+
+"""
 import rospy
 from geometry_msgs.msg import PointStamped, PoseStamped
 from tf2_ros import Buffer, TransformListener
@@ -7,8 +13,15 @@ import tf2_geometry_msgs
 from std_msgs.msg import Float32
 import math
 
+mapped_distance_pub = rospy.Publisher('/pickobject_mapped_distance', Float32, queue_size=10)
+
 def calculate_Object_distance_():
-    rospy.init_node('distance_calculator')
+    """
+    Calculates the distance between two frames and publishes the mapped and original distances.
+    Subscribes to the '/detected_aruco_pose' topic and publishes on '/pickobject_mapped_distance' and '/distance'.
+    """
+
+    rospy.init_node('pickobject_distance_calculator')
     buffer = Buffer()
     listener = TransformListener(buffer)
 
@@ -27,9 +40,10 @@ def calculate_Object_distance_():
             xtion_pose_in_base = tf2_geometry_msgs.do_transform_pose(xtion_pose,
                                                                       buffer.lookup_transform("base_footprint",
                                                                                               "xtion_rgb_frame",
-                                                                                              rospy.Time(0),                                                                                              
+                                                                                              rospy.Time(0),
                                                                                               rospy.Duration(1.0)))           
-            #Transform the received pose to the TF2 frame
+
+            # Transform the received pose to the TF2 frame
             aruco_pose_in_base = tf2_geometry_msgs.do_transform_pose(data,
                                                                      buffer.lookup_transform("base_footprint",
                                                                                              data.header.frame_id,
@@ -41,23 +55,26 @@ def calculate_Object_distance_():
                         + (aruco_pose_in_base.pose.position.y - xtion_pose_in_base.pose.position.y) ** 2 
                         + (aruco_pose_in_base.pose.position.z - xtion_pose_in_base.pose.position.z) ** 2) ** 0.5
 
-            # setting the minimum and maximum distance values as per the robot reachable state
-            min_distance = 0.26
-            max_distance = 0.50 
+            # Setting the minimum and maximum distance values as per the robot reachable state
+            min_distance = 0.00
+            max_distance = 0.66 
 
-            # map the distance to a value between -1 and 1 with a center point of 0
+            # Map the distance to a value between -1 and 1 with a center point of 0
             mapped_value = ((distance - min_distance) / (max_distance - min_distance)) * 2 - 1
             mapped_value = abs(mapped_value)
             mapped_value = min(1, mapped_value)
-            # publishing the mapped value on the '/mapped_distance' topic
-            mapped_distance_pub = rospy.Publisher('/mapped_distance', Float32, queue_size=10)
+            
+            # Publishing the mapped value on the '/pickobject_mapped_distance' topic
             mapped_distance_pub.publish(mapped_value)
             
-            # publishing the original distance on the '/distance' topic
+            # Publishing the original distance on the '/distance' topic
             distance_pub.publish(Float32(distance))
 
         except Exception as ex:
             rospy.logerr(ex)
+            # Publish 0 when calculation cannot be performed
+            mapped_distance_pub.publish(0)
+            distance_pub.publish(Float32(0))
 
     # Subscribe to the '/detected_aruco_pose' topic
     rospy.Subscriber('/detected_aruco_pose', PoseStamped, callback)
@@ -65,7 +82,12 @@ def calculate_Object_distance_():
     # Publish the original distance on the '/distance' topic
     distance_pub = rospy.Publisher('/distance', Float32, queue_size=10)
 
-    rospy.spin()
+    # Continuously publish 0 on '/pickobject_mapped_distance' and '/distance' topics if no messages are received from /detected_aruco_pose
+    rate = rospy.Rate(1)  # Adjust the rate as needed
+    while not rospy.is_shutdown():
+        mapped_distance_pub.publish(0)
+        distance_pub.publish(Float32(0))
+        rate.sleep()
 
 if __name__ == '__main__':
     calculate_Object_distance_()
