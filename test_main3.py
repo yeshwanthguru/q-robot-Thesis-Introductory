@@ -4,7 +4,7 @@
 Tiago Brain
 ===========
 
-This script represents the brain of a Tiago robot. It subscribes to Multi sensory information, processes the sensorial data,
+This script represents the brain of a Tiago robot. It subscribes to a distance between the robot and the pick object, processes the sensorial data,
 and makes decisions based on the processed data. It then publishes the decision to activate or deactivate the picking routine.
 
 The script uses the qrobot library for quantum-like perception modeling for robotics.
@@ -40,7 +40,7 @@ mapped_distance_s_unit2 = SensorialUnit(
 
 mapped_distance_q_unit = QUnit(
     name="mapped_distance_q_unit",
-    model=AngularModel(n=1, tau=10),  # This unit integrates 10 events of a single scalar data source (output every 1.0 seconds)
+    model=AngularModel(n=3, tau=10),  # This unit integrates 10 events of a three scalar data source
     burst=OneBurst(),
     Ts=0.5,  # Sample input every 0.5 seconds
     in_qunits={0: mapped_distance_s_unit.id,1: mapped_distance_s_unit1.id,
@@ -67,7 +67,7 @@ def pick0bject_mapped_distance_callback(msg):
 
     mapped_distance_s_unit.scalar_reading = mapped_distance
 
-def grasp0bject_mapped_distance_callback(msg):
+def handover0bject_mapped_distance_callback(msg):
     """
     Callback function for the mapped distance subscriber which represents the distance between the robot and the grasp object.
 
@@ -112,8 +112,8 @@ def activate_picking():
 
     # Subscribe to the distance data from the ROS topic.
     mapped_distance_subscriber = rospy.Subscriber("/pickobject_mapped_distance", Float32, pick0bject_mapped_distance_callback)
-    mapped_distance_subscriber1 = rospy.Subscriber("/mapped_distance_graspobject", Float32, grasp0bject_mapped_distance_callback)
-    mapped_distance_subscriber2 = rospy.Subscriber("human_mapped_distance", Float32, human_mapped_distance_callback)
+    mapped_distance_subscriber1 = rospy.Subscriber("/mapped_distance_graspobject", Float32, handover0bject_mapped_distance_callback)
+    mapped_distance_subscriber2 = rospy.Subscriber("/human_mapped_distance", Float32, human_mapped_distance_callback)
     
     # Publish the decision with the following topic.
     activate_picking_publisher = rospy.Publisher('/activate_picking', Bool, queue_size=10)  # Updated publisher data type
@@ -127,13 +127,15 @@ def activate_picking():
             rospy.logwarn_once("/mapped_distance_graspobject' sensor not connected")
             continue
         elif mapped_distance_subscriber2.get_num_connections() == 0:
-            rospy.logwarn_once("'human_mapped_distance' sensor not connected")
+            rospy.logwarn_once("'/human_mapped_distance' sensor not connected")
             continue
         else:
             break
 
     # Start the loop threads of the units
     mapped_distance_s_unit.start()
+    mapped_distance_s_unit1.start()
+    mapped_distance_s_unit2.start()
     mapped_distance_q_unit.start()
 
     while not rospy.is_shutdown():
