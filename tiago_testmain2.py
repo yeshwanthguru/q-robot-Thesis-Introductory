@@ -4,8 +4,8 @@
 Tiago Brain
 ===========
 
-This script represents the brain of a Tiago robot. It subscribes to a distance between the robot and the pick object, processes the sensorial data,
-and makes decisions based on the processed data. It then publishes the decision to activate or deactivate the picking routine.
+This script represents the brain of a Tiago robot. It subscribes to a distance between the robot and the pick object, processes the sensorial data and encodes in the hilbert state,
+and makes  measurement result  based on the processed data. It then publishes the decision to activate or deactivate the picking routine.
 
 The script uses the qrobot library for quantum-like perception modeling for robotics.
 
@@ -31,7 +31,7 @@ mapped_distance_s_unit = SensorialUnit(
 
 mapped_distance_q_unit = QUnit(
     name="mapped_distance_q_unit",
-    model=AngularModel(n=1, tau=2),  # This unit integrates two events of a single scalar data source (output every 1.0 seconds)
+    model=AngularModel(n=1, tau=4),  # This unit integrates two events of a single scalar data source (output every 1.0 seconds)
     burst=ZeroBurst(),
     Ts=0.5,  # Sample input every 0.5 seconds
     in_qunits={0: mapped_distance_s_unit.id},  # Single sensorial unit as the only input on the 0-th dimension of the model
@@ -46,7 +46,7 @@ def pick0bject_mapped_distance_callback(msg):
     Args:
         msg: Float32 message containing the mapped distance data.
     """
-    mapped_distance = msg.data
+    mapped_distance = msg.data  # Assign the mapped distance value from the message
 
     if 0.1 <= mapped_distance <= 0.3:
         mapped_distance = 0.3
@@ -56,6 +56,7 @@ def pick0bject_mapped_distance_callback(msg):
         mapped_distance = 0.7
 
     mapped_distance_s_unit.scalar_reading = mapped_distance
+
 
 
 
