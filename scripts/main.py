@@ -10,6 +10,7 @@ from geometry_msgs.msg import PoseStamped
 import tf2_ros
 import tf2_geometry_msgs
 from geometry_msgs.msg import Quaternion
+from std_msgs.msg import Bool
 
 # Global variables
 robot = None
@@ -21,6 +22,7 @@ object_pose = None
 pose_received = False
 grasped = False
 aruco_pose_in_base = None
+decision_received = False
 
 # Define the desired values here
 z_axis_offset = 0.3
@@ -53,7 +55,7 @@ def open_gripper():
         rospy.sleep(0.1)
 
 class RobotController:
-    def __init__(self):
+    def _init_(self):
         self.play_m_as = actionlib.SimpleActionClient('play_motion', PlayMotionAction)
         rospy.loginfo("Waiting for play_motion action server...")
         self.play_m_as.wait_for_server()
@@ -71,8 +73,19 @@ class RobotController:
         rospy.loginfo("Grasp prepared.")
         return decision
 
+def decision_callback(msg):
+    global decision_received
+    decision_received = msg.data
 
 rospy.init_node('handover_object', anonymous=True)
+
+# Subscribe to the decision topic
+rospy.Subscriber('/activate_picking', Bool, decision_callback)
+
+# Wait until a decision is received
+while not decision_received:
+    rospy.loginfo_once("Waiting for decision...")
+    rospy.sleep(1.0)
 
 # Close the gripper
 open_gripper()
@@ -106,6 +119,7 @@ else:
 # Create a TF2 buffer and listener
 buffer = tf2_ros.Buffer()
 listener = tf2_ros.TransformListener(buffer)
+
 def callback(msg):
     global aruco_pose_in_base
     # Transform the received pose to the TF2 frame
@@ -113,6 +127,7 @@ def callback(msg):
                                                                                            msg.header.frame_id,
                                                                                            rospy.Time(0),
                                                                                            rospy.Duration(1.0)))
+
 # Callback function for grasp pose
 def grasp_pose_callback(msg):
     global grasp_pose
@@ -172,7 +187,6 @@ def grasp_pose_callback(msg):
         plan3 = move_group.go(wait=True)
         move_group.stop()
         move_group.clear_pose_targets()
-        
 
 def aruco_pose_callback(msg):
     global aruco_pose_in_base
