@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qubit"
+version = "0.1.0"
+description = "tiago++_brain"
+authors = ["guru1402 <72270080+yeshwanthguru@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.7.1"
+qiskit = "0.43.1"
+ipython = "^8.14.0"
+rospkg = "^1.5.0"
+opencv-python = "^4.7.0.72"
+opencv-python-headless = "^4.7.0.72"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <!-- Launch the distance_graspobject node -->
+  <node name="distance_graspobject" pkg="tiago_quantum_robot" type="tiago_arm_to_object_distance.py" output="screen" />
+
+  <!-- Launch the pickobject_distance_calculator node -->
+  <node name="pickobject_distance_calculator" pkg="tiago_quantum_robot" type="tiago_pickobject_distancetracker.py" output="screen" />
+  
+  
+</launch>
+
