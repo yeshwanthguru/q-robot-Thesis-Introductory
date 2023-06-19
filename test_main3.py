@@ -40,7 +40,7 @@ mapped_distance_s_unit2 = SensorialUnit(
 
 mapped_distance_q_unit = QUnit(
     name="mapped_distance_q_unit",
-    model=AngularModel(n=3, tau=10),  # This unit integrates 10 events of a three scalar data source
+    model=AngularModel(n=3, tau=3),  # This unit integrates 3 events of a three scalar data source
     burst=OneBurst(),
     Ts=0.5,  # Sample input every 0.5 seconds
     in_qunits={0: mapped_distance_s_unit.id,1: mapped_distance_s_unit1.id,
