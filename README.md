@@ -19,3 +19,12 @@ And once you get a notification that start planning then need to execute the com
 Now at last we need to launch the pick-and-place script 
 
           python main.py
+
+Sensorial unit 1:https://github.com/yeshwanthguru/q-robot-Thesis-Introductory/blob/test_package_ros/scripts/tiago_pickobject_distancetracker.py
+Sensorial unit 2:https://github.com/yeshwanthguru/q-robot-Thesis-Introductory/blob/test_package_ros/scripts/tiago_arm_to_object_distance.py
+Sensorila unit 3:https://github.com/yeshwanthguru/q-robot-Thesis-Introductory/blob/test_package_ros/scripts/humandistancecalculator.py
+
+Apart from this ataching the qroobt node:
+Single sensory 1:https://github.com/yeshwanthguru/q-robot-Thesis-Introductory/blob/test_main/tiago_testmain2.py
+And righ tnow i have ent a script in mail ,if ros mg is not recieve set as false 
+Multi-sensory: https://github.com/yeshwanthguru/q-robot-Thesis-Introductory/blob/test_main/test_main3.py
